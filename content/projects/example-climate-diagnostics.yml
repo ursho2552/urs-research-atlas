@@ -1,0 +1,35 @@
+id: example-climate-diagnostics
+title: Climate Diagnostics Toolkit
+summary: Example project showing how Research Atlas can document a scientific programming
+  workflow with tasks, updates, and images.
+area: Scientific programming
+status: active
+created: 2026-07-28 12:00
+updated: 2026-07-28 14:54
+tags:
+- Python
+- xarray
+- netCDF
+- visualization
+links: {}
+tasks:
+- id: example-climate-diagnostics-project-structure
+  title: Define project structure
+  status: done
+  priority: high
+  due_date: '2026-07-28'
+  created: 2026-07-28 12:00
+  updated: 2026-07-28 12:00
+- id: example-climate-diagnostics-add-example-figure
+  title: Add example figure
+  status: in_progress
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 12:00
+  updated: 2026-07-28 14:54
+updates:
+- id: 202607281200-initial-example-project
+  date: 2026-07-28 12:00
+  title: Initial example project
+  text: Created the example project used by the Research Atlas template.
+images: []

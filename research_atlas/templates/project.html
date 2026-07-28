@@ -1,0 +1,132 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="topline">
+  <div>
+    <a class="muted" href="/">← Back to dashboard</a>
+    <h1>{{ project.title }}</h1>
+    <p class="muted">{{ project.area }} · {{ project.status }} · updated {{ project.updated }}</p>
+  </div>
+</div>
+
+<div class="grid">
+  <section class="card span-7">
+    <h2>Edit project</h2>
+    <form method="post" action="/projects/{{ project.id }}/edit">
+      <label>Title</label>
+      <input name="title" value="{{ project.title }}" required>
+      <label>Research area</label>
+      <input name="area" value="{{ project.area }}">
+      <label>Status</label>
+      <select name="status">
+        {% for status in statuses %}<option value="{{ status }}" {% if project.status == status %}selected{% endif %}>{{ status }}</option>{% endfor %}
+      </select>
+      <label>Tags, comma-separated</label>
+      <input name="tags" value="{{ project.tags|join(', ') }}">
+      <label>Summary</label>
+      <textarea name="summary">{{ project.summary }}</textarea>
+      <button class="button primary" type="submit" style="margin-top: 14px;">Save project</button>
+    </form>
+  </section>
+
+  <section class="card span-5">
+    <h2>Add task</h2>
+    <form method="post" action="/projects/{{ project.id }}/tasks">
+      <label>Task title</label>
+      <input name="title" required placeholder="e.g. Add diagnostic figure">
+      <div class="row">
+        <div style="flex: 1; min-width: 120px;">
+          <label>Status</label>
+          <select name="status">
+            {% for status in task_statuses %}<option value="{{ status }}">{{ status }}</option>{% endfor %}
+          </select>
+        </div>
+        <div style="flex: 1; min-width: 120px;">
+          <label>Priority</label>
+          <select name="priority">
+            {% for priority in priorities %}<option value="{{ priority }}" {% if priority == "medium" %}selected{% endif %}>{{ priority }}</option>{% endfor %}
+          </select>
+        </div>
+      </div>
+      <label>Due date</label>
+      <input type="date" name="due_date">
+      <button class="button primary" type="submit" style="margin-top: 14px;">Add task</button>
+    </form>
+  </section>
+
+  <section class="card span-12">
+    <h2>Tasks</h2>
+    <table>
+      <thead><tr><th>Task</th><th>Status</th><th>Priority</th><th>Due</th><th>Update status</th></tr></thead>
+      <tbody>
+      {% for task in project.tasks %}
+        <tr>
+          <td>{{ task.title }}</td>
+          <td class="status-{{ task.status }}">{{ task.status }}</td>
+          <td>{{ task.priority }}</td>
+          <td>{{ task.due_date or "—" }}</td>
+          <td>
+            <form method="post" action="/projects/{{ project.id }}/tasks/{{ task.id }}/status" class="row">
+              <select name="status">
+                {% for status in task_statuses %}<option value="{{ status }}" {% if task.status == status %}selected{% endif %}>{{ status }}</option>{% endfor %}
+              </select>
+              <button class="button" type="submit">Save</button>
+            </form>
+          </td>
+        </tr>
+      {% else %}
+        <tr><td colspan="5" class="muted">No tasks yet.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+
+  <section class="card span-6">
+    <h2>Add progress update</h2>
+    <form method="post" action="/projects/{{ project.id }}/updates">
+      <label>Title</label>
+      <input name="title" required placeholder="e.g. Added first validation plot">
+      <label>Text</label>
+      <textarea name="text" placeholder="What changed?"></textarea>
+      <button class="button primary" type="submit" style="margin-top: 14px;">Add update</button>
+    </form>
+  </section>
+
+  <section class="card span-6">
+    <h2>Upload image</h2>
+    <form method="post" enctype="multipart/form-data" action="/projects/{{ project.id }}/images">
+      <label>Image</label>
+      <input type="file" name="image" accept="image/*" required>
+      <label>Caption</label>
+      <input name="caption" placeholder="Short figure caption">
+      <button class="button primary" type="submit" style="margin-top: 14px;">Upload image</button>
+    </form>
+  </section>
+
+  <section class="card span-6">
+    <h2>Updates</h2>
+    {% for update in project.updates|reverse %}
+      <div class="project-item">
+        <strong>{{ update.title }}</strong>
+        <p>{{ update.text }}</p>
+        <small class="muted">{{ update.date }}</small>
+      </div>
+    {% else %}
+      <p class="muted">No updates yet.</p>
+    {% endfor %}
+  </section>
+
+  <section class="card span-6">
+    <h2>Images</h2>
+    <div class="image-grid">
+      {% for image in project.images %}
+      <figure>
+        <img src="/{{ image.path }}" alt="{{ image.caption }}">
+        <figcaption class="muted">{{ image.caption }}</figcaption>
+      </figure>
+      {% else %}
+      <p class="muted">No images yet.</p>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

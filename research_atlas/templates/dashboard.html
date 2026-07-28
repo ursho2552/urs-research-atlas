@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="topline">
+  <div>
+    <h1>Research Atlas Editor</h1>
+    <p class="muted">Add projects, tasks, updates, and images. The public site is generated from these repository files.</p>
+  </div>
+</div>
+
+<div class="grid">
+  <section class="card span-4">
+    <div class="muted">Projects</div>
+    <div class="metric">{{ projects|length }}</div>
+  </section>
+  <section class="card span-4">
+    <div class="muted">Tasks</div>
+    <div class="metric">{{ tasks|length }}</div>
+  </section>
+  <section class="card span-4">
+    <div class="muted">Urgent open tasks</div>
+    <div class="metric">{{ urgent|length }}</div>
+  </section>
+
+  <section class="card span-7">
+    <h2>Projects</h2>
+    <div class="project-list">
+      {% for project in projects %}
+      <a class="project-item" href="/projects/{{ project.id }}">
+        <div class="row" style="justify-content: space-between;">
+          <strong>{{ project.title }}</strong>
+          <span class="badge">{{ project.status }}</span>
+        </div>
+        <p class="muted">{{ project.summary }}</p>
+        <small class="muted">{{ project.area }} · {{ project.tasks|length }} tasks · updated {{ project.updated }}</small>
+      </a>
+      {% else %}
+      <p class="muted">No projects yet. Add the first one on the right.</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="card span-5">
+    <h2>Add project</h2>
+    <form method="post" action="/projects">
+      <label>Title</label>
+      <input name="title" placeholder="e.g. BERN3D diagnostics" required>
+      <label>Research area</label>
+      <input name="area" placeholder="e.g. Ocean modelling">
+      <label>Status</label>
+      <select name="status">
+        {% for status in statuses %}<option value="{{ status }}">{{ status }}</option>{% endfor %}
+      </select>
+      <label>Tags, comma-separated</label>
+      <input name="tags" placeholder="Python, xarray, netCDF">
+      <label>Summary</label>
+      <textarea name="summary" placeholder="Short project description"></textarea>
+      <button class="button primary" type="submit" style="margin-top: 14px;">Add project</button>
+    </form>
+  </section>
+
+  <section class="card span-12">
+    <h2>Most urgent tasks</h2>
+    <table>
+      <thead><tr><th>Project</th><th>Task</th><th>Status</th><th>Priority</th><th>Due</th><th>Urgency</th></tr></thead>
+      <tbody>
+      {% for task in urgent %}
+        <tr>
+          <td>{{ task.project_title }}</td>
+          <td>{{ task.title }}</td>
+          <td>{{ task.status }}</td>
+          <td>{{ task.priority }}</td>
+          <td>{{ task.due_date or "—" }}</td>
+          <td>{{ task.urgency }}</td>
+        </tr>
+      {% else %}
+        <tr><td colspan="6" class="muted">No open tasks yet.</td></tr>
+      {% endfor %}
+      </tbody>
+    </table>
+  </section>
+</div>
+{% endblock %}
