@@ -6,7 +6,7 @@ summary: Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa g
 area: Climate data processing
 status: active
 created: 2026-07-28 15:51
-updated: 2026-07-28 15:54
+updated: 2026-07-28 20:23
 tags:
 - ERA5
 - marine heatwaves
@@ -25,11 +25,12 @@ tasks:
   updated: 2026-07-28 15:51
 - id: era5-data-for-mhw-workshop-download-specific-humidity
   title: Download specific humidity
-  status: in_progress
+  status: done
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-28 15:52
-  updated: 2026-07-28 15:52
+  updated: 2026-07-28 20:23
+  completed: 2026-07-28 20:23
 - id: era5-data-for-mhw-workshop-download-sst
   title: Download SST
   status: todo

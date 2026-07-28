@@ -76,8 +76,8 @@
     <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotential height, u and v surface wind, surface pressure, and specific humidity. Afterwards, create a climatology of these fields for the period 1991-2000</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 12%"></div></div>
-  <p class="ra-muted">1 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 25%"></div></div>
+  <p class="ra-muted">2 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">ERA5</span><span class="ra-tag">marine heatwaves</span><span class="ra-tag">climatology</span><span class="ra-tag">CDS API</span><span class="ra-tag">xarray</span><span class="ra-tag">NetCDF</span></div>
   <a class="ra-button" href="era5-data-for-mhw-workshop/">View project</a>
 </div>

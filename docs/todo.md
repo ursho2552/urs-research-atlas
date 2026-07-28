@@ -6,7 +6,6 @@ This page is generated automatically from all project tasks and sorted by urgenc
 
 | Project | Task | Status | Priority | Due date | Urgency |
 | --- | --- | --- | --- | --- | ---: |
-| ERA5 data for MHW workshop | Download specific humidity | in_progress | medium | 2026-08-07 | 45 |
 | ERA5 data for MHW workshop | Download SST | todo | medium | 2026-08-07 | 35 |
 | ERA5 data for MHW workshop | Download 2m-temperature | todo | medium | 2026-08-07 | 35 |
 | ERA5 data for MHW workshop | Download 500 hPa geopotential | todo | medium | 2026-08-07 | 35 |
