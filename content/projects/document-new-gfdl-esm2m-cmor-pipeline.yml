@@ -1,0 +1,22 @@
+id: document-new-gfdl-esm2m-cmor-pipeline
+title: Document new GFDL-ESM2M CMOR pipeline
+summary: The custom CMOR pipeline for GFDL-ESM2M was getting too big for the shared
+  repository with common ocean modelling scripts. Thus, I restructured it and created
+  an independent repository. This new implementation has to be tested and properly
+  documented for later use
+area: Climate data standardisation workflows
+status: paused
+created: 2026-07-28 16:29
+updated: 2026-07-28 16:32
+tags:
+- GFDL-ESM2M
+- CMOR
+- CMIP
+- climate data
+- NetCDF
+- metadata
+- Python
+links: {}
+tasks: []
+updates: []
+images: []

@@ -1,0 +1,18 @@
+id: bern3d-documentation
+title: Bern3D documentation
+summary: The wiki documentation of Bern3D was very poor. Now we use Gitlab Pages and
+  store the documentation directly on the repository. The content, however, needs
+  to be updated and completed
+area: Scientific software documentation
+status: paused
+created: 2026-07-28 16:32
+updated: 2026-07-28 16:32
+tags:
+- Bern3D
+- GitLab Pages
+- MkDocs
+- model documentation
+links: {}
+tasks: []
+updates: []
+images: []

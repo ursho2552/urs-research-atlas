@@ -1,0 +1,43 @@
+id: re-run-hosing-simulations-for-amoc-collapse-paper
+title: Re-run hosing simulations for AMOC collapse paper
+summary: Re-run the hosing simulations used in the publication “Climate and Carbon
+  Cycle Responses to a 21st Century AMOC Collapse under a 2 °C Stabilization Pathway”.
+area: GFDL-ESM2M
+status: active
+created: 2026-07-28 16:21
+updated: 2026-07-28 16:23
+tags:
+- hosing simulations
+- GFDL-ESM2M
+- CSCS
+links: {}
+tasks:
+- id: re-run-hosing-simulations-for-amoc-collapse-paper-run-aera-offline-simulations
+  title: Run AERA-offline simulations
+  status: in_progress
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 16:22
+  updated: 2026-07-28 16:22
+- id: re-run-hosing-simulations-for-amoc-collapse-paper-run-aera-online-simulations
+  title: Run AERA online simulations
+  status: in_progress
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 16:22
+  updated: 2026-07-28 16:22
+- id: re-run-hosing-simulations-for-amoc-collapse-paper-run-recovery-simulation-after-100-years-hosing
+  title: Run recovery simulation after 100 years hosing
+  status: done
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 16:22
+  updated: 2026-07-28 16:22
+updates:
+- id: 20260728162349-drt-safe-crash
+  date: 2026-07-28 16:23
+  title: DRT safe crash
+  text: "The hosing simulations keep crashing in the last 100 years. \r\n\r\nI will\
+    \ keep restarting them with small perturbations until they reach at least the\
+    \ year 2200"
+images: []

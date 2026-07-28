@@ -1,0 +1,45 @@
+id: atmospheric-co2-constraint-for-aera
+title: Atmospheric CO2 constraint for AERA
+summary: Implement new feature in AERA where instead of using cumulative emissions
+  we use atmospheric CO2 content to estimate future emissions until a specific global
+  surface aragonite saturation state is reached
+area: Climate target modelling
+status: active
+created: 2026-07-28 16:07
+updated: 2026-07-28 16:17
+tags:
+- AERA
+links: {}
+tasks:
+- id: atmospheric-co2-constraint-for-aera-find-bug-resulting-in-differences-between-single-and-combined-target
+  title: Find bug resulting in differences between single and combined target
+  status: done
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 16:08
+  updated: 2026-07-28 16:08
+- id: atmospheric-co2-constraint-for-aera-implement-ocean-land-sink
+  title: Implement ocean/land sink
+  status: done
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 16:11
+  updated: 2026-07-28 16:11
+- id: atmospheric-co2-constraint-for-aera-change-driver-used-to-estimate-future-emissions
+  title: Change driver used to estimate future emissions
+  status: todo
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 16:17
+  updated: 2026-07-28 16:17
+updates:
+- id: 20260728161112-reproducibility-bug
+  date: 2026-07-28 16:11
+  title: Reproducibility bug
+  text: The reproducibility bug was caused by the combination of the meta_data.nc
+    files. In the single target version, the  older slope parameters are stored as
+    vectors. During the combination of the temperature and aragonite meta_data file,
+    this structure is broken, and previous parameters are stored as scalars. This
+    then leads to the  silent bug, where AERA does not recognise the parameters and
+    assumes it is the first stocktake year
+images: []

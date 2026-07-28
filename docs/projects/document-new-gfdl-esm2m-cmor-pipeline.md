@@ -1,0 +1,37 @@
+# Document new GFDL-ESM2M CMOR pipeline
+
+<div class="ra-page ra-simple-page" markdown="1">
+
+<span class="ra-badge ra-badge-paused">paused</span>
+
+**Area:** Climate data standardisation workflows  
+**Updated:** 2026-07-28 16:32  
+**Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
+
+## Summary
+
+The custom CMOR pipeline for GFDL-ESM2M was getting too big for the shared repository with common ocean modelling scripts. Thus, I restructured it and created an independent repository. This new implementation has to be tested and properly documented for later use
+
+## Progress
+
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+
+0 / 0 tasks completed.
+
+## Tasks
+
+| Done | Task | Status | Priority | Due date |
+| --- | --- | --- | --- | --- |
+| — | No tasks yet | — | — | — |
+
+## Updates
+
+No updates yet.
+
+## Images
+
+<div class="ra-gallery-grid">
+<p class="ra-muted">No images yet.</p>
+</div>
+
+</div>

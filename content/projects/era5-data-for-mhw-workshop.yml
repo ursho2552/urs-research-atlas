@@ -1,0 +1,76 @@
+id: era5-data-for-mhw-workshop
+title: ERA5 data for MHW workshop
+summary: Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotential
+  height, u and v surface wind, surface pressure, and specific humidity. Afterwards,
+  create a climatology of these fields for the period 1991-2000
+area: Climate data processing
+status: active
+created: 2026-07-28 15:51
+updated: 2026-07-28 15:54
+tags:
+- ERA5
+- marine heatwaves
+- climatology
+- CDS API
+- xarray
+- NetCDF
+links: {}
+tasks:
+- id: era5-data-for-mhw-workshop-update-era5-download-tool
+  title: Update ERA5 download tool
+  status: done
+  priority: medium
+  due_date: '2026-08-13'
+  created: 2026-07-28 15:51
+  updated: 2026-07-28 15:51
+- id: era5-data-for-mhw-workshop-download-specific-humidity
+  title: Download specific humidity
+  status: in_progress
+  priority: medium
+  due_date: '2026-08-07'
+  created: 2026-07-28 15:52
+  updated: 2026-07-28 15:52
+- id: era5-data-for-mhw-workshop-download-sst
+  title: Download SST
+  status: todo
+  priority: medium
+  due_date: '2026-08-07'
+  created: 2026-07-28 15:52
+  updated: 2026-07-28 15:52
+- id: era5-data-for-mhw-workshop-download-2m-temperature
+  title: Download 2m-temperature
+  status: todo
+  priority: medium
+  due_date: '2026-08-07'
+  created: 2026-07-28 15:53
+  updated: 2026-07-28 15:53
+- id: era5-data-for-mhw-workshop-download-500-hpa-geopotential
+  title: Download 500 hPa geopotential
+  status: todo
+  priority: medium
+  due_date: '2026-08-07'
+  created: 2026-07-28 15:53
+  updated: 2026-07-28 15:53
+- id: era5-data-for-mhw-workshop-download-wind-data
+  title: Download Wind data
+  status: todo
+  priority: medium
+  due_date: '2026-08-07'
+  created: 2026-07-28 15:53
+  updated: 2026-07-28 15:53
+- id: era5-data-for-mhw-workshop-download-surface-pressure
+  title: Download surface pressure
+  status: todo
+  priority: medium
+  due_date: '2026-08-07'
+  created: 2026-07-28 15:53
+  updated: 2026-07-28 15:53
+- id: era5-data-for-mhw-workshop-calculate-climatologies
+  title: Calculate climatologies
+  status: todo
+  priority: high
+  due_date: '2026-08-13'
+  created: 2026-07-28 15:54
+  updated: 2026-07-28 15:54
+updates: []
+images: []

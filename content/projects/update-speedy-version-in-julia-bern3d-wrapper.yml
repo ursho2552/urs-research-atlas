@@ -1,0 +1,30 @@
+id: update-speedy-version-in-julia-bern3d-wrapper
+title: Update Speedy version in Julia Bern3D wrapper
+summary: The version of SpeedyWeather has changed with some breaking changes.
+area: Research software maintenance
+status: active
+created: 2026-07-28 16:25
+updated: 2026-07-28 16:26
+tags:
+- SpeedyWeather
+- Julia
+- model coupling
+- Bern3D
+links: {}
+tasks:
+- id: update-speedy-version-in-julia-bern3d-wrapper-update-speedyweather-to-newest-release
+  title: Update SpeedyWeather to newest release
+  status: todo
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 16:26
+  updated: 2026-07-28 16:26
+- id: update-speedy-version-in-julia-bern3d-wrapper-implement-breaking-changes-into-current-coupling
+  title: Implement breaking changes into current coupling
+  status: todo
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 16:26
+  updated: 2026-07-28 16:26
+updates: []
+images: []

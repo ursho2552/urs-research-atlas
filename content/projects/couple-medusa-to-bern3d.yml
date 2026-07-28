@@ -1,0 +1,54 @@
+id: couple-medusa-to-bern3d
+title: Couple MEDUSA to Bern3D
+summary: We got access to a new sediment model, which we would like to couple to Bern3D.
+area: Earth system model development
+status: active
+created: 2026-07-28 15:57
+updated: 2026-07-28 16:04
+tags:
+- BERN3D
+- MEDUSA
+- sediment model
+- model coupling
+- Fortran
+- Earth system modelling
+links: {}
+tasks:
+- id: couple-medusa-to-bern3d-understand-current-structure-of-sediment-module-within-bern3d
+  title: Understand current structure of sediment module within Bern3D
+  status: in_progress
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 15:58
+  updated: 2026-07-28 15:58
+- id: couple-medusa-to-bern3d-read-medusa-s-documentation-on-coupling
+  title: Read MEDUSA's documentation on coupling
+  status: in_progress
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 15:59
+  updated: 2026-07-28 15:59
+- id: couple-medusa-to-bern3d-write-documentation-on-pages-for-bern3d-s-sediment-module
+  title: Write documentation on Pages for Bern3D's sediment module
+  status: in_progress
+  priority: low
+  due_date: ''
+  created: 2026-07-28 16:00
+  updated: 2026-07-28 16:00
+- id: couple-medusa-to-bern3d-couple-bern3d-and-medusa-with-an-async-time-step
+  title: Couple Bern3D and MEDUSA with an async time-step
+  status: todo
+  priority: medium
+  due_date: ''
+  created: 2026-07-28 16:01
+  updated: 2026-07-28 16:01
+updates:
+- id: 20260728160432-sediment-module-understanding-and-documentation
+  date: 2026-07-28 16:04
+  title: Sediment module understanding and documentation
+  text: Started with the documentation of the sediment module and tried to draft a
+    schematic of the processes
+images:
+- path: assets/uploads/couple-medusa-to-bern3d/20260728160327-sediment-module-schematic.png
+  caption: Schematic of Bern3D's sediment module
+  uploaded: 2026-07-28 16:03
