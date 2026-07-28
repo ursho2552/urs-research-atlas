@@ -236,7 +236,7 @@ def build_gallery(projects: list[dict]) -> None:
             figures.append(
                 f"<figure class='ra-figure'>"
                 f"<img class='ra-lightbox-image' "
-                f"src='../../{escape(img.get('path', ''))}' "
+                f"src='../{escape(img.get('path', ''))}' "
                 f"alt='{escape(img.get('caption') or p.get('title', 'Project image'))}'>"
                 f"<figcaption><strong>{escape(p.get('title', ''))}</strong><br>"
                 f"{escape(img.get('caption', ''))}</figcaption>"
