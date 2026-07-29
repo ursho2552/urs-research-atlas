@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** GFDL-ESM2M  
-**Updated:** 2026-07-28 16:23  
+**Updated:** 2026-07-29 09:59  
 **Tags:** `hosing simulations` `GFDL-ESM2M` `CSCS`
 
 ## Summary
@@ -27,6 +27,12 @@ Re-run the hosing simulations used in the publication “Climate and Carbon Cycl
 | ✅ | Run recovery simulation after 100 years hosing | done | medium | — |
 
 ## Updates
+
+### Restarted both offline and online simulations
+
+**2026-07-29 09:59**
+
+The online simulations appear to be stuck at around the year 2166. A few ensemble members of the offline simulations are nearing the 2200 simulation year, while the others had to be reset by more than 20 years
 
 ### DRT safe crash
 

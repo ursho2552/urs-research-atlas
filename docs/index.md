@@ -180,6 +180,12 @@
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
+  <strong>Restarted both offline and online simulations</strong>
+  <span>Re-run hosing simulations for AMOC collapse paper · 2026-07-29 09:59</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>DRT safe crash</strong>
   <span>Re-run hosing simulations for AMOC collapse paper · 2026-07-28 16:23</span>
 </div>
