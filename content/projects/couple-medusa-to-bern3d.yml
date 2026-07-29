@@ -4,7 +4,7 @@ summary: We got access to a new sediment model, which we would like to couple to
 area: Earth system model development
 status: active
 created: 2026-07-28 15:57
-updated: 2026-07-28 16:04
+updated: 2026-07-29 13:51
 tags:
 - BERN3D
 - MEDUSA
@@ -48,6 +48,11 @@ updates:
   title: Sediment module understanding and documentation
   text: Started with the documentation of the sediment module and tried to draft a
     schematic of the processes
+  updated: 2026-07-29 13:51
+  images:
+  - path: assets/uploads/couple-medusa-to-bern3d/updates/2026-07-29-1351-sediment-module-schematic.png
+    caption: Draft of sediment module schematic based on current understanding
+    uploaded: 2026-07-29 13:51
 images:
 - path: assets/uploads/couple-medusa-to-bern3d/20260728160327-sediment-module-schematic.png
   caption: Schematic of Bern3D's sediment module

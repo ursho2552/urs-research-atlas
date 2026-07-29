@@ -35,10 +35,4 @@ Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotenti
 
 No updates yet.
 
-## Images
-
-<div class="ra-gallery-grid">
-<p class="ra-muted">No images yet.</p>
-</div>
-
 </div>

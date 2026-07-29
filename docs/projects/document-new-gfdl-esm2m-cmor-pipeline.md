@@ -28,10 +28,4 @@ The custom CMOR pipeline for GFDL-ESM2M was getting too big for the shared repos
 
 No updates yet.
 
-## Images
-
-<div class="ra-gallery-grid">
-<p class="ra-muted">No images yet.</p>
-</div>
-
 </div>

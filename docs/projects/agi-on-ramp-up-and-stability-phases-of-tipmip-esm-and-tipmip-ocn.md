@@ -31,10 +31,4 @@ Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and T
 
 No updates yet.
 
-## Images
-
-<div class="ra-gallery-grid">
-<p class="ra-muted">No images yet.</p>
-</div>
-
 </div>

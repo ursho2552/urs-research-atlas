@@ -49,10 +49,4 @@ I will keep restarting them with small perturbations until they reach at least t
 
 
 
-## Images
-
-<div class="ra-gallery-grid">
-<p class="ra-muted">No images yet.</p>
-</div>
-
 </div>

@@ -28,10 +28,4 @@ The wiki documentation of Bern3D was very poor. Now we use Gitlab Pages and stor
 
 No updates yet.
 
-## Images
-
-<div class="ra-gallery-grid">
-<p class="ra-muted">No images yet.</p>
-</div>
-
 </div>

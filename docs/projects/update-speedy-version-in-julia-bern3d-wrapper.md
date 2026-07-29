@@ -29,10 +29,4 @@ The version of SpeedyWeather has changed with some breaking changes.
 
 No updates yet.
 
-## Images
-
-<div class="ra-gallery-grid">
-<p class="ra-muted">No images yet.</p>
-</div>
-
 </div>

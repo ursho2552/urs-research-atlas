@@ -49,10 +49,4 @@ The reproducibility bug was caused by the combination of the meta_data.nc files.
 
 
 
-## Images
-
-<div class="ra-gallery-grid">
-<p class="ra-muted">No images yet.</p>
-</div>
-
 </div>
