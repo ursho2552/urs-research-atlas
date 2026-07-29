@@ -29,11 +29,14 @@ We got access to a new sediment model, which we would like to couple to Bern3D.
 
 ## Updates
 
+
 ### Sediment module understanding and documentation
 
 **2026-07-28 16:04**
 
 Started with the documentation of the sediment module and tried to draft a schematic of the processes
+
+
 
 
 ## Images

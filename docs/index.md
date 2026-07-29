@@ -180,6 +180,12 @@
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
+  <strong>Update in AERA code worked</strong>
+  <span>Atmospheric CO2 constraint for AERA · 2026-07-29 10:37</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Restarted both offline and online simulations</strong>
   <span>Re-run hosing simulations for AMOC collapse paper · 2026-07-29 09:59</span>
 </div>
@@ -194,12 +200,6 @@
 <div class="ra-list-item">
   <strong>Reproducibility bug</strong>
   <span>Atmospheric CO2 constraint for AERA · 2026-07-28 16:11</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Sediment module understanding and documentation</strong>
-  <span>Couple MEDUSA to Bern3D · 2026-07-28 16:04</span>
 </div>
 
     </div>

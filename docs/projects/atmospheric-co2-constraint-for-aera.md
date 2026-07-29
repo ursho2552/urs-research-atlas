@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate target modelling  
-**Updated:** 2026-07-28 16:17  
+**Updated:** 2026-07-29 10:37  
 **Tags:** `AERA`
 
 ## Summary
@@ -28,11 +28,23 @@ Implement new feature in AERA where instead of using cumulative emissions we use
 
 ## Updates
 
+
+### Update in AERA code worked
+
+**2026-07-29 10:37**
+
+Tested in 10 year simulation appears to work. Tested by Marine
+
+
+
+
 ### Reproducibility bug
 
 **2026-07-28 16:11**
 
 The reproducibility bug was caused by the combination of the meta_data.nc files. In the single target version, the  older slope parameters are stored as vectors. During the combination of the temperature and aragonite meta_data file, this structure is broken, and previous parameters are stored as scalars. This then leads to the  silent bug, where AERA does not recognise the parameters and assumes it is the first stocktake year
+
+
 
 
 ## Images

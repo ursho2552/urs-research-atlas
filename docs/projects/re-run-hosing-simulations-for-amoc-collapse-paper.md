@@ -28,11 +28,15 @@ Re-run the hosing simulations used in the publication “Climate and Carbon Cycl
 
 ## Updates
 
+
 ### Restarted both offline and online simulations
 
 **2026-07-29 09:59**
 
 The online simulations appear to be stuck at around the year 2166. A few ensemble members of the offline simulations are nearing the 2200 simulation year, while the others had to be reset by more than 20 years
+
+
+
 
 ### DRT safe crash
 
@@ -41,6 +45,8 @@ The online simulations appear to be stuck at around the year 2166. A few ensembl
 The hosing simulations keep crashing in the last 100 years. 
 
 I will keep restarting them with small perturbations until they reach at least the year 2200
+
+
 
 
 ## Images
