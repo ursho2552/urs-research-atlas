@@ -6,7 +6,7 @@ summary: Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-
 area: Climate model diagnostics
 status: active
 created: 2026-07-29 12:11
-updated: 2026-07-29 12:15
+updated: 2026-07-29 16:08
 tags:
 - TIPMIP
 - AMOC
@@ -16,25 +16,25 @@ tasks:
 - id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-agi-pipeline-on-control-simulation-tipmip-esm-picontrol-or-control-simulation-for-drift
   title: Run AGI pipeline on control simulation tipmip-esm-piControl or control simulation
     for drift
-  status: todo
+  status: in_progress
   priority: medium
   due_date: '2026-09-30'
   created: 2026-07-29 12:14
-  updated: 2026-07-29 12:14
+  updated: 2026-07-29 14:44
 - id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-pipeline-for-tipmip-ocn-simulations
   title: Run pipeline for TIPMIP-OCN simulations
-  status: todo
+  status: in_progress
   priority: medium
   due_date: '2026-09-30'
   created: 2026-07-29 12:14
-  updated: 2026-07-29 12:14
+  updated: 2026-07-29 14:44
 - id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-pipeline-for-tipmip-esm-simulations
   title: Run pipeline for TIPMIP-ESM simulations
-  status: todo
+  status: in_progress
   priority: medium
   due_date: '2026-09-30'
   created: 2026-07-29 12:14
-  updated: 2026-07-29 12:14
+  updated: 2026-07-29 14:44
 - id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-pipeline-for-tipmip-socn-simulations
   title: Run pipeline for TIPMIP-SOCN simulations
   status: todo
@@ -42,5 +42,17 @@ tasks:
   due_date: '2027-02-28'
   created: 2026-07-29 12:15
   updated: 2026-07-29 12:15
-updates: []
+updates:
+- id: 20260729144355-partial-results-ready
+  date: 2026-07-29 14:43
+  title: Partial results ready
+  text: "Calculated insitu temperature and pO2 for the following TIPMIP-ESM simulations:\r\
+    \n\r\n- piControl\r\n- up2p0\r\n- up2p0-gwl2p0\r\n\r\nCombined data file with\
+    \ all control fields are also ready for removing model drift in other simulations"
+- id: 20260729160814-additional-setup-for-ubelix
+  date: 2026-07-29 16:08
+  title: Additional setup for UBELIX
+  text: "When running the AGI pipeline on UBELIX, it appears that the following module\
+    \ and environmental variables need to be specified:\r\n\r\n- module load netCDF/4.9.2-iimpi-2023a\r\
+    \n- export HDF5_USE_FILE_LOCKING=FALSE"
 images: []

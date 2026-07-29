@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-07-29 12:15  
+**Updated:** 2026-07-29 16:08  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -22,13 +22,39 @@ Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and T
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
-| ⬜ | Run AGI pipeline on control simulation tipmip-esm-piControl or control simulation for drift | todo | medium | 2026-09-30 |
-| ⬜ | Run pipeline for TIPMIP-OCN simulations | todo | medium | 2026-09-30 |
-| ⬜ | Run pipeline for TIPMIP-ESM simulations | todo | medium | 2026-09-30 |
+| ⬜ | Run AGI pipeline on control simulation tipmip-esm-piControl or control simulation for drift | in_progress | medium | 2026-09-30 |
+| ⬜ | Run pipeline for TIPMIP-OCN simulations | in_progress | medium | 2026-09-30 |
+| ⬜ | Run pipeline for TIPMIP-ESM simulations | in_progress | medium | 2026-09-30 |
 | ⬜ | Run pipeline for TIPMIP-SOCN simulations | todo | medium | 2027-02-28 |
 
 ## Updates
 
-No updates yet.
+
+### Additional setup for UBELIX
+
+**2026-07-29 16:08**
+
+When running the AGI pipeline on UBELIX, it appears that the following module and environmental variables need to be specified:
+
+- module load netCDF/4.9.2-iimpi-2023a
+- export HDF5_USE_FILE_LOCKING=FALSE
+
+
+
+
+### Partial results ready
+
+**2026-07-29 14:43**
+
+Calculated insitu temperature and pO2 for the following TIPMIP-ESM simulations:
+
+- piControl
+- up2p0
+- up2p0-gwl2p0
+
+Combined data file with all control fields are also ready for removing model drift in other simulations
+
+
+
 
 </div>
