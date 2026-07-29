@@ -1,0 +1,46 @@
+id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn
+title: AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN
+summary: Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM
+  and TIPMIP-OCN simulations. For the TIPMIP-OCN simulations use the tier 1 simulations
+  (i.e., 0.3 Sv). In addition, also run the same pipeline but for TIPMIP-SOCN simulations
+area: Climate model diagnostics
+status: active
+created: 2026-07-29 12:11
+updated: 2026-07-29 12:15
+tags:
+- TIPMIP
+- AMOC
+- AGI
+links: {}
+tasks:
+- id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-agi-pipeline-on-control-simulation-tipmip-esm-picontrol-or-control-simulation-for-drift
+  title: Run AGI pipeline on control simulation tipmip-esm-piControl or control simulation
+    for drift
+  status: todo
+  priority: medium
+  due_date: '2026-09-30'
+  created: 2026-07-29 12:14
+  updated: 2026-07-29 12:14
+- id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-pipeline-for-tipmip-ocn-simulations
+  title: Run pipeline for TIPMIP-OCN simulations
+  status: todo
+  priority: medium
+  due_date: '2026-09-30'
+  created: 2026-07-29 12:14
+  updated: 2026-07-29 12:14
+- id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-pipeline-for-tipmip-esm-simulations
+  title: Run pipeline for TIPMIP-ESM simulations
+  status: todo
+  priority: medium
+  due_date: '2026-09-30'
+  created: 2026-07-29 12:14
+  updated: 2026-07-29 12:14
+- id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-pipeline-for-tipmip-socn-simulations
+  title: Run pipeline for TIPMIP-SOCN simulations
+  status: todo
+  priority: medium
+  due_date: '2027-02-28'
+  created: 2026-07-29 12:15
+  updated: 2026-07-29 12:15
+updates: []
+images: []

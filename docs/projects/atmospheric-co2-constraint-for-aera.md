@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate target modelling  
-**Updated:** 2026-07-29 10:37  
+**Updated:** 2026-07-29 12:07  
 **Tags:** `AERA`
 
 ## Summary
@@ -14,9 +14,9 @@ Implement new feature in AERA where instead of using cumulative emissions we use
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 40%"></div></div>
 
-2 / 3 tasks completed.
+2 / 5 tasks completed.
 
 ## Tasks
 
@@ -25,6 +25,8 @@ Implement new feature in AERA where instead of using cumulative emissions we use
 | ✅ | Find bug resulting in differences between single and combined target | done | medium | — |
 | ✅ | Implement ocean/land sink | done | medium | — |
 | ⬜ | Change driver used to estimate future emissions | todo | medium | — |
+| ⬜ | Calculate atmospheric CO2 content from historical simulation | todo | medium | 2026-08-07 |
+| ⬜ | Implement new column in AERA for atmospheric CO2 content and feedback from model simulation | todo | medium | 2026-08-07 |
 
 ## Updates
 
@@ -33,7 +35,7 @@ Implement new feature in AERA where instead of using cumulative emissions we use
 
 **2026-07-29 10:37**
 
-Tested in 10 year simulation appears to work. Tested by Marine
+Marine tested the new setup on CSCS for 10 years. The simulations are now identical when using the combined version against the single version.
 
 
 

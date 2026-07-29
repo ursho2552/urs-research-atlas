@@ -6,7 +6,7 @@ summary: Implement new feature in AERA where instead of using cumulative emissio
 area: Climate target modelling
 status: active
 created: 2026-07-28 16:07
-updated: 2026-07-28 16:17
+updated: 2026-07-29 12:07
 tags:
 - AERA
 links: {}
@@ -32,6 +32,21 @@ tasks:
   due_date: ''
   created: 2026-07-28 16:17
   updated: 2026-07-28 16:17
+- id: atmospheric-co2-constraint-for-aera-calculate-atmospheric-co2-content-from-historical-simulation
+  title: Calculate atmospheric CO2 content from historical simulation
+  status: todo
+  priority: medium
+  due_date: '2026-08-07'
+  created: 2026-07-29 12:07
+  updated: 2026-07-29 12:07
+- id: atmospheric-co2-constraint-for-aera-implement-new-column-in-aera-for-atmospheric-co2-content-and-feedback-from-model-simulation
+  title: Implement new column in AERA for atmospheric CO2 content and feedback from
+    model simulation
+  status: todo
+  priority: medium
+  due_date: '2026-08-07'
+  created: 2026-07-29 12:07
+  updated: 2026-07-29 12:07
 updates:
 - id: 20260728161112-reproducibility-bug
   date: 2026-07-28 16:11
@@ -42,4 +57,9 @@ updates:
     this structure is broken, and previous parameters are stored as scalars. This
     then leads to the  silent bug, where AERA does not recognise the parameters and
     assumes it is the first stocktake year
+- id: 20260729103727-update-in-aera-code-worked
+  date: 2026-07-29 10:37
+  title: Update in AERA code worked
+  text: Marine tested the new setup on CSCS for 10 years. The simulations are now
+    identical when using the combined version against the single version.
 images: []

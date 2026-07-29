@@ -14,21 +14,37 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>5</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>0</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>15</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>21</strong></div>
   <div class="ra-kpi-card"><span>Done tasks</span><strong>5</strong></div>
 </section>
 
 <section class="ra-dashboard">
   <aside class="ra-sidebar">
     <h2>Research areas</h2>
-    <ul><li>Climate data processing</li><li>Climate data standardisation workflows</li><li>Climate target modelling</li><li>Earth system model development</li><li>GFDL-ESM2M</li><li>Research software maintenance</li><li>Scientific software documentation</li></ul>
+    <ul><li>Climate data processing</li><li>Climate data standardisation workflows</li><li>Climate model diagnostics</li><li>Climate target modelling</li><li>Earth system model development</li><li>GFDL-ESM2M</li><li>Research software maintenance</li><li>Scientific software documentation</li></ul>
   </aside>
 
   <main class="ra-main">
     <h2>Featured projects</h2>
     <div class="ra-project-grid">
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
+      <h3>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN</h3>
+      <p class="ra-muted">Climate model diagnostics</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and TIPMIP-OCN simulations. For the TIPMIP-OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for TIPMIP-SOCN simulations</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+  <p class="ra-muted">0 / 4 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
+  <a class="ra-button" href="projects/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
+</div>
+
+
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
@@ -38,8 +54,8 @@
     <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>Implement new feature in AERA where instead of using cumulative emissions we use atmospheric CO2 content to estimate future emissions until a specific global surface aragonite saturation state is reached</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
-  <p class="ra-muted">2 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 40%"></div></div>
+  <p class="ra-muted">2 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">AERA</span></div>
   <a class="ra-button" href="projects/atmospheric-co2-constraint-for-aera/">View project</a>
 </div>
@@ -147,6 +163,18 @@
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
+  <strong>Calculate atmospheric CO2 content from historical simulation</strong>
+  <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-07</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Implement new column in AERA for atmospheric CO2 content and feedback from model simulation</strong>
+  <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-07</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Download SST</strong>
   <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
 </div>
@@ -160,18 +188,6 @@
 
 <div class="ra-list-item">
   <strong>Download 500 hPa geopotential</strong>
-  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Download Wind data</strong>
-  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Download surface pressure</strong>
   <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
 </div>
 

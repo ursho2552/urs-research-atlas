@@ -143,6 +143,34 @@ def build_projects_index(projects: list[dict]) -> None:
 """
     (DOCS / "projects" / "index.md").write_text(content, encoding="utf-8")
 
+def render_update(update: dict) -> str:
+    update_images = "\n".join(
+        f"<figure class='ra-figure'>"
+        f"<img class='ra-lightbox-image' "
+        f"src='../../{escape(img.get('path', ''))}' "
+        f"alt='{escape(img.get('caption') or update.get('title', 'Update image'))}'>"
+        f"<figcaption>{escape(img.get('caption', ''))}</figcaption>"
+        f"</figure>"
+        for img in update.get("images", [])
+    )
+
+    image_block = ""
+    if update_images:
+        image_block = f"""
+<div class="ra-gallery-grid">
+{update_images}
+</div>
+"""
+
+    return f"""
+### {escape(update.get('title', 'Update'))}
+
+**{escape(update.get('date', ''))}**
+
+{update.get('text', '')}
+
+{image_block}
+"""
 
 def build_project_page(project: dict) -> None:
     done, total, pct = progress(project)
@@ -152,18 +180,10 @@ def build_project_page(project: dict) -> None:
         for t in tasks
     ) or "| — | No tasks yet | — | — | — |"
     updates = "\n".join(
-        f"### {escape(u.get('title', 'Update'))}\n\n**{escape(u.get('date', ''))}**\n\n{escape(u.get('text', ''))}\n"
+        render_update(u)
         for u in sorted(project.get("updates", []), key=lambda u: u.get("date", ""), reverse=True)
     ) or "No updates yet."
-    images = "\n".join(
-        f"<figure class='ra-figure'>"
-        f"<img class='ra-lightbox-image' "
-        f"src='../../{escape(img.get('path', ''))}' "
-        f"alt='{escape(img.get('caption') or project.get('title', 'Project image'))}'>"
-        f"<figcaption>{escape(img.get('caption', ''))}</figcaption>"
-        f"</figure>"
-        for img in project.get("images", [])
-        ) or '<p class="ra-muted">No images yet.</p>'
+
     tags = " ".join(f"`{tag}`" for tag in project.get("tags", []))
 
     content = f"""# {project.get('title', project['id'])}
@@ -196,12 +216,6 @@ def build_project_page(project: dict) -> None:
 
 {updates}
 
-## Images
-
-<div class="ra-gallery-grid">
-{images}
-</div>
-
 </div>
 """
     (DOCS / "projects" / f"{project['id']}.md").write_text(content, encoding="utf-8")
@@ -231,23 +245,30 @@ This page is generated automatically from all project tasks and sorted by urgenc
 
 def build_gallery(projects: list[dict]) -> None:
     figures = []
-    for p in projects:
-        for img in p.get("images", []):
-            figures.append(
-                f"<figure class='ra-figure'>"
-                f"<img class='ra-lightbox-image' "
-                f"src='../{escape(img.get('path', ''))}' "
-                f"alt='{escape(img.get('caption') or p.get('title', 'Project image'))}'>"
-                f"<figcaption><strong>{escape(p.get('title', ''))}</strong><br>"
-                f"{escape(img.get('caption', ''))}</figcaption>"
-                f"</figure>"
-            )
+    for project in projects:
+        for update in project.get("updates", []):
+            for img in update.get("images", []):
+                figures.append(
+                    f"<figure class='ra-figure'>"
+                    f"<img class='ra-lightbox-image' "
+                    f"src='../{escape(img.get('path', ''))}' "
+                    f"alt='{escape(img.get('caption') or update.get('title', 'Update image'))}'>"
+                    f"<figcaption>"
+                    f"<strong>{escape(project.get('title', ''))}</strong><br>"
+                    f"{escape(update.get('title', 'Update'))} · {escape(update.get('date', ''))}<br>"
+                    f"{escape(img.get('caption', ''))}"
+                    f"</figcaption>"
+                    f"</figure>"
+                )
+
     content = f"""# Gallery
 
 <div class="ra-page ra-simple-page">
 
+<p class="ra-lead">Images and screenshots attached to project updates.</p>
+
 <div class="ra-gallery-grid">
-{''.join(figures) or '<p class="ra-muted">No images uploaded yet.</p>'}
+{''.join(figures) or '<p class="ra-muted">No update images uploaded yet.</p>'}
 </div>
 
 </div>

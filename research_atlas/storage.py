@@ -148,18 +148,29 @@ def set_task_status(project_id: str, task_id: str, status: str) -> dict[str, Any
     save_project(project)
     return project
 
-
-def add_update(project_id: str, title: str, text: str) -> dict[str, Any]:
+def add_update(
+    project_id: str,
+    title: str,
+    text: str,
+    images: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
     project = get_project(project_id)
     if project is None:
         raise ValueError(f"Project not found: {project_id}")
+
     update_id = f"{datetime.now().strftime('%Y%m%d%H%M%S')}-{slugify(title)}"
-    project.setdefault("updates", []).append({
+
+    update = {
         "id": update_id,
         "date": now_string(),
         "title": title,
         "text": text,
-    })
+    }
+
+    if images:
+        update["images"] = images
+
+    project.setdefault("updates", []).append(update)
     project["updated"] = now_string()
     save_project(project)
     return project
@@ -214,6 +225,27 @@ def task_urgency(task: dict[str, Any]) -> int:
             pass
     return score
 
+def save_update_image(
+    project_id: str,
+    update_id: str,
+    source_path: Path,
+    filename: str,
+    caption: str = "",
+) -> dict[str, Any]:
+    ext = Path(filename).suffix.lower() or ".png"
+    safe_name = f"{datetime.now().strftime('%Y%m%d%H%M%S')}-{slugify(Path(filename).stem)}{ext}"
+
+    target_dir = UPLOADS / project_id / "updates" / update_id
+    target_dir.mkdir(parents=True, exist_ok=True)
+
+    target = target_dir / safe_name
+    shutil.copyfile(source_path, target)
+
+    return {
+        "path": f"assets/uploads/{project_id}/updates/{update_id}/{safe_name}",
+        "caption": caption,
+        "uploaded": now_string(),
+    }
 
 def all_tasks_with_project() -> list[dict[str, Any]]:
     rows = []
@@ -225,3 +257,75 @@ def all_tasks_with_project() -> list[dict[str, Any]]:
             row["urgency"] = task_urgency(task)
             rows.append(row)
     return rows
+
+def update_progress_update(
+    project_id: str,
+    update_id: str,
+    title: str,
+    text: str,
+    images: list[dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    project = get_project(project_id)
+    if project is None:
+        raise ValueError(f"Project not found: {project_id}")
+
+    for update in project.get("updates", []):
+        if update.get("id") == update_id:
+            update["title"] = title
+            update["text"] = text
+            update["updated"] = now_string()
+
+            if images is not None:
+                update["images"] = images
+
+            break
+    else:
+        raise ValueError(f"Update not found: {update_id}")
+
+    project["updated"] = now_string()
+    save_project(project)
+    return project
+
+
+def add_image_to_update(
+    project_id: str,
+    update_id: str,
+    source_path: Path,
+    filename: str,
+    caption: str = "",
+) -> dict[str, Any]:
+    project = get_project(project_id)
+    if project is None:
+        raise ValueError(f"Project not found: {project_id}")
+
+    update = None
+    for candidate in project.get("updates", []):
+        if candidate.get("id") == update_id:
+            update = candidate
+            break
+
+    if update is None:
+        raise ValueError(f"Update not found: {update_id}")
+
+    ext = Path(filename).suffix.lower() or ".png"
+    safe_name = f"{datetime.now().strftime('%Y%m%d%H%M%S')}-{slugify(Path(filename).stem)}{ext}"
+
+    target_dir = UPLOADS / project_id / "updates"
+    target_dir.mkdir(parents=True, exist_ok=True)
+
+    target = target_dir / safe_name
+    shutil.copyfile(source_path, target)
+
+    image = {
+        "path": f"assets/uploads/{project_id}/updates/{safe_name}",
+        "caption": caption,
+        "uploaded": now_string(),
+    }
+
+    update.setdefault("images", []).append(image)
+    update["updated"] = now_string()
+    project["updated"] = now_string()
+
+    save_project(project)
+    return project
+

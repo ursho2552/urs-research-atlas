@@ -124,6 +124,106 @@
     .image-grid img { width: 100%; border-radius: 14px; border: 1px solid var(--border); }
     .progress { height: 9px; background: rgba(148, 163, 184, 0.18); border-radius: 999px; overflow: hidden; }
     .progress > span { display: block; height: 100%; background: linear-gradient(90deg, var(--accent-2), var(--accent)); }
+    .hidden {
+  display: none !important;
+}
+
+.update-card-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 18px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.update-card-header h3 {
+  margin-top: 0;
+  margin-bottom: 4px;
+}
+
+.update-text pre {
+  white-space: pre-wrap;
+  font-family: inherit;
+  line-height: 1.55;
+  margin: 0 0 18px;
+  color: inherit;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.update-edit-form {
+  margin-top: 16px;
+}
+
+.edit-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.ra-update-textarea {
+  width: 100%;
+  min-height: 360px;
+  resize: vertical;
+  font-family: inherit;
+  line-height: 1.5;
+}
+
+.editor-update-images {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 420px));
+  gap: 16px;
+  margin: 18px 0 22px;
+}
+
+.editor-update-figure {
+  margin: 0;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  background: rgba(2, 6, 23, 0.35);
+}
+
+.editor-update-figure img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: contain;
+  border-radius: 10px;
+  display: block;
+}
+
+.editor-update-figure figcaption {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.plain-section {
+  padding: 0;
+  margin-top: 32px;
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.update-card {
+  padding: 18px 20px;
+  margin-bottom: 28px;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: rgba(15, 23, 42, 0.45);
+}     
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+  color: var(--muted);
+}
+
+.checkbox-label input {
+  width: auto;
+}
     @media (max-width: 900px) {
       .shell { grid-template-columns: 1fr; }
       .nav { position: static; height: auto; }

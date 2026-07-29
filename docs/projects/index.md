@@ -6,14 +6,30 @@
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN</h3>
+      <p class="ra-muted">Climate model diagnostics</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and TIPMIP-OCN simulations. For the TIPMIP-OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for TIPMIP-SOCN simulations</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+  <p class="ra-muted">0 / 4 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
+  <a class="ra-button" href="agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>Atmospheric CO2 constraint for AERA</h3>
       <p class="ra-muted">Climate target modelling</p>
     </div>
     <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>Implement new feature in AERA where instead of using cumulative emissions we use atmospheric CO2 content to estimate future emissions until a specific global surface aragonite saturation state is reached</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
-  <p class="ra-muted">2 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 40%"></div></div>
+  <p class="ra-muted">2 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">AERA</span></div>
   <a class="ra-button" href="atmospheric-co2-constraint-for-aera/">View project</a>
 </div>
