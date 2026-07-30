@@ -13,7 +13,7 @@
   </div>
   <p>Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and TIPMIP-OCN simulations. For the TIPMIP-OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for TIPMIP-SOCN simulations</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 4 tasks completed</p>
+  <p class="ra-muted">0 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
   <a class="ra-button" href="agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
 </div>

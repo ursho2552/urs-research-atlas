@@ -16,7 +16,7 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>0</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>21</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>22</strong></div>
   <div class="ra-kpi-card"><span>Done tasks</span><strong>5</strong></div>
 </section>
 
@@ -39,7 +39,7 @@
   </div>
   <p>Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and TIPMIP-OCN simulations. For the TIPMIP-OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for TIPMIP-SOCN simulations</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 4 tasks completed</p>
+  <p class="ra-muted">0 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
   <a class="ra-button" href="projects/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
 </div>
@@ -163,6 +163,18 @@
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
+  <strong>Calculate climatologies</strong>
+  <span>ERA5 data for MHW workshop · high · due 2026-08-13</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Run AGI pipeline on NASA-GISS output</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · medium · due 2026-08-07</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Calculate atmospheric CO2 content from historical simulation</strong>
   <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-07</span>
 </div>
@@ -179,22 +191,22 @@
   <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
 </div>
 
-
-<div class="ra-list-item">
-  <strong>Download 2m-temperature</strong>
-  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Download 500 hPa geopotential</strong>
-  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
-</div>
-
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Adjust bias correction</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-30 15:17</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>TIPMIP-OCN preliminary fields</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-30 09:27</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Additional setup for UBELIX</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-29 16:08</span>
@@ -204,18 +216,6 @@
 <div class="ra-list-item">
   <strong>Partial results ready</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-29 14:43</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Update in AERA code worked</strong>
-  <span>Atmospheric CO2 constraint for AERA · 2026-07-29 10:37</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Restarted both offline and online simulations</strong>
-  <span>Re-run hosing simulations for AMOC collapse paper · 2026-07-29 09:59</span>
 </div>
 
     </div>

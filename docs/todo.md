@@ -6,6 +6,8 @@ This page is generated automatically from all project tasks and sorted by urgenc
 
 | Project | Task | Status | Priority | Due date | Urgency |
 | --- | --- | --- | --- | --- | ---: |
+| ERA5 data for MHW workshop | Calculate climatologies | todo | high | 2026-08-13 | 50 |
+| AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN | Run AGI pipeline on NASA-GISS output | todo | medium | 2026-08-07 | 35 |
 | Atmospheric CO2 constraint for AERA | Calculate atmospheric CO2 content from historical simulation | todo | medium | 2026-08-07 | 35 |
 | Atmospheric CO2 constraint for AERA | Implement new column in AERA for atmospheric CO2 content and feedback from model simulation | todo | medium | 2026-08-07 | 35 |
 | ERA5 data for MHW workshop | Download SST | todo | medium | 2026-08-07 | 35 |
@@ -13,7 +15,6 @@ This page is generated automatically from all project tasks and sorted by urgenc
 | ERA5 data for MHW workshop | Download 500 hPa geopotential | todo | medium | 2026-08-07 | 35 |
 | ERA5 data for MHW workshop | Download Wind data | todo | medium | 2026-08-07 | 35 |
 | ERA5 data for MHW workshop | Download surface pressure | todo | medium | 2026-08-07 | 35 |
-| ERA5 data for MHW workshop | Calculate climatologies | todo | high | 2026-08-13 | 30 |
 | AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN | Run AGI pipeline on control simulation tipmip-esm-piControl or control simulation for drift | in_progress | medium | 2026-09-30 | 25 |
 | AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN | Run pipeline for TIPMIP-OCN simulations | in_progress | medium | 2026-09-30 | 25 |
 | AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN | Run pipeline for TIPMIP-ESM simulations | in_progress | medium | 2026-09-30 | 25 |

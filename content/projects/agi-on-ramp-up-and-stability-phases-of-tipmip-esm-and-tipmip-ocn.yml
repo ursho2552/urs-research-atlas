@@ -6,7 +6,7 @@ summary: Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-
 area: Climate model diagnostics
 status: active
 created: 2026-07-29 12:11
-updated: 2026-07-29 16:08
+updated: 2026-07-30 15:56
 tags:
 - TIPMIP
 - AMOC
@@ -42,6 +42,13 @@ tasks:
   due_date: '2027-02-28'
   created: 2026-07-29 12:15
   updated: 2026-07-29 12:15
+- id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-agi-pipeline-on-nasa-giss-output
+  title: Run AGI pipeline on NASA-GISS output
+  status: todo
+  priority: medium
+  due_date: '2026-08-07'
+  created: 2026-07-30 10:54
+  updated: 2026-07-30 10:54
 updates:
 - id: 20260729144355-partial-results-ready
   date: 2026-07-29 14:43
@@ -54,5 +61,21 @@ updates:
   title: Additional setup for UBELIX
   text: "When running the AGI pipeline on UBELIX, it appears that the following module\
     \ and environmental variables need to be specified:\r\n\r\n- module load netCDF/4.9.2-iimpi-2023a\r\
-    \n- export HDF5_USE_FILE_LOCKING=FALSE"
+    \n- module load HDF5/1.14.6-gompi-2025a\r\n- export HDF5_USE_FILE_LOCKING=FALSE"
+  updated: 2026-07-30 10:12
+  images: []
+- id: 20260730092703-tipmip-ocn-preliminary-fields
+  date: 2026-07-30 09:27
+  title: TIPMIP-OCN preliminary fields
+  text: 'Finished calculating preliminary fields (insitu temperature and pO2) for
+    TIPMIP-OCN simulations on UBELIX. '
+- id: 20260730151706-adjust-bias-correction
+  date: 2026-07-30 15:17
+  title: Adjust bias correction
+  text: Since we are using the existing pipeline for tipmip experiments rather than
+    historical runs, we do not need to use the WOA-bias correction, which was producing
+    empty fields for the hosing simulations. The empty fields were caused because
+    the simulation periods did not match the WOA period.
+  updated: 2026-07-30 15:56
+  images: []
 images: []

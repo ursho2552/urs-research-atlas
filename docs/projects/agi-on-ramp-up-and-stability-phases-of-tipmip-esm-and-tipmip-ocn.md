@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-07-29 16:08  
+**Updated:** 2026-07-30 15:56  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -16,7 +16,7 @@ Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and T
 
 <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
 
-0 / 4 tasks completed.
+0 / 5 tasks completed.
 
 ## Tasks
 
@@ -26,8 +26,27 @@ Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and T
 | ⬜ | Run pipeline for TIPMIP-OCN simulations | in_progress | medium | 2026-09-30 |
 | ⬜ | Run pipeline for TIPMIP-ESM simulations | in_progress | medium | 2026-09-30 |
 | ⬜ | Run pipeline for TIPMIP-SOCN simulations | todo | medium | 2027-02-28 |
+| ⬜ | Run AGI pipeline on NASA-GISS output | todo | medium | 2026-08-07 |
 
 ## Updates
+
+
+### Adjust bias correction
+
+**2026-07-30 15:17**
+
+Since we are using the existing pipeline for tipmip experiments rather than historical runs, we do not need to use the WOA-bias correction, which was producing empty fields for the hosing simulations. The empty fields were caused because the simulation periods did not match the WOA period.
+
+
+
+
+### TIPMIP-OCN preliminary fields
+
+**2026-07-30 09:27**
+
+Finished calculating preliminary fields (insitu temperature and pO2) for TIPMIP-OCN simulations on UBELIX. 
+
+
 
 
 ### Additional setup for UBELIX
@@ -37,6 +56,7 @@ Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and T
 When running the AGI pipeline on UBELIX, it appears that the following module and environmental variables need to be specified:
 
 - module load netCDF/4.9.2-iimpi-2023a
+- module load HDF5/1.14.6-gompi-2025a
 - export HDF5_USE_FILE_LOCKING=FALSE
 
 
