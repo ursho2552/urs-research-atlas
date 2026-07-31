@@ -104,18 +104,20 @@ def build_home(projects: list[dict]) -> None:
   <div class="ra-kpi-card"><span>Done tasks</span><strong>{len(done_tasks)}</strong></div>
 </section>
 
-<section class="ra-dashboard">
-  <aside class="ra-sidebar">
-    <h2>Research areas</h2>
-    <ul>{area_items}</ul>
+<section class="ra-home-layout">
+  <aside class="ra-home-left">
+    <div class="ra-panel">
+      <h2>Research areas</h2>
+      <ul>{area_items}</ul>
+    </div>
   </aside>
 
-  <main class="ra-main">
+  <main class="ra-home-main">
     <h2>Featured projects</h2>
     <div class="ra-project-grid">{project_cards}</div>
   </main>
 
-  <aside class="ra-right">
+  <aside class="ra-home-right">
     <div class="ra-panel">
       <h2>Most urgent tasks</h2>
       {urgent_items}

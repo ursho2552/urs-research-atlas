@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-07-30 15:56  
+**Updated:** 2026-07-31 16:34  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -29,6 +29,24 @@ Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and T
 | ⬜ | Run AGI pipeline on NASA-GISS output | todo | medium | 2026-08-07 |
 
 ## Updates
+
+
+### Re-ran control and tipmip-esm
+
+**2026-07-31 16:34**
+
+After correcting the bottom layer calculation I have now rerun the control and the piControl, ramp-up, and stability of the tipmip-esm simulations.
+
+
+
+
+### Correction of bottom value
+
+**2026-07-31 10:05**
+
+The bottom values for the variables were not extracted correctly during pre-processing. This has now been fixed and standardized for each variable
+
+
 
 
 ### Adjust bias correction

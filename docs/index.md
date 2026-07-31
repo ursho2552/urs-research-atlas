@@ -14,19 +14,21 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>0</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>22</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>5</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>25</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>6</strong></div>
 </section>
 
-<section class="ra-dashboard">
-  <aside class="ra-sidebar">
-    <h2>Research areas</h2>
-    <ul><li>Climate data processing</li><li>Climate data standardisation workflows</li><li>Climate model diagnostics</li><li>Climate target modelling</li><li>Earth system model development</li><li>GFDL-ESM2M</li><li>Research software maintenance</li><li>Scientific software documentation</li></ul>
+<section class="ra-home-layout">
+  <aside class="ra-home-left">
+    <div class="ra-panel">
+      <h2>Research areas</h2>
+      <ul><li>Climate data processing</li><li>Climate data standardisation workflows</li><li>Climate model diagnostics</li><li>Climate target modelling</li><li>Earth system model development</li><li>GFDL-ESM2M</li><li>Research software engineering</li><li>Research software maintenance</li><li>Scientific software documentation</li></ul>
+    </div>
   </aside>
 
-  <main class="ra-main">
+  <main class="ra-home-main">
     <h2>Featured projects</h2>
     <div class="ra-project-grid">
 <div class="ra-project-card">
@@ -128,6 +130,22 @@
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>Maintain and refactor Bern3D Tools</h3>
+      <p class="ra-muted">Research software engineering</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>Develop and maintain tools for repetitive Bern3D workflows such as spin-up runs, sensitivity analysis, Latin hypercube sampling, and model-output analysis. The tools should be refactored to become more user-friendly, customizable, and reproducible, with the long-term goal of delivering them as a shareable Python package.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 25%"></div></div>
+  <p class="ra-muted">1 / 4 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">Bern3D</span><span class="ra-tag">workflow automation</span><span class="ra-tag">research software</span></div>
+  <a class="ra-button" href="projects/maintain-and-refactor-bern3d-tools/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>Re-run hosing simulations for AMOC collapse paper</h3>
       <p class="ra-muted">GFDL-ESM2M</p>
     </div>
@@ -158,16 +176,10 @@
 </div>
   </main>
 
-  <aside class="ra-right">
+  <aside class="ra-home-right">
     <div class="ra-panel">
       <h2>Most urgent tasks</h2>
       
-<div class="ra-list-item">
-  <strong>Calculate climatologies</strong>
-  <span>ERA5 data for MHW workshop · high · due 2026-08-13</span>
-</div>
-
-
 <div class="ra-list-item">
   <strong>Run AGI pipeline on NASA-GISS output</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · medium · due 2026-08-07</span>
@@ -191,31 +203,37 @@
   <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
 </div>
 
+
+<div class="ra-list-item">
+  <strong>Download 2m-temperature</strong>
+  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
+</div>
+
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
+  <strong>Re-ran control and tipmip-esm</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-31 16:34</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Corrected bug in Bayesian optimization module</strong>
+  <span>Maintain and refactor Bern3D Tools · 2026-07-31 11:08</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Correction of bottom value</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-31 10:05</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Adjust bias correction</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-30 15:17</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>TIPMIP-OCN preliminary fields</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-30 09:27</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Additional setup for UBELIX</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-29 16:08</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Partial results ready</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-29 14:43</span>
 </div>
 
     </div>

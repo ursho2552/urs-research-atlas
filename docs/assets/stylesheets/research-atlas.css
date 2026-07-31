@@ -69,6 +69,42 @@ html, body { overflow-x: auto; }
   min-width: 1448px;
 }
 
+.ra-home-layout {
+  display: grid;
+  grid-template-columns: 260px minmax(560px, 1fr) 340px;
+  gap: 24px;
+  align-items: start;
+  width: 100%;
+}
+
+.ra-home-left,
+.ra-home-main,
+.ra-home-right {
+  min-width: 0;
+}
+
+.ra-home-right {
+  display: grid;
+  gap: 18px;
+}
+
+.ra-home-left .ra-panel,
+.ra-home-right .ra-panel {
+  border: 1px solid var(--ra-border);
+  border-radius: 22px;
+  background: linear-gradient(180deg, rgba(17, 31, 52, 0.95), rgba(14, 26, 44, 0.95));
+  padding: 18px;
+}
+
+.ra-home-left ul {
+  padding-left: 18px;
+  color: var(--ra-muted);
+}
+
+.ra-home-main h2 {
+  margin-top: 0;
+}
+
 .ra-sidebar,
 .ra-panel,
 .ra-project-card {
@@ -108,13 +144,61 @@ html, body { overflow-x: auto; }
 .ra-figure img { width: 100%; border-radius: 18px; border: 1px solid var(--ra-border); }
 .ra-figure figcaption { color: var(--ra-muted); font-size: 0.85rem; margin-top: 6px; }
 
-@media (max-width: 700px) {
-  html, body { overflow-x: visible; }
-  .ra-page { padding: 16px; }
-  .ra-dashboard { width: auto; min-width: 0; grid-template-columns: 1fr; }
-  .ra-sidebar, .ra-main, .ra-right { grid-column: auto; position: static; }
-  .ra-project-grid, .ra-kpi-grid { grid-template-columns: 1fr; }
+@media (max-width: 1250px) {
+  .ra-home-layout {
+    grid-template-columns: minmax(0, 1fr) 320px;
+  }
+
+  .ra-home-left {
+    grid-column: 1 / -1;
+  }
+
+  .ra-home-main {
+    grid-column: 1;
+  }
+
+  .ra-home-right {
+    grid-column: 2;
+  }
+
+  .ra-home-left .ra-panel ul {
+    columns: 2;
+  }
 }
+
+/* Smaller screens: stack everything */
+@media (max-width: 900px) {
+  html,
+  body {
+    overflow-x: visible;
+  }
+
+  .ra-page {
+    padding: 16px;
+  }
+
+  .ra-home-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .ra-home-left,
+  .ra-home-main,
+  .ra-home-right {
+    grid-column: auto;
+    position: static;
+  }
+
+  .ra-project-grid,
+  .ra-home-main .ra-project-grid,
+  .ra-kpi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ra-home-left .ra-panel ul {
+    columns: 1;
+  }
+}
+
 
 .ra-lightbox-image {
   cursor: zoom-in;

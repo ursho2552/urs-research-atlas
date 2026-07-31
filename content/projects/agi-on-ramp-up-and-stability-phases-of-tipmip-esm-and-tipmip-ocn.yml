@@ -6,7 +6,7 @@ summary: Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-
 area: Climate model diagnostics
 status: active
 created: 2026-07-29 12:11
-updated: 2026-07-30 15:56
+updated: 2026-07-31 16:34
 tags:
 - TIPMIP
 - AMOC
@@ -78,4 +78,14 @@ updates:
     the simulation periods did not match the WOA period.
   updated: 2026-07-30 15:56
   images: []
+- id: 20260731100540-correction-of-bottom-value
+  date: 2026-07-31 10:05
+  title: Correction of bottom value
+  text: The bottom values for the variables were not extracted correctly during pre-processing.
+    This has now been fixed and standardized for each variable
+- id: 20260731163406-re-ran-control-and-tipmip-esm
+  date: 2026-07-31 16:34
+  title: Re-ran control and tipmip-esm
+  text: After correcting the bottom layer calculation I have now rerun the control
+    and the piControl, ramp-up, and stability of the tipmip-esm simulations.
 images: []

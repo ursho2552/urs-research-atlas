@@ -1,0 +1,54 @@
+id: maintain-and-refactor-bern3d-tools
+title: Maintain and refactor Bern3D Tools
+summary: Develop and maintain tools for repetitive Bern3D workflows such as spin-up
+  runs, sensitivity analysis, Latin hypercube sampling, and model-output analysis.
+  The tools should be refactored to become more user-friendly, customizable, and reproducible,
+  with the long-term goal of delivering them as a shareable Python package.
+area: Research software engineering
+status: active
+created: 2026-07-31 11:05
+updated: 2026-07-31 11:09
+tags:
+- Python
+- Bern3D
+- workflow automation
+- research software
+links: {}
+tasks:
+- id: maintain-and-refactor-bern3d-tools-refactor-bayesian-optimization-module
+  title: Refactor Bayesian Optimization module
+  status: done
+  priority: medium
+  due_date: ''
+  created: 2026-07-31 11:06
+  updated: 2026-07-31 11:06
+- id: maintain-and-refactor-bern3d-tools-refactor-sensitivity-analysis-module
+  title: Refactor Sensitivity analysis module
+  status: todo
+  priority: low
+  due_date: ''
+  created: 2026-07-31 11:09
+  updated: 2026-07-31 11:09
+- id: maintain-and-refactor-bern3d-tools-refactor-lhs-module
+  title: Refactor LHS module
+  status: todo
+  priority: low
+  due_date: ''
+  created: 2026-07-31 11:09
+  updated: 2026-07-31 11:09
+- id: maintain-and-refactor-bern3d-tools-refactor-spinup-module
+  title: Refactor Spinup module
+  status: todo
+  priority: low
+  due_date: ''
+  created: 2026-07-31 11:09
+  updated: 2026-07-31 11:09
+updates:
+- id: 20260731110854-corrected-bug-in-bayesian-optimization-module
+  date: 2026-07-31 11:08
+  title: Corrected bug in Bayesian optimization module
+  text: A bug in the npzd optimizer was fixed. The error occurred when 2D NPZD fields
+    were loaded and compared with expected values. Before, the tool tried to take
+    the last time-step, however, this had been selected before. This resulted in the
+    tool only taking the longitudes for calculating the error
+images: []

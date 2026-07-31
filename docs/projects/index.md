@@ -102,6 +102,22 @@
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>Maintain and refactor Bern3D Tools</h3>
+      <p class="ra-muted">Research software engineering</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>Develop and maintain tools for repetitive Bern3D workflows such as spin-up runs, sensitivity analysis, Latin hypercube sampling, and model-output analysis. The tools should be refactored to become more user-friendly, customizable, and reproducible, with the long-term goal of delivering them as a shareable Python package.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 25%"></div></div>
+  <p class="ra-muted">1 / 4 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">Bern3D</span><span class="ra-tag">workflow automation</span><span class="ra-tag">research software</span></div>
+  <a class="ra-button" href="maintain-and-refactor-bern3d-tools/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>Re-run hosing simulations for AMOC collapse paper</h3>
       <p class="ra-muted">GFDL-ESM2M</p>
     </div>
