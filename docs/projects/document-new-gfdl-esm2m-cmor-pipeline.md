@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-paused">paused</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-07-28 16:32  
+**Updated:** 2026-08-03 10:27  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -26,6 +26,14 @@ The custom CMOR pipeline for GFDL-ESM2M was getting too big for the shared repos
 
 ## Updates
 
-No updates yet.
+
+### Running TIPMIP-OCN test
+
+**2026-08-03 10:27**
+
+Rerunning the current pipeline on TIPMIP-OCN experiment A simulations to test the outcome and structure
+
+
+
 
 </div>

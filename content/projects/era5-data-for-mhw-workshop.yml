@@ -6,7 +6,7 @@ summary: Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa g
 area: Climate data processing
 status: active
 created: 2026-07-28 15:51
-updated: 2026-07-28 20:23
+updated: 2026-08-03 10:36
 tags:
 - ERA5
 - marine heatwaves
@@ -33,39 +33,43 @@ tasks:
   completed: 2026-07-28 20:23
 - id: era5-data-for-mhw-workshop-download-sst
   title: Download SST
-  status: todo
+  status: done
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-28 15:52
-  updated: 2026-07-28 15:52
+  updated: 2026-08-03 10:30
+  completed: 2026-08-03 10:30
 - id: era5-data-for-mhw-workshop-download-2m-temperature
   title: Download 2m-temperature
-  status: todo
+  status: done
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-28 15:53
-  updated: 2026-07-28 15:53
+  updated: 2026-08-03 10:31
+  completed: 2026-08-03 10:31
 - id: era5-data-for-mhw-workshop-download-500-hpa-geopotential
   title: Download 500 hPa geopotential
-  status: todo
+  status: done
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-28 15:53
-  updated: 2026-07-28 15:53
+  updated: 2026-08-03 10:32
+  completed: 2026-08-03 10:32
 - id: era5-data-for-mhw-workshop-download-wind-data
   title: Download Wind data
-  status: todo
+  status: in_progress
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-28 15:53
-  updated: 2026-07-28 15:53
+  updated: 2026-08-03 10:32
 - id: era5-data-for-mhw-workshop-download-surface-pressure
   title: Download surface pressure
-  status: todo
+  status: done
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-28 15:53
-  updated: 2026-07-28 15:53
+  updated: 2026-08-03 10:32
+  completed: 2026-08-03 10:32
 - id: era5-data-for-mhw-workshop-calculate-climatologies
   title: Calculate climatologies
   status: todo
@@ -73,5 +77,9 @@ tasks:
   due_date: '2026-08-13'
   created: 2026-07-28 15:54
   updated: 2026-07-28 15:54
-updates: []
+updates:
+- id: 20260803103620-missing-wind-fields
+  date: 2026-08-03 10:36
+  title: Missing wind fields
+  text: All fields except the wind fields have all been downloaded
 images: []

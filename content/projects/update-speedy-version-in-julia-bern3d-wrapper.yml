@@ -4,7 +4,7 @@ summary: The version of SpeedyWeather has changed with some breaking changes.
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-07-28 16:26
+updated: 2026-08-03 17:04
 tags:
 - SpeedyWeather
 - Julia
@@ -14,17 +14,32 @@ links: {}
 tasks:
 - id: update-speedy-version-in-julia-bern3d-wrapper-update-speedyweather-to-newest-release
   title: Update SpeedyWeather to newest release
-  status: todo
+  status: done
   priority: medium
   due_date: ''
   created: 2026-07-28 16:26
-  updated: 2026-07-28 16:26
+  updated: 2026-08-03 10:52
+  completed: 2026-08-03 10:52
 - id: update-speedy-version-in-julia-bern3d-wrapper-implement-breaking-changes-into-current-coupling
   title: Implement breaking changes into current coupling
-  status: todo
+  status: done
   priority: medium
   due_date: ''
   created: 2026-07-28 16:26
-  updated: 2026-07-28 16:26
-updates: []
+  updated: 2026-08-03 17:04
+  completed: 2026-08-03 17:04
+- id: update-speedy-version-in-julia-bern3d-wrapper-implement-land-runoff-into-freshwater-coupling
+  title: Implement land runoff into freshwater coupling
+  status: todo
+  priority: high
+  due_date: ''
+  created: 2026-08-03 10:37
+  updated: 2026-08-03 10:37
+updates:
+- id: 20260803112144-update-to-new-version
+  date: 2026-08-03 11:21
+  title: Update to new version
+  text: "The update of SpeedyWeather to the newest version was not straight forward.\
+    \ \r\n\r\nA simple `Pkg.update` would not work due to dependencies being preserved.\
+    \ Instead we used `Pkg.update(\"SpeedyWeather\"; preserve=Pkg.PRESERVE_NONE)`"
 images: []

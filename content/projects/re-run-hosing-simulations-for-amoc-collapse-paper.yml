@@ -5,7 +5,7 @@ summary: Re-run the hosing simulations used in the publication “Climate and Ca
 area: GFDL-ESM2M
 status: active
 created: 2026-07-28 16:21
-updated: 2026-07-29 09:59
+updated: 2026-08-03 10:28
 tags:
 - hosing simulations
 - GFDL-ESM2M
@@ -46,4 +46,10 @@ updates:
   text: The online simulations appear to be stuck at around the year 2166. A few ensemble
     members of the offline simulations are nearing the 2200 simulation year, while
     the others had to be reset by more than 20 years
+- id: 20260803102836-partial-results
+  date: 2026-08-03 10:28
+  title: Partial results
+  text: Ensemble member 3 and 5 of the offline and ensemble member 4 of the online
+    AERA version have now finished, and will be prepared for transfer to capacity
+    storage
 images: []

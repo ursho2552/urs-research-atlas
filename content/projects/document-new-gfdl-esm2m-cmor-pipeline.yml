@@ -7,7 +7,7 @@ summary: The custom CMOR pipeline for GFDL-ESM2M was getting too big for the sha
 area: Climate data standardisation workflows
 status: paused
 created: 2026-07-28 16:29
-updated: 2026-07-28 16:32
+updated: 2026-08-03 10:27
 tags:
 - GFDL-ESM2M
 - CMOR
@@ -18,5 +18,10 @@ tags:
 - Python
 links: {}
 tasks: []
-updates: []
+updates:
+- id: 20260803102702-running-tipmip-ocn-test
+  date: 2026-08-03 10:27
+  title: Running TIPMIP-OCN test
+  text: Rerunning the current pipeline on TIPMIP-OCN experiment A simulations to test
+    the outcome and structure
 images: []

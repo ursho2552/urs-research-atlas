@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-07-31 16:34  
+**Updated:** 2026-08-03 16:49  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -29,6 +29,29 @@ Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and T
 | ⬜ | Run AGI pipeline on NASA-GISS output | todo | medium | 2026-08-07 |
 
 ## Updates
+
+
+### Pre-processing done
+
+**2026-08-03 16:24**
+
+Ran the pre-processing step for all tipmip-esm, tipmip-ocn, and control simulations for all depths.
+
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/updates/2026-08-03-1649-screenshot-2026-08-03-at-16-47-36.png' alt='Comparison of sea surface temperature across all pre-processed simulations. The values were extracted from the saved objects.'><figcaption>Comparison of sea surface temperature across all pre-processed simulations. The values were extracted from the saved objects.</figcaption></figure>
+</div>
+
+
+
+### Preprocess entire water column
+
+**2026-08-03 10:25**
+
+Changed the preprocessing step to get the entire water column if specified in the configuration file
+
+
 
 
 ### Re-ran control and tipmip-esm

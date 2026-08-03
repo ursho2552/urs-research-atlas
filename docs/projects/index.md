@@ -92,8 +92,8 @@
     <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotential height, u and v surface wind, surface pressure, and specific humidity. Afterwards, create a climatology of these fields for the period 1991-2000</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 25%"></div></div>
-  <p class="ra-muted">2 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+  <p class="ra-muted">6 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">ERA5</span><span class="ra-tag">marine heatwaves</span><span class="ra-tag">climatology</span><span class="ra-tag">CDS API</span><span class="ra-tag">xarray</span><span class="ra-tag">NetCDF</span></div>
   <a class="ra-button" href="era5-data-for-mhw-workshop/">View project</a>
 </div>
@@ -140,8 +140,8 @@
     <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>The version of SpeedyWeather has changed with some breaking changes.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 2 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
+  <p class="ra-muted">2 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">SpeedyWeather</span><span class="ra-tag">Julia</span><span class="ra-tag">model coupling</span><span class="ra-tag">Bern3D</span></div>
   <a class="ra-button" href="update-speedy-version-in-julia-bern3d-wrapper/">View project</a>
 </div>

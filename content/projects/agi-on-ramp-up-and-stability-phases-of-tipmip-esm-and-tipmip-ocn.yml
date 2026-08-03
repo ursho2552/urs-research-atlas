@@ -6,7 +6,7 @@ summary: Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-
 area: Climate model diagnostics
 status: active
 created: 2026-07-29 12:11
-updated: 2026-07-31 16:34
+updated: 2026-08-03 16:49
 tags:
 - TIPMIP
 - AMOC
@@ -88,4 +88,20 @@ updates:
   title: Re-ran control and tipmip-esm
   text: After correcting the bottom layer calculation I have now rerun the control
     and the piControl, ramp-up, and stability of the tipmip-esm simulations.
+- id: 20260803102540-preprocess-entire-water-column
+  date: 2026-08-03 10:25
+  title: Preprocess entire water column
+  text: Changed the preprocessing step to get the entire water column if specified
+    in the configuration file
+- id: 20260803162400-pre-processing-done
+  date: 2026-08-03 16:24
+  title: Pre-processing done
+  text: "Ran the pre-processing step for all tipmip-esm, tipmip-ocn, and control simulations\
+    \ for all depths.\r\n"
+  updated: 2026-08-03 16:49
+  images:
+  - path: assets/uploads/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/updates/2026-08-03-1649-screenshot-2026-08-03-at-16-47-36.png
+    caption: Comparison of sea surface temperature across all pre-processed simulations.
+      The values were extracted from the saved objects.
+    uploaded: 2026-08-03 16:49
 images: []

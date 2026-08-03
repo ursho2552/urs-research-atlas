@@ -16,8 +16,8 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>0</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>25</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>6</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>20</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>12</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -120,8 +120,8 @@
     <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotential height, u and v surface wind, surface pressure, and specific humidity. Afterwards, create a climatology of these fields for the period 1991-2000</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 25%"></div></div>
-  <p class="ra-muted">2 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+  <p class="ra-muted">6 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">ERA5</span><span class="ra-tag">marine heatwaves</span><span class="ra-tag">climatology</span><span class="ra-tag">CDS API</span><span class="ra-tag">xarray</span><span class="ra-tag">NetCDF</span></div>
   <a class="ra-button" href="projects/era5-data-for-mhw-workshop/">View project</a>
 </div>
@@ -168,8 +168,8 @@
     <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>The version of SpeedyWeather has changed with some breaking changes.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 2 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
+  <p class="ra-muted">2 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">SpeedyWeather</span><span class="ra-tag">Julia</span><span class="ra-tag">model coupling</span><span class="ra-tag">Bern3D</span></div>
   <a class="ra-button" href="projects/update-speedy-version-in-julia-bern3d-wrapper/">View project</a>
 </div>
@@ -180,6 +180,12 @@
     <div class="ra-panel">
       <h2>Most urgent tasks</h2>
       
+<div class="ra-list-item">
+  <strong>Download Wind data</strong>
+  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Run AGI pipeline on NASA-GISS output</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · medium · due 2026-08-07</span>
@@ -199,14 +205,8 @@
 
 
 <div class="ra-list-item">
-  <strong>Download SST</strong>
-  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Download 2m-temperature</strong>
-  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
+  <strong>Calculate climatologies</strong>
+  <span>ERA5 data for MHW workshop · high · due 2026-08-13</span>
 </div>
 
     </div>
@@ -214,26 +214,26 @@
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
-  <strong>Re-ran control and tipmip-esm</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-31 16:34</span>
+  <strong>Pre-processing done</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-03 16:24</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Corrected bug in Bayesian optimization module</strong>
-  <span>Maintain and refactor Bern3D Tools · 2026-07-31 11:08</span>
+  <strong>Update to new version</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-03 11:21</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Correction of bottom value</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-31 10:05</span>
+  <strong>Missing wind fields</strong>
+  <span>ERA5 data for MHW workshop · 2026-08-03 10:36</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Adjust bias correction</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-07-30 15:17</span>
+  <strong>Partial results</strong>
+  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-03 10:28</span>
 </div>
 
     </div>

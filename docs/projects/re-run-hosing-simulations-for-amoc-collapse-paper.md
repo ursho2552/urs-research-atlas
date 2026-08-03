@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** GFDL-ESM2M  
-**Updated:** 2026-07-29 09:59  
+**Updated:** 2026-08-03 10:28  
 **Tags:** `hosing simulations` `GFDL-ESM2M` `CSCS`
 
 ## Summary
@@ -27,6 +27,15 @@ Re-run the hosing simulations used in the publication “Climate and Carbon Cycl
 | ✅ | Run recovery simulation after 100 years hosing | done | medium | — |
 
 ## Updates
+
+
+### Partial results
+
+**2026-08-03 10:28**
+
+Ensemble member 3 and 5 of the offline and ensemble member 4 of the online AERA version have now finished, and will be prepared for transfer to capacity storage
+
+
 
 
 ### Restarted both offline and online simulations
