@@ -11,7 +11,7 @@ This page is generated automatically from all project tasks and sorted by urgenc
 | Atmospheric CO2 constraint for AERA | Calculate atmospheric CO2 content from historical simulation | todo | medium | 2026-08-07 | 55 |
 | Atmospheric CO2 constraint for AERA | Implement new column in AERA for atmospheric CO2 content and feedback from model simulation | todo | medium | 2026-08-07 | 55 |
 | ERA5 data for MHW workshop | Calculate climatologies | todo | high | 2026-08-13 | 50 |
-| Update Speedy version in Julia Bern3D wrapper | Implement land runoff into freshwater coupling | todo | high | — | 30 |
+| Update Speedy version in Julia Bern3D wrapper | Implement land runoff into freshwater coupling | in_progress | high | — | 40 |
 | AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN | Run AGI pipeline on control simulation tipmip-esm-piControl or control simulation for drift | in_progress | medium | 2026-09-30 | 25 |
 | AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN | Run pipeline for TIPMIP-OCN simulations | in_progress | medium | 2026-09-30 | 25 |
 | AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN | Run pipeline for TIPMIP-ESM simulations | in_progress | medium | 2026-09-30 | 25 |

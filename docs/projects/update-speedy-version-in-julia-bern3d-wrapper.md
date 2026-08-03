@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-08-03 17:04  
+**Updated:** 2026-08-03 17:34  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -24,7 +24,7 @@ The version of SpeedyWeather has changed with some breaking changes.
 | --- | --- | --- | --- | --- |
 | ✅ | Update SpeedyWeather to newest release | done | medium | — |
 | ✅ | Implement breaking changes into current coupling | done | medium | — |
-| ⬜ | Implement land runoff into freshwater coupling | todo | high | — |
+| ⬜ | Implement land runoff into freshwater coupling | in_progress | high | — |
 
 ## Updates
 
