@@ -9,11 +9,11 @@
       <h3>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN</h3>
       <p class="ra-muted">Climate model diagnostics</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
-  <p>Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and TIPMIP-OCN simulations. For the TIPMIP-OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for TIPMIP-SOCN simulations</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 5 tasks completed</p>
+  <p>Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM, TIPMIP-OCN, and TIPMIP-SOCN simulations. For the TIPMIP-(S)OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for NASA-GISS output.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">5 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
   <a class="ra-button" href="agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
 </div>

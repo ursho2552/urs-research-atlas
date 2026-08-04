@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>0</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>20</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>12</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>1</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>15</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>17</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -37,11 +37,11 @@
       <h3>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN</h3>
       <p class="ra-muted">Climate model diagnostics</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
-  <p>Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and TIPMIP-OCN simulations. For the TIPMIP-OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for TIPMIP-SOCN simulations</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 5 tasks completed</p>
+  <p>Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM, TIPMIP-OCN, and TIPMIP-SOCN simulations. For the TIPMIP-(S)OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for NASA-GISS output.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">5 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
   <a class="ra-button" href="projects/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
 </div>
@@ -187,12 +187,6 @@
 
 
 <div class="ra-list-item">
-  <strong>Run AGI pipeline on NASA-GISS output</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · medium · due 2026-08-07</span>
-</div>
-
-
-<div class="ra-list-item">
   <strong>Calculate atmospheric CO2 content from historical simulation</strong>
   <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-07</span>
 </div>
@@ -209,10 +203,28 @@
   <span>ERA5 data for MHW workshop · high · due 2026-08-13</span>
 </div>
 
+
+<div class="ra-list-item">
+  <strong>Implement land runoff into freshwater coupling</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
+</div>
+
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Ran AGI pipeline on NASA-GISS simulations</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-04 10:10</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Ran AGI pipeline on GFDL simulations</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-04 08:18</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Pre-processing done</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-03 16:24</span>
@@ -222,18 +234,6 @@
 <div class="ra-list-item">
   <strong>Update to new version</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-03 11:21</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Missing wind fields</strong>
-  <span>ERA5 data for MHW workshop · 2026-08-03 10:36</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Partial results</strong>
-  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-03 10:28</span>
 </div>
 
     </div>

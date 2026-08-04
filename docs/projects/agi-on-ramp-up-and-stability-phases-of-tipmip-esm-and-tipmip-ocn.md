@@ -2,33 +2,59 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-08-03 16:49  
+**Updated:** 2026-08-04 10:11  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
 
-Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM and TIPMIP-OCN simulations. For the TIPMIP-OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for TIPMIP-SOCN simulations
+Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM, TIPMIP-OCN, and TIPMIP-SOCN simulations. For the TIPMIP-(S)OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for NASA-GISS output.
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-0 / 5 tasks completed.
+5 / 5 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
-| ⬜ | Run AGI pipeline on control simulation tipmip-esm-piControl or control simulation for drift | in_progress | medium | 2026-09-30 |
-| ⬜ | Run pipeline for TIPMIP-OCN simulations | in_progress | medium | 2026-09-30 |
-| ⬜ | Run pipeline for TIPMIP-ESM simulations | in_progress | medium | 2026-09-30 |
-| ⬜ | Run pipeline for TIPMIP-SOCN simulations | todo | medium | 2027-02-28 |
-| ⬜ | Run AGI pipeline on NASA-GISS output | todo | medium | 2026-08-07 |
+| ✅ | Run AGI pipeline on control simulation tipmip-esm-piControl or control simulation for drift | done | medium | 2026-09-30 |
+| ✅ | Run pipeline for TIPMIP-OCN simulations | done | medium | 2026-09-30 |
+| ✅ | Run pipeline for TIPMIP-ESM simulations | done | medium | 2026-09-30 |
+| ✅ | Run pipeline for TIPMIP-SOCN simulations | done | medium | 2027-02-28 |
+| ✅ | Run AGI pipeline on NASA-GISS output | done | medium | 2026-08-07 |
 
 ## Updates
+
+
+### Ran AGI pipeline on NASA-GISS simulations
+
+**2026-08-04 10:10**
+
+Finalized AGI run on tipmip-esm and tipmip-ocn simulations of NASA-GISS. The analysis is done across all depths, without removing the model drift, and relative to the first 20 years of the piControl simulation.
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/updates/2026-08-04-1010-agi-nasa-giss.png' alt='Relative AGI of TipMIP-ESM and TipMIP-OCN simulations done with NASA-GISS. The relative AGI was calculated relative to the first 20 years of the piControl simulation and without drift correction.'><figcaption>Relative AGI of TipMIP-ESM and TipMIP-OCN simulations done with NASA-GISS. The relative AGI was calculated relative to the first 20 years of the piControl simulation and without drift correction.</figcaption></figure>
+</div>
+
+
+
+### Ran AGI pipeline on GFDL simulations
+
+**2026-08-04 08:18**
+
+Finalized AGI run on tipmip-esm, tipmip-ocn, and tipmip-socn simulations. The analysis is done across all depths, without removing the model drift, and relative to the first 20 years of the piControl simulation.
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/updates/2026-08-04-0818-agi-gfdl-tipmip.png' alt='Relative AGI of TipMIP-ESM, TipMIP-OCN, and TipMIP-SOCN simulations done with GFDL-ESM2M. The relative AGI was calculated relative to the first 20 years of the piControl simulation and without drift correction.'><figcaption>Relative AGI of TipMIP-ESM, TipMIP-OCN, and TipMIP-SOCN simulations done with GFDL-ESM2M. The relative AGI was calculated relative to the first 20 years of the piControl simulation and without drift correction.</figcaption></figure>
+</div>
+
 
 
 ### Pre-processing done
