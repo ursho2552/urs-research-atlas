@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-08-03 10:36  
+**Updated:** 2026-08-04 14:40  
 **Tags:** `ERA5` `marine heatwaves` `climatology` `CDS API` `xarray` `NetCDF`
 
 ## Summary
@@ -29,7 +29,7 @@ Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotenti
 | ✅ | Download 500 hPa geopotential | done | medium | 2026-08-07 |
 | ⬜ | Download Wind data | in_progress | medium | 2026-08-07 |
 | ✅ | Download surface pressure | done | medium | 2026-08-07 |
-| ⬜ | Calculate climatologies | todo | high | 2026-08-13 |
+| ⬜ | Calculate climatologies | in_progress | high | 2026-08-13 |
 
 ## Updates
 

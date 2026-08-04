@@ -6,7 +6,7 @@ summary: Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa g
 area: Climate data processing
 status: active
 created: 2026-07-28 15:51
-updated: 2026-08-03 10:36
+updated: 2026-08-04 14:40
 tags:
 - ERA5
 - marine heatwaves
@@ -72,11 +72,11 @@ tasks:
   completed: 2026-08-03 10:32
 - id: era5-data-for-mhw-workshop-calculate-climatologies
   title: Calculate climatologies
-  status: todo
+  status: in_progress
   priority: high
   due_date: '2026-08-13'
   created: 2026-07-28 15:54
-  updated: 2026-07-28 15:54
+  updated: 2026-08-04 14:40
 updates:
 - id: 20260803103620-missing-wind-fields
   date: 2026-08-03 10:36

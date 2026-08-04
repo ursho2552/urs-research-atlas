@@ -214,6 +214,12 @@
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
+  <strong>Bug in Speedy river runoff</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-04 16:32</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Ran AGI pipeline on NASA-GISS simulations</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-04 10:10</span>
 </div>
@@ -228,12 +234,6 @@
 <div class="ra-list-item">
   <strong>Pre-processing done</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-03 16:24</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Update to new version</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-03 11:21</span>
 </div>
 
     </div>
