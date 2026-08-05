@@ -5,12 +5,28 @@
 <span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-08-04 10:11  
+**Updated:** 2026-08-05 11:42  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
 
-Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM, TIPMIP-OCN, and TIPMIP-SOCN simulations. For the TIPMIP-(S)OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for NASA-GISS output.
+This project aims at quantifying the effect of an AMOC collapse on marine ecosystems. The impact of an AMOC collapse is calculated by comparing the changes in the Aerobic Growth Index (AGI; Morée et al., 2023) relative to pre-industrial simulations (piControl). To this end, we use a set of simulations that have both gradual warming, and gradual warming with gradual freshwater hosing from the TipMIP-ESM and TipMIP-OCN projects using the GFDL-ESM2M model.
+
+From the TipMIP-ESM project, we use the piControl simulation, the emission ramp-up simulation (*esm-up2p0*), and the stability phase (*esm-up2p0-gwl2p0*). In the ramp-up simulation, emissions are increased gradually until the global warming level reaches +2°C above pre-industrial levels in roughly 100 years. Afterwards, the simulation is branched into the stability phase, where there are 0 emissions. The stability phase runs for 250 years.
+
+From the TipMIP-OCN project, we use similar simulations that use the same emission forcing as the *esm-up2p0* simulation, but adds a linear increase in freshwater hosing from 0 to 0.3 Sv around Greenland. We also use the same emission forcing as the *esm-up2p0-gwl2p0*, but we add a constant freshwater hosing of 0.3 Sv around Greenland for the duration of the simulation. These simulations result in a collapse/weakening of the AMOC.
+
+In addition, we add the simulations from what we call the TipMIP-SOCN project, which is an analogue to TipMIP-OCN, but applied the hosing to the Southern Ocean rather than around Greenland.
+
+Finally, we would like to also do a multi-model analysis of the changes in AGI by using the simulations from multiple models (e.g. NASA-GISS) in addition to our GFDL-ESM2M simulations.
+
+
+
+Bibliography:
+
+- Morée, A. L., Clarke, T. M., Cheung, W. W. L., and Frölicher, T. L.: Impact of deoxygenation and warming on global marine species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023, 2023.
+
+
 
 ## Progress
 

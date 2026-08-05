@@ -1,11 +1,22 @@
 id: re-run-hosing-simulations-for-amoc-collapse-paper
 title: Re-run hosing simulations for AMOC collapse paper
-summary: Re-run the hosing simulations used in the publication “Climate and Carbon
-  Cycle Responses to a 21st Century AMOC Collapse under a 2 °C Stabilization Pathway”.
+summary: "In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as DIC\
+  \ and alkalinity together with the freshwater flux. While freshwater input in reality\
+  \ should have a certain amount of alkalinity and DIC, this may not be ideal for\
+  \ idealised hosing experiments, as the input of DIC and alkalinity may influence\
+  \ the global carbon cycle.\r\n\r\n\r\nAs such, we adapted the standard hosing routine\
+  \ in a separate branch (*vertical_hosing*), which adds freshwater without any tracers.\
+  \ The only \"tracers\" that may still enter the ocean are temperature and salinity.\
+  \ For the publication “Climate and Carbon Cycle Responses to a 21st Century AMOC\
+  \ Collapse under a 2 °C Stabilization Pathway” (Frölicher et al., 2026), we need\
+  \ to re-run the simulations with the new *vertical_hosing* branch.\r\n\r\n\r\nBibliography\r\
+  \n\r\n- Frölicher, T. L., Maier, P., Burger, F. A., Silvy, Y., Swingedouw, D., &\
+  \ Elizondo, U. H. (2026). Climate and Carbon Cycle Responses to a 21st century AMOC\
+  \ collapse under a 2°C stabilization pathway. https://doi.org/10.5194/egusphere-egu26-22272"
 area: GFDL-ESM2M
 status: active
 created: 2026-07-28 16:21
-updated: 2026-08-03 10:28
+updated: 2026-08-05 15:03
 tags:
 - hosing simulations
 - GFDL-ESM2M
@@ -52,4 +63,10 @@ updates:
   text: Ensemble member 3 and 5 of the offline and ensemble member 4 of the online
     AERA version have now finished, and will be prepared for transfer to capacity
     storage
+- id: 20260805143814-transferred-intermediate-results-to-capacity
+  date: 2026-08-05 14:38
+  title: Transferred intermediate results to capacity
+  text: The ensembles members 3 and 5 of the offline version, the recovery simulation,
+    and the ensemble member 4 of the online version have been transferred to capacity
+    on UBELIX
 images: []

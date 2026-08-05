@@ -1,12 +1,24 @@
 id: era5-data-for-mhw-workshop
 title: ERA5 data for MHW workshop
-summary: Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotential
-  height, u and v surface wind, surface pressure, and specific humidity. Afterwards,
-  create a climatology of these fields for the period 1991-2000
+summary: "Catherine Gregory is organising a workshop on *Understanding the dynamics\
+  \ and feedback mechanisms of compound heatwaves between land and ocean\" (31. August\
+  \ to 3rd November 2026) at the University of Bern. To this end, we would like to\
+  \ provide some useful datasets for the participants for the hands-on parts of the\
+  \ workshop. \r\n\r\nOn our cluster, we currently have ERA5 data until roughly mid\
+  \ 2025, but would like to update it to get the most current available fields that\
+  \ are necessary for the workshop. These are:\r\n\r\n- Sea surface temperature,\r\
+  \n- 2m temperature,\r\n- 500 hPa geopotential height,\r\n- U component of wind,\r\
+  \n- V component of wind,\r\n- Surface pressure, and\r\n- Specific humidity.\r\n\r\
+  \nIn addition we also downloaded the UTCI, dew point, surface latent heat flux,\
+  \ surface sensible heat flux, surface solar radiation downwards, and surface thermal\
+  \ radiation downwards.\r\n\r\nIn addition, as the workshop focuses on heat waves,\
+  \ we would like to also provide climatologies (11-day mean), such that the participants\
+  \ could focus on the hands-on tasks, rather than the technical part of calculating\
+  \ climatologies.\r\n\r\n"
 area: Climate data processing
 status: active
 created: 2026-07-28 15:51
-updated: 2026-08-04 14:40
+updated: 2026-08-05 11:56
 tags:
 - ERA5
 - marine heatwaves
@@ -72,11 +84,12 @@ tasks:
   completed: 2026-08-03 10:32
 - id: era5-data-for-mhw-workshop-calculate-climatologies
   title: Calculate climatologies
-  status: in_progress
+  status: done
   priority: high
   due_date: '2026-08-13'
   created: 2026-07-28 15:54
-  updated: 2026-08-04 14:40
+  updated: 2026-08-05 11:56
+  completed: 2026-08-05 11:56
 updates:
 - id: 20260803103620-missing-wind-fields
   date: 2026-08-03 10:36

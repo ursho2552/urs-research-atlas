@@ -9,7 +9,6 @@ This page is generated automatically from all project tasks and sorted by urgenc
 | ERA5 data for MHW workshop | Download Wind data | in_progress | medium | 2026-08-07 | 85 |
 | Atmospheric CO2 constraint for AERA | Calculate atmospheric CO2 content from historical simulation | todo | medium | 2026-08-07 | 75 |
 | Atmospheric CO2 constraint for AERA | Implement new column in AERA for atmospheric CO2 content and feedback from model simulation | todo | medium | 2026-08-07 | 75 |
-| ERA5 data for MHW workshop | Calculate climatologies | in_progress | high | 2026-08-13 | 60 |
 | Update Speedy version in Julia Bern3D wrapper | Implement land runoff into freshwater coupling | in_progress | high | — | 40 |
 | Couple MEDUSA to Bern3D | Understand current structure of sediment module within Bern3D | in_progress | medium | — | 25 |
 | Couple MEDUSA to Bern3D | Read MEDUSA&#x27;s documentation on coupling | in_progress | medium | — | 25 |

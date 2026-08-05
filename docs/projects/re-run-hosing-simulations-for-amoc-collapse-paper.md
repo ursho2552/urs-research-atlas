@@ -5,12 +5,20 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** GFDL-ESM2M  
-**Updated:** 2026-08-03 10:28  
+**Updated:** 2026-08-05 15:03  
 **Tags:** `hosing simulations` `GFDL-ESM2M` `CSCS`
 
 ## Summary
 
-Re-run the hosing simulations used in the publication “Climate and Carbon Cycle Responses to a 21st Century AMOC Collapse under a 2 °C Stabilization Pathway”.
+In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as DIC and alkalinity together with the freshwater flux. While freshwater input in reality should have a certain amount of alkalinity and DIC, this may not be ideal for idealised hosing experiments, as the input of DIC and alkalinity may influence the global carbon cycle.
+
+
+As such, we adapted the standard hosing routine in a separate branch (*vertical_hosing*), which adds freshwater without any tracers. The only "tracers" that may still enter the ocean are temperature and salinity. For the publication “Climate and Carbon Cycle Responses to a 21st Century AMOC Collapse under a 2 °C Stabilization Pathway” (Frölicher et al., 2026), we need to re-run the simulations with the new *vertical_hosing* branch.
+
+
+Bibliography
+
+- Frölicher, T. L., Maier, P., Burger, F. A., Silvy, Y., Swingedouw, D., & Elizondo, U. H. (2026). Climate and Carbon Cycle Responses to a 21st century AMOC collapse under a 2°C stabilization pathway. https://doi.org/10.5194/egusphere-egu26-22272
 
 ## Progress
 
@@ -27,6 +35,15 @@ Re-run the hosing simulations used in the publication “Climate and Carbon Cycl
 | ✅ | Run recovery simulation after 100 years hosing | done | medium | — |
 
 ## Updates
+
+
+### Transferred intermediate results to capacity
+
+**2026-08-05 14:38**
+
+The ensembles members 3 and 5 of the offline version, the recovery simulation, and the ensemble member 4 of the online version have been transferred to capacity on UBELIX
+
+
 
 
 ### Partial results

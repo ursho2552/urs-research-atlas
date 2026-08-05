@@ -5,12 +5,22 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-08-04 16:32  
+**Updated:** 2026-08-05 12:04  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
 
-The version of SpeedyWeather has changed with some breaking changes.
+The Bern3D model has a relatively simple atmosphere module. To improve this, we decided to couple a new and highly customisable atmospheric model called SpeedyWeather (Klöwer et al., 2024). Furthermore, this new coupled model will be used in subsequent projects that try do use online downscaling to couple the Bern3D-SpeedyWeather model to a land vegetation model LPX, which requires finer-scale inputs than what Bern3D is currently able to provide.
+
+Previously, we successfully coupled Bern3D's ocean to SpeedyWeather using v0.18. However, new breaking changes have been implemented with v0.21.1, and as this project is ongoing, we would like to continuously keep up our coupling with the newest SpeedyWeather version available. As such, we need to update SpeedyWeather to the newest release in our shared environment. Second, we need to revise  the breaking changes and implement them into our coupling.
+
+
+In addition, we noticed that our freshwater coupling has a missing component, the river runoff. For this reason, we will try to reimplement the freshwater coupling. 
+
+
+Bibliography:
+
+- Klöwer et al., (2024). SpeedyWeather.jl: Reinventing atmospheric general circulation models towards interactivity and extensibility. Journal of Open Source Software, 9(98), 6323, doi:10.21105/joss.06323.
 
 ## Progress
 

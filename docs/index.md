@@ -16,8 +16,8 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>1</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>15</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>17</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>14</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>18</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -39,7 +39,23 @@
     </div>
     <span class="ra-badge ra-badge-completed">completed</span>
   </div>
-  <p>Run our AGI pipeline on the ramp-up and stability phases of the TIPMIP-ESM, TIPMIP-OCN, and TIPMIP-SOCN simulations. For the TIPMIP-(S)OCN simulations use the tier 1 simulations (i.e., 0.3 Sv). In addition, also run the same pipeline but for NASA-GISS output.</p>
+  <p>This project aims at quantifying the effect of an AMOC collapse on marine ecosystems. The impact of an AMOC collapse is calculated by comparing the changes in the Aerobic Growth Index (AGI; Morée et al., 2023) relative to pre-industrial simulations (piControl). To this end, we use a set of simulations that have both gradual warming, and gradual warming with gradual freshwater hosing from the TipMIP-ESM and TipMIP-OCN projects using the GFDL-ESM2M model.
+
+From the TipMIP-ESM project, we use the piControl simulation, the emission ramp-up simulation (*esm-up2p0*), and the stability phase (*esm-up2p0-gwl2p0*). In the ramp-up simulation, emissions are increased gradually until the global warming level reaches +2°C above pre-industrial levels in roughly 100 years. Afterwards, the simulation is branched into the stability phase, where there are 0 emissions. The stability phase runs for 250 years.
+
+From the TipMIP-OCN project, we use similar simulations that use the same emission forcing as the *esm-up2p0* simulation, but adds a linear increase in freshwater hosing from 0 to 0.3 Sv around Greenland. We also use the same emission forcing as the *esm-up2p0-gwl2p0*, but we add a constant freshwater hosing of 0.3 Sv around Greenland for the duration of the simulation. These simulations result in a collapse/weakening of the AMOC.
+
+In addition, we add the simulations from what we call the TipMIP-SOCN project, which is an analogue to TipMIP-OCN, but applied the hosing to the Southern Ocean rather than around Greenland.
+
+Finally, we would like to also do a multi-model analysis of the changes in AGI by using the simulations from multiple models (e.g. NASA-GISS) in addition to our GFDL-ESM2M simulations.
+
+
+
+Bibliography:
+
+- Morée, A. L., Clarke, T. M., Cheung, W. W. L., and Frölicher, T. L.: Impact of deoxygenation and warming on global marine species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023, 2023.
+
+</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
   <p class="ra-muted">5 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
@@ -103,7 +119,12 @@
     </div>
     <span class="ra-badge ra-badge-paused">paused</span>
   </div>
-  <p>The custom CMOR pipeline for GFDL-ESM2M was getting too big for the shared repository with common ocean modelling scripts. Thus, I restructured it and created an independent repository. This new implementation has to be tested and properly documented for later use</p>
+  <p>For the TipMIP-ESM project, we need to provide our simulation data in a CMIP standardised format. For the deliverables, the simulations should be in *CMIP6Plus* format. To this end, we developed a custom *Climate Model Output Rewriter&quot; (CMOR) pipeline for our model GFDL-ESM2M.
+
+Previously, this tools was part of a larger ocean tools repository. However, the tool got very large and complex, which then resulted in the creation of a separate repository for the tool alone, and a refactoring. During the refactoring, the tool was made more general to allow for the use of different CMIP formats, but stayed specific to GFDL-ESM2M output.
+
+As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
+</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
   <p class="ra-muted">0 / 0 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
@@ -119,9 +140,25 @@
     </div>
     <span class="ra-badge ra-badge-active">active</span>
   </div>
-  <p>Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotential height, u and v surface wind, surface pressure, and specific humidity. Afterwards, create a climatology of these fields for the period 1991-2000</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
-  <p class="ra-muted">6 / 8 tasks completed</p>
+  <p>Catherine Gregory is organising a workshop on *Understanding the dynamics and feedback mechanisms of compound heatwaves between land and ocean&quot; (31. August to 3rd November 2026) at the University of Bern. To this end, we would like to provide some useful datasets for the participants for the hands-on parts of the workshop. 
+
+On our cluster, we currently have ERA5 data until roughly mid 2025, but would like to update it to get the most current available fields that are necessary for the workshop. These are:
+
+- Sea surface temperature,
+- 2m temperature,
+- 500 hPa geopotential height,
+- U component of wind,
+- V component of wind,
+- Surface pressure, and
+- Specific humidity.
+
+In addition we also downloaded the UTCI, dew point, surface latent heat flux, surface sensible heat flux, surface solar radiation downwards, and surface thermal radiation downwards.
+
+In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
+
+</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
+  <p class="ra-muted">7 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">ERA5</span><span class="ra-tag">marine heatwaves</span><span class="ra-tag">climatology</span><span class="ra-tag">CDS API</span><span class="ra-tag">xarray</span><span class="ra-tag">NetCDF</span></div>
   <a class="ra-button" href="projects/era5-data-for-mhw-workshop/">View project</a>
 </div>
@@ -151,7 +188,15 @@
     </div>
     <span class="ra-badge ra-badge-active">active</span>
   </div>
-  <p>Re-run the hosing simulations used in the publication “Climate and Carbon Cycle Responses to a 21st Century AMOC Collapse under a 2 °C Stabilization Pathway”.</p>
+  <p>In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as DIC and alkalinity together with the freshwater flux. While freshwater input in reality should have a certain amount of alkalinity and DIC, this may not be ideal for idealised hosing experiments, as the input of DIC and alkalinity may influence the global carbon cycle.
+
+
+As such, we adapted the standard hosing routine in a separate branch (*vertical_hosing*), which adds freshwater without any tracers. The only &quot;tracers&quot; that may still enter the ocean are temperature and salinity. For the publication “Climate and Carbon Cycle Responses to a 21st Century AMOC Collapse under a 2 °C Stabilization Pathway” (Frölicher et al., 2026), we need to re-run the simulations with the new *vertical_hosing* branch.
+
+
+Bibliography
+
+- Frölicher, T. L., Maier, P., Burger, F. A., Silvy, Y., Swingedouw, D., &amp; Elizondo, U. H. (2026). Climate and Carbon Cycle Responses to a 21st century AMOC collapse under a 2°C stabilization pathway. https://doi.org/10.5194/egusphere-egu26-22272</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
   <p class="ra-muted">1 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">hosing simulations</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CSCS</span></div>
@@ -167,7 +212,17 @@
     </div>
     <span class="ra-badge ra-badge-active">active</span>
   </div>
-  <p>The version of SpeedyWeather has changed with some breaking changes.</p>
+  <p>The Bern3D model has a relatively simple atmosphere module. To improve this, we decided to couple a new and highly customisable atmospheric model called SpeedyWeather (Klöwer et al., 2024). Furthermore, this new coupled model will be used in subsequent projects that try do use online downscaling to couple the Bern3D-SpeedyWeather model to a land vegetation model LPX, which requires finer-scale inputs than what Bern3D is currently able to provide.
+
+Previously, we successfully coupled Bern3D&#x27;s ocean to SpeedyWeather using v0.18. However, new breaking changes have been implemented with v0.21.1, and as this project is ongoing, we would like to continuously keep up our coupling with the newest SpeedyWeather version available. As such, we need to update SpeedyWeather to the newest release in our shared environment. Second, we need to revise  the breaking changes and implement them into our coupling.
+
+
+In addition, we noticed that our freshwater coupling has a missing component, the river runoff. For this reason, we will try to reimplement the freshwater coupling. 
+
+
+Bibliography:
+
+- Klöwer et al., (2024). SpeedyWeather.jl: Reinventing atmospheric general circulation models towards interactivity and extensibility. Journal of Open Source Software, 9(98), 6323, doi:10.21105/joss.06323.</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
   <p class="ra-muted">2 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">SpeedyWeather</span><span class="ra-tag">Julia</span><span class="ra-tag">model coupling</span><span class="ra-tag">Bern3D</span></div>
@@ -199,20 +254,26 @@
 
 
 <div class="ra-list-item">
-  <strong>Calculate climatologies</strong>
-  <span>ERA5 data for MHW workshop · high · due 2026-08-13</span>
+  <strong>Implement land runoff into freshwater coupling</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Implement land runoff into freshwater coupling</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
+  <strong>Understand current structure of sediment module within Bern3D</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Transferred intermediate results to capacity</strong>
+  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-05 14:38</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Bug in Speedy river runoff</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-04 16:32</span>
@@ -228,12 +289,6 @@
 <div class="ra-list-item">
   <strong>Ran AGI pipeline on GFDL simulations</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-04 08:18</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Pre-processing done</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-03 16:24</span>
 </div>
 
     </div>

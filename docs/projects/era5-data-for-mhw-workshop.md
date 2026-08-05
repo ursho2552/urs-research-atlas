@@ -5,18 +5,34 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-08-04 14:40  
+**Updated:** 2026-08-05 11:56  
 **Tags:** `ERA5` `marine heatwaves` `climatology` `CDS API` `xarray` `NetCDF`
 
 ## Summary
 
-Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotential height, u and v surface wind, surface pressure, and specific humidity. Afterwards, create a climatology of these fields for the period 1991-2000
+Catherine Gregory is organising a workshop on *Understanding the dynamics and feedback mechanisms of compound heatwaves between land and ocean" (31. August to 3rd November 2026) at the University of Bern. To this end, we would like to provide some useful datasets for the participants for the hands-on parts of the workshop. 
+
+On our cluster, we currently have ERA5 data until roughly mid 2025, but would like to update it to get the most current available fields that are necessary for the workshop. These are:
+
+- Sea surface temperature,
+- 2m temperature,
+- 500 hPa geopotential height,
+- U component of wind,
+- V component of wind,
+- Surface pressure, and
+- Specific humidity.
+
+In addition we also downloaded the UTCI, dew point, surface latent heat flux, surface sensible heat flux, surface solar radiation downwards, and surface thermal radiation downwards.
+
+In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
+
+
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
 
-6 / 8 tasks completed.
+7 / 8 tasks completed.
 
 ## Tasks
 
@@ -29,7 +45,7 @@ Download latest data (2025 and 2026) for SST, 2m-temperature, 500 hPa geopotenti
 | ✅ | Download 500 hPa geopotential | done | medium | 2026-08-07 |
 | ⬜ | Download Wind data | in_progress | medium | 2026-08-07 |
 | ✅ | Download surface pressure | done | medium | 2026-08-07 |
-| ⬜ | Calculate climatologies | in_progress | high | 2026-08-13 |
+| ✅ | Calculate climatologies | done | high | 2026-08-13 |
 
 ## Updates
 
