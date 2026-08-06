@@ -16,8 +16,8 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>1</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>14</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>18</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>15</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>17</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -157,8 +157,8 @@ In addition we also downloaded the UTCI, dew point, surface latent heat flux, su
 In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
 
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
-  <p class="ra-muted">7 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+  <p class="ra-muted">6 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">ERA5</span><span class="ra-tag">marine heatwaves</span><span class="ra-tag">climatology</span><span class="ra-tag">CDS API</span><span class="ra-tag">xarray</span><span class="ra-tag">NetCDF</span></div>
   <a class="ra-button" href="projects/era5-data-for-mhw-workshop/">View project</a>
 </div>
@@ -236,6 +236,12 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
+  <strong>Download specific humidity</strong>
+  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Download Wind data</strong>
   <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
 </div>
@@ -258,16 +264,22 @@ Bibliography:
   <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
 </div>
 
-
-<div class="ra-list-item">
-  <strong>Understand current structure of sediment module within Bern3D</strong>
-  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
-</div>
-
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Added climatologies for different pressure levels</strong>
+  <span>ERA5 data for MHW workshop · 2026-08-06 17:13</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Re-implemented conservative remapping</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-06 16:23</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Transferred intermediate results to capacity</strong>
   <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-05 14:38</span>
@@ -277,18 +289,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Bug in Speedy river runoff</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-04 16:32</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Ran AGI pipeline on NASA-GISS simulations</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-04 10:10</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Ran AGI pipeline on GFDL simulations</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-04 08:18</span>
 </div>
 
     </div>

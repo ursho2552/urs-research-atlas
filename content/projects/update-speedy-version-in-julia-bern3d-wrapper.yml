@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-08-05 12:04
+updated: 2026-08-06 17:14
 tags:
 - SpeedyWeather
 - Julia
@@ -72,4 +72,16 @@ updates:
     \ is now calculated using:\r\n```\r\nR[ij] += (1 - p) * δW₁ * f₁ \r\n```\r\nwhich\
     \ results in runoff values that are at least comparable to the other freshwater\
     \ accumulators\r\n\r\n"
+- id: 20260806162344-re-implemented-conservative-remapping
+  date: 2026-08-06 16:23
+  title: Re-implemented conservative remapping
+  text: "The remapping from Bern3D to SpeedyWeather's grid was not conserving mass\
+    \ nor fluxes.\r\n\r\nI have now reimplemented it, and added diagnostics to continuously\
+    \ check that the fluxes and masses are conserved before and after the remapping.\
+    \ In addition, I now also added a surface runoff routing with a 3x3 stencil to\
+    \ the coupler analogously to how the surface runoff is handled in Bern3D with\
+    \ a fraction routed to the coast and the rest to a *global* bucket that is then\
+    \ distributed."
+  updated: 2026-08-06 17:14
+  images: []
 images: []

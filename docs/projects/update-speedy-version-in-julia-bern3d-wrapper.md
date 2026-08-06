@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-08-05 12:04  
+**Updated:** 2026-08-06 17:14  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -37,6 +37,17 @@ Bibliography:
 | ⬜ | Implement land runoff into freshwater coupling | in_progress | high | — |
 
 ## Updates
+
+
+### Re-implemented conservative remapping
+
+**2026-08-06 16:23**
+
+The remapping from Bern3D to SpeedyWeather's grid was not conserving mass nor fluxes.
+
+I have now reimplemented it, and added diagnostics to continuously check that the fluxes and masses are conserved before and after the remapping. In addition, I now also added a surface runoff routing with a 3x3 stencil to the coupler analogously to how the surface runoff is handled in Bern3D with a fraction routed to the coast and the rest to a *global* bucket that is then distributed.
+
+
 
 
 ### Bug in Speedy river runoff

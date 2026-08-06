@@ -18,7 +18,7 @@ summary: "Catherine Gregory is organising a workshop on *Understanding the dynam
 area: Climate data processing
 status: active
 created: 2026-07-28 15:51
-updated: 2026-08-05 11:56
+updated: 2026-08-06 17:13
 tags:
 - ERA5
 - marine heatwaves
@@ -37,11 +37,11 @@ tasks:
   updated: 2026-07-28 15:51
 - id: era5-data-for-mhw-workshop-download-specific-humidity
   title: Download specific humidity
-  status: done
+  status: in_progress
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-28 15:52
-  updated: 2026-07-28 20:23
+  updated: 2026-08-06 17:11
   completed: 2026-07-28 20:23
 - id: era5-data-for-mhw-workshop-download-sst
   title: Download SST
@@ -95,4 +95,10 @@ updates:
   date: 2026-08-03 10:36
   title: Missing wind fields
   text: All fields except the wind fields have all been downloaded
+- id: 20260806171300-added-climatologies-for-different-pressure-levels
+  date: 2026-08-06 17:13
+  title: Added climatologies for different pressure levels
+  text: New climatologies for several pressure levels were requested and calculated.
+    In addition, the specific humidity across all pressure levels should also be downloaded
+    for 2025 and 2026
 images: []

@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-08-05 11:56  
+**Updated:** 2026-08-06 17:13  
 **Tags:** `ERA5` `marine heatwaves` `climatology` `CDS API` `xarray` `NetCDF`
 
 ## Summary
@@ -30,16 +30,16 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
 
-7 / 8 tasks completed.
+6 / 8 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
 | ✅ | Update ERA5 download tool | done | medium | 2026-08-13 |
-| ✅ | Download specific humidity | done | medium | 2026-08-07 |
+| ⬜ | Download specific humidity | in_progress | medium | 2026-08-07 |
 | ✅ | Download SST | done | medium | 2026-08-07 |
 | ✅ | Download 2m-temperature | done | medium | 2026-08-07 |
 | ✅ | Download 500 hPa geopotential | done | medium | 2026-08-07 |
@@ -48,6 +48,15 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 | ✅ | Calculate climatologies | done | high | 2026-08-13 |
 
 ## Updates
+
+
+### Added climatologies for different pressure levels
+
+**2026-08-06 17:13**
+
+New climatologies for several pressure levels were requested and calculated. In addition, the specific humidity across all pressure levels should also be downloaded for 2025 and 2026
+
+
 
 
 ### Missing wind fields

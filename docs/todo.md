@@ -6,6 +6,7 @@ This page is generated automatically from all project tasks and sorted by urgenc
 
 | Project | Task | Status | Priority | Due date | Urgency |
 | --- | --- | --- | --- | --- | ---: |
+| ERA5 data for MHW workshop | Download specific humidity | in_progress | medium | 2026-08-07 | 85 |
 | ERA5 data for MHW workshop | Download Wind data | in_progress | medium | 2026-08-07 | 85 |
 | Atmospheric CO2 constraint for AERA | Calculate atmospheric CO2 content from historical simulation | todo | medium | 2026-08-07 | 75 |
 | Atmospheric CO2 constraint for AERA | Implement new column in AERA for atmospheric CO2 content and feedback from model simulation | todo | medium | 2026-08-07 | 75 |

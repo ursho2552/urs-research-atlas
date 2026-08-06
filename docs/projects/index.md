@@ -129,8 +129,8 @@ In addition we also downloaded the UTCI, dew point, surface latent heat flux, su
 In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
 
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
-  <p class="ra-muted">7 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+  <p class="ra-muted">6 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">ERA5</span><span class="ra-tag">marine heatwaves</span><span class="ra-tag">climatology</span><span class="ra-tag">CDS API</span><span class="ra-tag">xarray</span><span class="ra-tag">NetCDF</span></div>
   <a class="ra-button" href="era5-data-for-mhw-workshop/">View project</a>
 </div>
