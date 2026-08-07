@@ -16,8 +16,8 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>1</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>15</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>17</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>14</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>18</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -71,9 +71,13 @@ Bibliography:
     </div>
     <span class="ra-badge ra-badge-active">active</span>
   </div>
-  <p>Implement new feature in AERA where instead of using cumulative emissions we use atmospheric CO2 content to estimate future emissions until a specific global surface aragonite saturation state is reached</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 40%"></div></div>
-  <p class="ra-muted">2 / 5 tasks completed</p>
+  <p>This project aims at extending AERA by introducing a second target based on the global surface ocean aragonite saturation state, in addition to the existing global mean surface temperature target.
+
+For this new target, we use atmospheric CO$_2$ content rather than cumulative emissions to determine allowable future emissions. This is necessary because, once the target is reached, the ocean and land continue to absorb atmospheric CO$_2$ . As atmospheric CO$_2$  declines, some additional emissions may therefore become compatible with maintaining the prescribed aragonite saturation state.
+
+To account for this, we implemented a new constraint based on atmospheric carbon content. The framework determines the atmospheric CO$_2$  level associated with the target aragonite saturation state and uses its subsequent evolution to derive allowable future emissions. This allows emissions to respond dynamically to continued land and ocean carbon uptake after the target has been reached.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 60%"></div></div>
+  <p class="ra-muted">3 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">AERA</span></div>
   <a class="ra-button" href="projects/atmospheric-co2-constraint-for-aera/">View project</a>
 </div>
@@ -154,7 +158,7 @@ On our cluster, we currently have ERA5 data until roughly mid 2025, but would li
 
 In addition we also downloaded the UTCI, dew point, surface latent heat flux, surface sensible heat flux, surface solar radiation downwards, and surface thermal radiation downwards.
 
-In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
+In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean for the period 1991-2000), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
 
 </p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
@@ -236,6 +240,12 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
+  <strong>Implement new column in AERA for atmospheric CO2 content and feedback from model simulation</strong>
+  <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-07</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Download specific humidity</strong>
   <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
 </div>
@@ -248,26 +258,32 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Calculate atmospheric CO2 content from historical simulation</strong>
-  <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-07</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Implement new column in AERA for atmospheric CO2 content and feedback from model simulation</strong>
-  <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-07</span>
-</div>
-
-
-<div class="ra-list-item">
   <strong>Implement land runoff into freshwater coupling</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Understand current structure of sediment module within Bern3D</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Fix conservation and stability in SpeedyWeather-Bern3D coupling</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-07 16:44</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Missing specific humidity pressure levels</strong>
+  <span>ERA5 data for MHW workshop · 2026-08-07 12:13</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Added climatologies for different pressure levels</strong>
   <span>ERA5 data for MHW workshop · 2026-08-06 17:13</span>
@@ -277,18 +293,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Re-implemented conservative remapping</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-06 16:23</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Transferred intermediate results to capacity</strong>
-  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-05 14:38</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Bug in Speedy river runoff</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-04 16:32</span>
 </div>
 
     </div>

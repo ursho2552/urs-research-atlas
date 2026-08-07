@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-08-06 17:13  
+**Updated:** 2026-08-07 12:13  
 **Tags:** `ERA5` `marine heatwaves` `climatology` `CDS API` `xarray` `NetCDF`
 
 ## Summary
@@ -24,7 +24,7 @@ On our cluster, we currently have ERA5 data until roughly mid 2025, but would li
 
 In addition we also downloaded the UTCI, dew point, surface latent heat flux, surface sensible heat flux, surface solar radiation downwards, and surface thermal radiation downwards.
 
-In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
+In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean for the period 1991-2000), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
 
 
 
@@ -48,6 +48,15 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 | ✅ | Calculate climatologies | done | high | 2026-08-13 |
 
 ## Updates
+
+
+### Missing specific humidity pressure levels
+
+**2026-08-07 12:13**
+
+Across all the years, from 2010 until the end (2026) some pressure levels appear to be missing. Mostly the pressure levels 800 and 825 hPa. For the individual years 2017 and 2018 the missing pressure levels are 1000 hPa, and 825-925 and 1000 hPa, respectively.
+
+
 
 
 ### Added climatologies for different pressure levels

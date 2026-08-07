@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-08-06 17:14  
+**Updated:** 2026-08-07 16:44  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -37,6 +37,25 @@ Bibliography:
 | ⬜ | Implement land runoff into freshwater coupling | in_progress | high | — |
 
 ## Updates
+
+
+### Fix conservation and stability in SpeedyWeather-Bern3D coupling
+
+**2026-08-07 16:44**
+
+Freshwater: use ocean (not grid-total) humidity flux for evaporation, weight runoff by land fraction, and close the global water budget. Fixes the ~3.6 Sv spurious input that drove the salinity drift.
+
+Brine: split sea-ice salt flux (1-f) surface / f depth as atmOAhFWfl.f90 does, and exclude it from the water-cycle closure. It was applied twice.
+
+Wind stress: set dztau/dztav as well as tau, so baroclinic and barotropic forcing are consistent; read scf from the parameter file instead of hardcoding
+1.8; low-pass to climatology-like smoothness.
+
+Remapping: ocean-aware weights with both land-sea masks built in, so flux is no longer discarded on Bern3D land (~5.9% of ocean area).
+
+Heat: correct the freezing bound coefficient, apply it after the closure, and report true annual means instead of a once-a-year sample that aliased onto the seasonal cycle.
+
+
+
 
 
 ### Re-implemented conservative remapping

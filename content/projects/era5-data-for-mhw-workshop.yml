@@ -12,13 +12,13 @@ summary: "Catherine Gregory is organising a workshop on *Understanding the dynam
   \nIn addition we also downloaded the UTCI, dew point, surface latent heat flux,\
   \ surface sensible heat flux, surface solar radiation downwards, and surface thermal\
   \ radiation downwards.\r\n\r\nIn addition, as the workshop focuses on heat waves,\
-  \ we would like to also provide climatologies (11-day mean), such that the participants\
-  \ could focus on the hands-on tasks, rather than the technical part of calculating\
-  \ climatologies.\r\n\r\n"
+  \ we would like to also provide climatologies (11-day mean for the period 1991-2000),\
+  \ such that the participants could focus on the hands-on tasks, rather than the\
+  \ technical part of calculating climatologies.\r\n\r\n"
 area: Climate data processing
 status: active
 created: 2026-07-28 15:51
-updated: 2026-08-06 17:13
+updated: 2026-08-07 12:13
 tags:
 - ERA5
 - marine heatwaves
@@ -101,4 +101,11 @@ updates:
   text: New climatologies for several pressure levels were requested and calculated.
     In addition, the specific humidity across all pressure levels should also be downloaded
     for 2025 and 2026
+- id: 20260807121326-missing-specific-humidity-pressure-levels
+  date: 2026-08-07 12:13
+  title: Missing specific humidity pressure levels
+  text: Across all the years, from 2010 until the end (2026) some pressure levels
+    appear to be missing. Mostly the pressure levels 800 and 825 hPa. For the individual
+    years 2017 and 2018 the missing pressure levels are 1000 hPa, and 825-925 and
+    1000 hPa, respectively.
 images: []

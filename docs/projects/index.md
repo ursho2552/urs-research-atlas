@@ -43,9 +43,13 @@ Bibliography:
     </div>
     <span class="ra-badge ra-badge-active">active</span>
   </div>
-  <p>Implement new feature in AERA where instead of using cumulative emissions we use atmospheric CO2 content to estimate future emissions until a specific global surface aragonite saturation state is reached</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 40%"></div></div>
-  <p class="ra-muted">2 / 5 tasks completed</p>
+  <p>This project aims at extending AERA by introducing a second target based on the global surface ocean aragonite saturation state, in addition to the existing global mean surface temperature target.
+
+For this new target, we use atmospheric CO$_2$ content rather than cumulative emissions to determine allowable future emissions. This is necessary because, once the target is reached, the ocean and land continue to absorb atmospheric CO$_2$ . As atmospheric CO$_2$  declines, some additional emissions may therefore become compatible with maintaining the prescribed aragonite saturation state.
+
+To account for this, we implemented a new constraint based on atmospheric carbon content. The framework determines the atmospheric CO$_2$  level associated with the target aragonite saturation state and uses its subsequent evolution to derive allowable future emissions. This allows emissions to respond dynamically to continued land and ocean carbon uptake after the target has been reached.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 60%"></div></div>
+  <p class="ra-muted">3 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">AERA</span></div>
   <a class="ra-button" href="atmospheric-co2-constraint-for-aera/">View project</a>
 </div>
@@ -126,7 +130,7 @@ On our cluster, we currently have ERA5 data until roughly mid 2025, but would li
 
 In addition we also downloaded the UTCI, dew point, surface latent heat flux, surface sensible heat flux, surface solar radiation downwards, and surface thermal radiation downwards.
 
-In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
+In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean for the period 1991-2000), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
 
 </p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>

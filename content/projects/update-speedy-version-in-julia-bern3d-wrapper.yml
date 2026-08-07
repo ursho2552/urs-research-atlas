@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-08-06 17:14
+updated: 2026-08-07 16:44
 tags:
 - SpeedyWeather
 - Julia
@@ -84,4 +84,19 @@ updates:
     \ distributed."
   updated: 2026-08-06 17:14
   images: []
+- id: 20260807164403-fix-conservation-and-stability-in-speedyweather-bern3d-coupling
+  date: 2026-08-07 16:44
+  title: Fix conservation and stability in SpeedyWeather-Bern3D coupling
+  text: "Freshwater: use ocean (not grid-total) humidity flux for evaporation, weight\
+    \ runoff by land fraction, and close the global water budget. Fixes the ~3.6 Sv\
+    \ spurious input that drove the salinity drift.\r\n\r\nBrine: split sea-ice salt\
+    \ flux (1-f) surface / f depth as atmOAhFWfl.f90 does, and exclude it from the\
+    \ water-cycle closure. It was applied twice.\r\n\r\nWind stress: set dztau/dztav\
+    \ as well as tau, so baroclinic and barotropic forcing are consistent; read scf\
+    \ from the parameter file instead of hardcoding\r\n1.8; low-pass to climatology-like\
+    \ smoothness.\r\n\r\nRemapping: ocean-aware weights with both land-sea masks built\
+    \ in, so flux is no longer discarded on Bern3D land (~5.9% of ocean area).\r\n\
+    \r\nHeat: correct the freezing bound coefficient, apply it after the closure,\
+    \ and report true annual means instead of a once-a-year sample that aliased onto\
+    \ the seasonal cycle.\r\n"
 images: []

@@ -1,12 +1,22 @@
 id: atmospheric-co2-constraint-for-aera
 title: Atmospheric CO2 constraint for AERA
-summary: Implement new feature in AERA where instead of using cumulative emissions
-  we use atmospheric CO2 content to estimate future emissions until a specific global
-  surface aragonite saturation state is reached
+summary: "This project aims at extending AERA by introducing a second target based\
+  \ on the global surface ocean aragonite saturation state, in addition to the existing\
+  \ global mean surface temperature target.\r\n\r\nFor this new target, we use atmospheric\
+  \ CO$_2$ content rather than cumulative emissions to determine allowable future\
+  \ emissions. This is necessary because, once the target is reached, the ocean and\
+  \ land continue to absorb atmospheric CO$_2$ . As atmospheric CO$_2$  declines,\
+  \ some additional emissions may therefore become compatible with maintaining the\
+  \ prescribed aragonite saturation state.\r\n\r\nTo account for this, we implemented\
+  \ a new constraint based on atmospheric carbon content. The framework determines\
+  \ the atmospheric CO$_2$  level associated with the target aragonite saturation\
+  \ state and uses its subsequent evolution to derive allowable future emissions.\
+  \ This allows emissions to respond dynamically to continued land and ocean carbon\
+  \ uptake after the target has been reached."
 area: Climate target modelling
 status: active
 created: 2026-07-28 16:07
-updated: 2026-07-29 12:07
+updated: 2026-08-07 15:18
 tags:
 - AERA
 links: {}
@@ -34,19 +44,20 @@ tasks:
   updated: 2026-07-28 16:17
 - id: atmospheric-co2-constraint-for-aera-calculate-atmospheric-co2-content-from-historical-simulation
   title: Calculate atmospheric CO2 content from historical simulation
-  status: todo
+  status: done
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-29 12:07
-  updated: 2026-07-29 12:07
+  updated: 2026-08-07 14:01
+  completed: 2026-08-07 14:01
 - id: atmospheric-co2-constraint-for-aera-implement-new-column-in-aera-for-atmospheric-co2-content-and-feedback-from-model-simulation
   title: Implement new column in AERA for atmospheric CO2 content and feedback from
     model simulation
-  status: todo
+  status: in_progress
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-29 12:07
-  updated: 2026-07-29 12:07
+  updated: 2026-08-07 15:18
 updates:
 - id: 20260728161112-reproducibility-bug
   date: 2026-07-28 16:11
