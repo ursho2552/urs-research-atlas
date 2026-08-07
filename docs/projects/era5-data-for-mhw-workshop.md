@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-08-07 12:13  
+**Updated:** 2026-08-07 19:58  
 **Tags:** `ERA5` `marine heatwaves` `climatology` `CDS API` `xarray` `NetCDF`
 
 ## Summary
@@ -30,9 +30,9 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
 
-6 / 8 tasks completed.
+7 / 8 tasks completed.
 
 ## Tasks
 
@@ -43,11 +43,20 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 | ✅ | Download SST | done | medium | 2026-08-07 |
 | ✅ | Download 2m-temperature | done | medium | 2026-08-07 |
 | ✅ | Download 500 hPa geopotential | done | medium | 2026-08-07 |
-| ⬜ | Download Wind data | in_progress | medium | 2026-08-07 |
+| ✅ | Download Wind data | done | medium | 2026-08-07 |
 | ✅ | Download surface pressure | done | medium | 2026-08-07 |
 | ✅ | Calculate climatologies | done | high | 2026-08-13 |
 
 ## Updates
+
+
+### Finished downloading wind data
+
+**2026-08-07 19:58**
+
+The missing data for 2025 and 2026 of the u and v components of wind have now been downloaded successfully for all pressure levels.
+
+
 
 
 ### Missing specific humidity pressure levels

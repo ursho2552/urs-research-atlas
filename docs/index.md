@@ -16,8 +16,8 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>1</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>14</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>18</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>13</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>19</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -161,8 +161,8 @@ In addition we also downloaded the UTCI, dew point, surface latent heat flux, su
 In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean for the period 1991-2000), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
 
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
-  <p class="ra-muted">6 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
+  <p class="ra-muted">7 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">ERA5</span><span class="ra-tag">marine heatwaves</span><span class="ra-tag">climatology</span><span class="ra-tag">CDS API</span><span class="ra-tag">xarray</span><span class="ra-tag">NetCDF</span></div>
   <a class="ra-button" href="projects/era5-data-for-mhw-workshop/">View project</a>
 </div>
@@ -252,12 +252,6 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Download Wind data</strong>
-  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
-</div>
-
-
-<div class="ra-list-item">
   <strong>Implement land runoff into freshwater coupling</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
 </div>
@@ -268,10 +262,22 @@ Bibliography:
   <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
+
+<div class="ra-list-item">
+  <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+</div>
+
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Finished downloading wind data</strong>
+  <span>ERA5 data for MHW workshop · 2026-08-07 19:58</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Fix conservation and stability in SpeedyWeather-Bern3D coupling</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-07 16:44</span>
@@ -287,12 +293,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Added climatologies for different pressure levels</strong>
   <span>ERA5 data for MHW workshop · 2026-08-06 17:13</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Re-implemented conservative remapping</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-06 16:23</span>
 </div>
 
     </div>

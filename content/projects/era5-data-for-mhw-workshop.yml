@@ -18,7 +18,7 @@ summary: "Catherine Gregory is organising a workshop on *Understanding the dynam
 area: Climate data processing
 status: active
 created: 2026-07-28 15:51
-updated: 2026-08-07 12:13
+updated: 2026-08-07 19:58
 tags:
 - ERA5
 - marine heatwaves
@@ -69,11 +69,12 @@ tasks:
   completed: 2026-08-03 10:32
 - id: era5-data-for-mhw-workshop-download-wind-data
   title: Download Wind data
-  status: in_progress
+  status: done
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-28 15:53
-  updated: 2026-08-03 10:32
+  updated: 2026-08-07 19:57
+  completed: 2026-08-07 19:57
 - id: era5-data-for-mhw-workshop-download-surface-pressure
   title: Download surface pressure
   status: done
@@ -108,4 +109,9 @@ updates:
     appear to be missing. Mostly the pressure levels 800 and 825 hPa. For the individual
     years 2017 and 2018 the missing pressure levels are 1000 hPa, and 825-925 and
     1000 hPa, respectively.
+- id: 20260807195835-finished-downloading-wind-data
+  date: 2026-08-07 19:58
+  title: Finished downloading wind data
+  text: The missing data for 2025 and 2026 of the u and v components of wind have
+    now been downloaded successfully for all pressure levels.
 images: []
