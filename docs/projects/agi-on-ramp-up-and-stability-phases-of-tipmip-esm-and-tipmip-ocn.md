@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-completed">completed</span>
+<span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-08-05 11:42  
+**Updated:** 2026-08-10 16:07  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -30,9 +30,9 @@ Bibliography:
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
 
-5 / 5 tasks completed.
+5 / 6 tasks completed.
 
 ## Tasks
 
@@ -43,6 +43,7 @@ Bibliography:
 | ✅ | Run pipeline for TIPMIP-ESM simulations | done | medium | 2026-09-30 |
 | ✅ | Run pipeline for TIPMIP-SOCN simulations | done | medium | 2027-02-28 |
 | ✅ | Run AGI pipeline on NASA-GISS output | done | medium | 2026-08-07 |
+| ⬜ | Run the AGI pipeline on CESM2 and IPSL simulations | todo | medium | 2026-08-13 |
 
 ## Updates
 

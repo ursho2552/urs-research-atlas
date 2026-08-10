@@ -26,9 +26,9 @@ summary: "This project aims at quantifying the effect of an AMOC collapse on mar
   \ species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023,\
   \ 2023.\r\n\r\n"
 area: Climate model diagnostics
-status: completed
+status: active
 created: 2026-07-29 12:11
-updated: 2026-08-05 11:42
+updated: 2026-08-10 16:07
 tags:
 - TIPMIP
 - AMOC
@@ -76,6 +76,13 @@ tasks:
   created: 2026-07-30 10:54
   updated: 2026-08-04 10:08
   completed: 2026-08-04 10:08
+- id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-the-agi-pipeline-on-cesm2-and-ipsl-simulations
+  title: Run the AGI pipeline on CESM2 and IPSL simulations
+  status: todo
+  priority: medium
+  due_date: '2026-08-13'
+  created: 2026-08-10 16:07
+  updated: 2026-08-10 16:07
 updates:
 - id: 20260729144355-partial-results-ready
   date: 2026-07-29 14:43

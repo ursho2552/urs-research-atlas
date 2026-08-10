@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>1</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>13</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>19</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>0</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>14</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>20</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -37,7 +37,7 @@
       <h3>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN</h3>
       <p class="ra-muted">Climate model diagnostics</p>
     </div>
-    <span class="ra-badge ra-badge-completed">completed</span>
+    <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>This project aims at quantifying the effect of an AMOC collapse on marine ecosystems. The impact of an AMOC collapse is calculated by comparing the changes in the Aerobic Growth Index (AGI; Morée et al., 2023) relative to pre-industrial simulations (piControl). To this end, we use a set of simulations that have both gradual warming, and gradual warming with gradual freshwater hosing from the TipMIP-ESM and TipMIP-OCN projects using the GFDL-ESM2M model.
 
@@ -56,8 +56,8 @@ Bibliography:
 - Morée, A. L., Clarke, T. M., Cheung, W. W. L., and Frölicher, T. L.: Impact of deoxygenation and warming on global marine species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023, 2023.
 
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
-  <p class="ra-muted">5 / 5 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
+  <p class="ra-muted">5 / 6 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
   <a class="ra-button" href="projects/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
 </div>
@@ -227,8 +227,8 @@ In addition, we noticed that our freshwater coupling has a missing component, th
 Bibliography:
 
 - Klöwer et al., (2024). SpeedyWeather.jl: Reinventing atmospheric general circulation models towards interactivity and extensibility. Journal of Open Source Software, 9(98), 6323, doi:10.21105/joss.06323.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
-  <p class="ra-muted">2 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+  <p class="ra-muted">3 / 4 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">SpeedyWeather</span><span class="ra-tag">Julia</span><span class="ra-tag">model coupling</span><span class="ra-tag">Bern3D</span></div>
   <a class="ra-button" href="projects/update-speedy-version-in-julia-bern3d-wrapper/">View project</a>
 </div>
@@ -252,26 +252,38 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Implement land runoff into freshwater coupling</strong>
+  <strong>Run the AGI pipeline on CESM2 and IPSL simulations</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · medium · due 2026-08-13</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Test new coupled model</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Understand current structure of sediment module within Bern3D</strong>
-  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
-  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+  <strong>Change driver used to estimate future emissions</strong>
+  <span>Atmospheric CO2 constraint for AERA · medium · due not set</span>
 </div>
 
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Added corrected check for existing files</strong>
+  <span>ERA5 data for MHW workshop · 2026-08-10 16:13</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Running offline tests</strong>
+  <span>Atmospheric CO2 constraint for AERA · 2026-08-10 16:12</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Finished downloading wind data</strong>
   <span>ERA5 data for MHW workshop · 2026-08-07 19:58</span>
@@ -281,18 +293,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Fix conservation and stability in SpeedyWeather-Bern3D coupling</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-07 16:44</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Missing specific humidity pressure levels</strong>
-  <span>ERA5 data for MHW workshop · 2026-08-07 12:13</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Added climatologies for different pressure levels</strong>
-  <span>ERA5 data for MHW workshop · 2026-08-06 17:13</span>
 </div>
 
     </div>

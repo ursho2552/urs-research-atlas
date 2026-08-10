@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate target modelling  
-**Updated:** 2026-08-07 15:18  
+**Updated:** 2026-08-10 16:12  
 **Tags:** `AERA`
 
 ## Summary
@@ -28,11 +28,28 @@ To account for this, we implemented a new constraint based on atmospheric carbon
 | --- | --- | --- | --- | --- |
 | ✅ | Find bug resulting in differences between single and combined target | done | medium | — |
 | ✅ | Implement ocean/land sink | done | medium | — |
-| ⬜ | Change driver used to estimate future emissions | todo | medium | — |
+| ⬜ | Change driver used to estimate future emissions | in_progress | medium | — |
 | ✅ | Calculate atmospheric CO2 content from historical simulation | done | medium | 2026-08-07 |
 | ⬜ | Implement new column in AERA for atmospheric CO2 content and feedback from model simulation | in_progress | medium | 2026-08-07 |
 
 ## Updates
+
+
+### Running offline tests
+
+**2026-08-10 16:12**
+
+I have now implemented the use of atmospheric C content for estimating future emissions until a certain $\Omega$ target is reached. This is currently done without any real feedback from the model. This is done as follows:
+
+1. Run AERA on 2026 creating an emissions file,
+2. Copy simulation files from an existing run
+3. After each run, save the Omega values
+4. On the next stocktake, run AERA again
+
+This is done to check whether the pipeline would run, and to see the emissions and file structure created. The model response will be wrong, as the emissions used in the actual model run stem from the old AERA implementation that used cumulative emissions instead of the atmospheric C content.
+
+
+
 
 
 ### Update in AERA code worked

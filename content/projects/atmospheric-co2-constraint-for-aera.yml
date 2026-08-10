@@ -16,7 +16,7 @@ summary: "This project aims at extending AERA by introducing a second target bas
 area: Climate target modelling
 status: active
 created: 2026-07-28 16:07
-updated: 2026-08-07 15:18
+updated: 2026-08-10 16:12
 tags:
 - AERA
 links: {}
@@ -37,11 +37,11 @@ tasks:
   updated: 2026-07-28 16:11
 - id: atmospheric-co2-constraint-for-aera-change-driver-used-to-estimate-future-emissions
   title: Change driver used to estimate future emissions
-  status: todo
+  status: in_progress
   priority: medium
   due_date: ''
   created: 2026-07-28 16:17
-  updated: 2026-07-28 16:17
+  updated: 2026-08-10 16:08
 - id: atmospheric-co2-constraint-for-aera-calculate-atmospheric-co2-content-from-historical-simulation
   title: Calculate atmospheric CO2 content from historical simulation
   status: done
@@ -73,4 +73,17 @@ updates:
   title: Update in AERA code worked
   text: Marine tested the new setup on CSCS for 10 years. The simulations are now
     identical when using the combined version against the single version.
+- id: 20260810161237-running-offline-tests
+  date: 2026-08-10 16:12
+  title: Running offline tests
+  text: "I have now implemented the use of atmospheric C content for estimating future\
+    \ emissions until a certain $\\Omega$ target is reached. This is currently done\
+    \ without any real feedback from the model. This is done as follows:\r\n\r\n1.\
+    \ Run AERA on 2026 creating an emissions file,\r\n2. Copy simulation files from\
+    \ an existing run\r\n3. After each run, save the Omega values\r\n4. On the next\
+    \ stocktake, run AERA again\r\n\r\nThis is done to check whether the pipeline\
+    \ would run, and to see the emissions and file structure created. The model response\
+    \ will be wrong, as the emissions used in the actual model run stem from the old\
+    \ AERA implementation that used cumulative emissions instead of the atmospheric\
+    \ C content.\r\n"
 images: []

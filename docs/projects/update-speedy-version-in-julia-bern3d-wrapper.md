@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-08-07 16:44  
+**Updated:** 2026-08-10 16:15  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -24,9 +24,9 @@ Bibliography:
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
 
-2 / 3 tasks completed.
+3 / 4 tasks completed.
 
 ## Tasks
 
@@ -34,7 +34,8 @@ Bibliography:
 | --- | --- | --- | --- | --- |
 | ✅ | Update SpeedyWeather to newest release | done | medium | — |
 | ✅ | Implement breaking changes into current coupling | done | medium | — |
-| ⬜ | Implement land runoff into freshwater coupling | in_progress | high | — |
+| ✅ | Implement land runoff into freshwater coupling | done | high | — |
+| ⬜ | Test new coupled model | in_progress | high | — |
 
 ## Updates
 

@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-08-07 16:44
+updated: 2026-08-10 16:15
 tags:
 - SpeedyWeather
 - Julia
@@ -45,11 +45,19 @@ tasks:
   completed: 2026-08-03 17:04
 - id: update-speedy-version-in-julia-bern3d-wrapper-implement-land-runoff-into-freshwater-coupling
   title: Implement land runoff into freshwater coupling
-  status: in_progress
+  status: done
   priority: high
   due_date: ''
   created: 2026-08-03 10:37
-  updated: 2026-08-03 17:34
+  updated: 2026-08-10 16:15
+  completed: 2026-08-10 16:15
+- id: update-speedy-version-in-julia-bern3d-wrapper-test-new-coupled-model
+  title: Test new coupled model
+  status: in_progress
+  priority: high
+  due_date: ''
+  created: 2026-08-10 16:15
+  updated: 2026-08-10 16:15
 updates:
 - id: 20260803112144-update-to-new-version
   date: 2026-08-03 11:21

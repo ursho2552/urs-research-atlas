@@ -18,7 +18,7 @@ summary: "Catherine Gregory is organising a workshop on *Understanding the dynam
 area: Climate data processing
 status: active
 created: 2026-07-28 15:51
-updated: 2026-08-07 19:58
+updated: 2026-08-10 16:13
 tags:
 - ERA5
 - marine heatwaves
@@ -114,4 +114,9 @@ updates:
   title: Finished downloading wind data
   text: The missing data for 2025 and 2026 of the u and v components of wind have
     now been downloaded successfully for all pressure levels.
+- id: 20260810161349-added-corrected-check-for-existing-files
+  date: 2026-08-10 16:13
+  title: Added corrected check for existing files
+  text: The automatic file check before every download was not working properly. This
+    has now been fixed.
 images: []

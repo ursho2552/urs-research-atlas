@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-08-07 19:58  
+**Updated:** 2026-08-10 16:13  
 **Tags:** `ERA5` `marine heatwaves` `climatology` `CDS API` `xarray` `NetCDF`
 
 ## Summary
@@ -48,6 +48,15 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 | ✅ | Calculate climatologies | done | high | 2026-08-13 |
 
 ## Updates
+
+
+### Added corrected check for existing files
+
+**2026-08-10 16:13**
+
+The automatic file check before every download was not working properly. This has now been fixed.
+
+
 
 
 ### Finished downloading wind data
