@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-08-10 16:15  
+**Updated:** 2026-08-11 10:21  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -38,6 +38,32 @@ Bibliography:
 | ⬜ | Test new coupled model | in_progress | high | — |
 
 ## Updates
+
+
+### Current status
+
+**2026-08-11 10:21**
+
+In the current version, the overall patterns look reasonable. The old waters in the Pacific are located at 1500-2500 m depth at around 20-45°N. The SST and SSS patterns look right, with the Mediterranean and subtropical salinity maxima, fresh subpolar and Arctic waters, and sensible SST gradients. The AMOC strength is a bit weaker than in the standard run, stabilising at around 20 Sv.
+
+After 1190 simulation years, we find the following:
+
+- Global salinity has a drift of −0.100813 -> −0.100394, drift 3.5e-7 /yr ,
+- Applied heat is −0.086 W/m² -> −0.00018 K/yr,
+- The sea ice extent is roughly 5.12% of the ocean (18.781 10$^6$ km$^2$),
+- The global temperature stabilises at 3.95°C,
+- The AMOC strength stabilises at 20 Sv,
+
+
+However, this balance may be due to the wrong reason. Ice production is 8 times higher than observed. Speedy applies -5.18 W/m$^2$, from which most of it is directly converted into sea ice (freeze clip = 5.09 W/m$^2$). There is also a cooling atmosphere bias, which is absorbed by the ice cycle. This increased ice cycle explains the fresher salinity and overall lower SST
+
+
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/update-speedy-version-in-julia-bern3d-wrapper/updates/2026-08-11-1021-sst-sss.png' alt='Sea Surface Temperature (SST in °C) and Sea Surface Salinity (SSS in PSU) of the Bern3D-SpeedyWeather coupled model after 1190 simulation years. '><figcaption>Sea Surface Temperature (SST in °C) and Sea Surface Salinity (SSS in PSU) of the Bern3D-SpeedyWeather coupled model after 1190 simulation years. </figcaption></figure>
+</div>
+
 
 
 ### Fix conservation and stability in SpeedyWeather-Bern3D coupling

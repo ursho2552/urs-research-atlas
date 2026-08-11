@@ -16,8 +16,8 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>0</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>14</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>20</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>13</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>22</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -76,8 +76,8 @@ Bibliography:
 For this new target, we use atmospheric CO$_2$ content rather than cumulative emissions to determine allowable future emissions. This is necessary because, once the target is reached, the ocean and land continue to absorb atmospheric CO$_2$ . As atmospheric CO$_2$  declines, some additional emissions may therefore become compatible with maintaining the prescribed aragonite saturation state.
 
 To account for this, we implemented a new constraint based on atmospheric carbon content. The framework determines the atmospheric CO$_2$  level associated with the target aragonite saturation state and uses its subsequent evolution to derive allowable future emissions. This allows emissions to respond dynamically to continued land and ocean carbon uptake after the target has been reached.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 60%"></div></div>
-  <p class="ra-muted">3 / 5 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
+  <p class="ra-muted">5 / 6 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">AERA</span></div>
   <a class="ra-button" href="projects/atmospheric-co2-constraint-for-aera/">View project</a>
 </div>
@@ -240,14 +240,14 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
-  <strong>Implement new column in AERA for atmospheric CO2 content and feedback from model simulation</strong>
-  <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-07</span>
+  <strong>Download specific humidity</strong>
+  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Download specific humidity</strong>
-  <span>ERA5 data for MHW workshop · medium · due 2026-08-07</span>
+  <strong>Test new implementation</strong>
+  <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-14</span>
 </div>
 
 
@@ -264,8 +264,8 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Change driver used to estimate future emissions</strong>
-  <span>Atmospheric CO2 constraint for AERA · medium · due not set</span>
+  <strong>Understand current structure of sediment module within Bern3D</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
     </div>
@@ -273,26 +273,26 @@ Bibliography:
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
-  <strong>Added corrected check for existing files</strong>
-  <span>ERA5 data for MHW workshop · 2026-08-10 16:13</span>
+  <strong>Testing the new implementation</strong>
+  <span>Atmospheric CO2 constraint for AERA · 2026-08-11 16:16</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Running offline tests</strong>
-  <span>Atmospheric CO2 constraint for AERA · 2026-08-10 16:12</span>
+  <strong>Silent bug in pipeline</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-11 16:14</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Finished downloading wind data</strong>
-  <span>ERA5 data for MHW workshop · 2026-08-07 19:58</span>
+  <strong>Changed perturbation for restarts</strong>
+  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-11 12:33</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Fix conservation and stability in SpeedyWeather-Bern3D coupling</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-07 16:44</span>
+  <strong>Current status</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-11 10:21</span>
 </div>
 
     </div>

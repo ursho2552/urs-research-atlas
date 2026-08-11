@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** GFDL-ESM2M  
-**Updated:** 2026-08-05 15:03  
+**Updated:** 2026-08-11 12:34  
 **Tags:** `hosing simulations` `GFDL-ESM2M` `CSCS`
 
 ## Summary
@@ -35,6 +35,19 @@ Bibliography
 | ✅ | Run recovery simulation after 100 years hosing | done | medium | — |
 
 ## Updates
+
+
+### Changed perturbation for restarts
+
+**2026-08-11 12:33**
+
+Added a new routine to add a global perturbation to simulation runs as done for the ensemble boosting project, which produces new coherent storylines. We do this to see if the way we perturb failed simulations avoids the *drtsafe-crash* during hosing experiments
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/re-run-hosing-simulations-for-amoc-collapse-paper/updates/2026-08-11-1233-ensemble-boosting.png' alt='Example of the ensemble boosting project, where a master simulation (red) is perturbed slightly to create novel and coherent storylines (black)'><figcaption>Example of the ensemble boosting project, where a master simulation (red) is perturbed slightly to create novel and coherent storylines (black)</figcaption></figure>
+</div>
+
 
 
 ### Transferred intermediate results to capacity

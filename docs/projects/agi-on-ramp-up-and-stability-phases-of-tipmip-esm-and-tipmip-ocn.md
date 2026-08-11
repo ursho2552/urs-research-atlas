@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-08-10 16:07  
+**Updated:** 2026-08-11 16:14  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -46,6 +46,17 @@ Bibliography:
 | ⬜ | Run the AGI pipeline on CESM2 and IPSL simulations | todo | medium | 2026-08-13 |
 
 ## Updates
+
+
+### Silent bug in pipeline
+
+**2026-08-11 16:14**
+
+During the analysis we noticed strange patterns in the relative AGI fields. These patterns stem from negative concentration in the original O$_2$ concentration fields.
+
+To correct this, we introduced a new filter to change negative values to a *reasonable* low value.
+
+
 
 
 ### Ran AGI pipeline on NASA-GISS simulations

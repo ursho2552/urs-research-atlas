@@ -16,7 +16,7 @@ summary: "In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as 
 area: GFDL-ESM2M
 status: active
 created: 2026-07-28 16:21
-updated: 2026-08-05 15:03
+updated: 2026-08-11 12:34
 tags:
 - hosing simulations
 - GFDL-ESM2M
@@ -69,4 +69,17 @@ updates:
   text: The ensembles members 3 and 5 of the offline version, the recovery simulation,
     and the ensemble member 4 of the online version have been transferred to capacity
     on UBELIX
+- id: 20260811123327-changed-perturbation-for-restarts
+  date: 2026-08-11 12:33
+  title: Changed perturbation for restarts
+  text: Added a new routine to add a global perturbation to simulation runs as done
+    for the ensemble boosting project, which produces new coherent storylines. We
+    do this to see if the way we perturb failed simulations avoids the *drtsafe-crash*
+    during hosing experiments
+  images:
+  - path: assets/uploads/re-run-hosing-simulations-for-amoc-collapse-paper/updates/2026-08-11-1233-ensemble-boosting.png
+    caption: Example of the ensemble boosting project, where a master simulation (red)
+      is perturbed slightly to create novel and coherent storylines (black)
+    uploaded: 2026-08-11 12:33
+  updated: 2026-08-11 12:34
 images: []

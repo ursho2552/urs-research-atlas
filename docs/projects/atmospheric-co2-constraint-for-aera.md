@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate target modelling  
-**Updated:** 2026-08-10 16:12  
+**Updated:** 2026-08-11 16:16  
 **Tags:** `AERA`
 
 ## Summary
@@ -18,9 +18,9 @@ To account for this, we implemented a new constraint based on atmospheric carbon
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 60%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
 
-3 / 5 tasks completed.
+5 / 6 tasks completed.
 
 ## Tasks
 
@@ -28,11 +28,23 @@ To account for this, we implemented a new constraint based on atmospheric carbon
 | --- | --- | --- | --- | --- |
 | ✅ | Find bug resulting in differences between single and combined target | done | medium | — |
 | ✅ | Implement ocean/land sink | done | medium | — |
-| ⬜ | Change driver used to estimate future emissions | in_progress | medium | — |
+| ✅ | Change driver used to estimate future emissions | done | medium | — |
 | ✅ | Calculate atmospheric CO2 content from historical simulation | done | medium | 2026-08-07 |
-| ⬜ | Implement new column in AERA for atmospheric CO2 content and feedback from model simulation | in_progress | medium | 2026-08-07 |
+| ✅ | Implement new column in AERA for atmospheric CO2 content and feedback from model simulation | done | medium | 2026-08-07 |
+| ⬜ | Test new implementation | in_progress | medium | 2026-08-14 |
 
 ## Updates
+
+
+### Testing the new implementation
+
+**2026-08-11 16:16**
+
+The new implementation is now being tested on CSCS. 
+
+After fixing some problems in the setup and run-scripts, the model appears to run smoothly, with updated emission fields derived from the atmospheric carbon content and the land/ocean sink.
+
+
 
 
 ### Running offline tests

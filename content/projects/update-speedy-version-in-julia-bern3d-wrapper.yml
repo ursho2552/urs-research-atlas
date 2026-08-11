@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-08-10 16:15
+updated: 2026-08-11 10:21
 tags:
 - SpeedyWeather
 - Julia
@@ -107,4 +107,27 @@ updates:
     \r\nHeat: correct the freezing bound coefficient, apply it after the closure,\
     \ and report true annual means instead of a once-a-year sample that aliased onto\
     \ the seasonal cycle.\r\n"
+- id: 20260811102130-current-status
+  date: 2026-08-11 10:21
+  title: Current status
+  text: "In the current version, the overall patterns look reasonable. The old waters\
+    \ in the Pacific are located at 1500-2500 m depth at around 20-45°N. The SST and\
+    \ SSS patterns look right, with the Mediterranean and subtropical salinity maxima,\
+    \ fresh subpolar and Arctic waters, and sensible SST gradients. The AMOC strength\
+    \ is a bit weaker than in the standard run, stabilising at around 20 Sv.\r\n\r\
+    \nAfter 1190 simulation years, we find the following:\r\n\r\n- Global salinity\
+    \ has a drift of −0.100813 -> −0.100394, drift 3.5e-7 /yr ,\r\n- Applied heat\
+    \ is −0.086 W/m² -> −0.00018 K/yr,\r\n- The sea ice extent is roughly 5.12% of\
+    \ the ocean (18.781 10$^6$ km$^2$),\r\n- The global temperature stabilises at\
+    \ 3.95°C,\r\n- The AMOC strength stabilises at 20 Sv,\r\n\r\n\r\nHowever, this\
+    \ balance may be due to the wrong reason. Ice production is 8 times higher than\
+    \ observed. Speedy applies -5.18 W/m$^2$, from which most of it is directly converted\
+    \ into sea ice (freeze clip = 5.09 W/m$^2$). There is also a cooling atmosphere\
+    \ bias, which is absorbed by the ice cycle. This increased ice cycle explains\
+    \ the fresher salinity and overall lower SST\r\n\r\n"
+  images:
+  - path: assets/uploads/update-speedy-version-in-julia-bern3d-wrapper/updates/2026-08-11-1021-sst-sss.png
+    caption: 'Sea Surface Temperature (SST in °C) and Sea Surface Salinity (SSS in
+      PSU) of the Bern3D-SpeedyWeather coupled model after 1190 simulation years. '
+    uploaded: 2026-08-11 10:21
 images: []

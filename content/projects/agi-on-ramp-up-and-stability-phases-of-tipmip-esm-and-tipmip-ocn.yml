@@ -28,7 +28,7 @@ summary: "This project aims at quantifying the effect of an AMOC collapse on mar
 area: Climate model diagnostics
 status: active
 created: 2026-07-29 12:11
-updated: 2026-08-10 16:07
+updated: 2026-08-11 16:14
 tags:
 - TIPMIP
 - AMOC
@@ -162,4 +162,11 @@ updates:
       The relative AGI was calculated relative to the first 20 years of the piControl
       simulation and without drift correction.
     uploaded: 2026-08-04 10:10
+- id: 20260811161414-silent-bug-in-pipeline
+  date: 2026-08-11 16:14
+  title: Silent bug in pipeline
+  text: "During the analysis we noticed strange patterns in the relative AGI fields.\
+    \ These patterns stem from negative concentration in the original O$_2$ concentration\
+    \ fields.\r\n\r\nTo correct this, we introduced a new filter to change negative\
+    \ values to a *reasonable* low value."
 images: []
