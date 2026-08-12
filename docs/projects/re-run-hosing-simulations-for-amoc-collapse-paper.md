@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** GFDL-ESM2M  
-**Updated:** 2026-08-11 12:34  
+**Updated:** 2026-08-12 16:12  
 **Tags:** `hosing simulations` `GFDL-ESM2M` `CSCS`
 
 ## Summary
@@ -35,6 +35,20 @@ Bibliography
 | ✅ | Run recovery simulation after 100 years hosing | done | medium | — |
 
 ## Updates
+
+
+### Ensemble 5 of online run finished
+
+**2026-08-12 16:12**
+
+Using the new approach, ensemble 5 of the online version has now also finished until 2200.
+
+The remaining simulations are:
+
+- Ensemble 1 and 3 of the online version,
+- Ensemble 1, 2, and 4 of the offline version 
+
+
 
 
 ### Changed perturbation for restarts

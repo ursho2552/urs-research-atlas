@@ -16,7 +16,7 @@ summary: "This project aims at extending AERA by introducing a second target bas
 area: Climate target modelling
 status: active
 created: 2026-07-28 16:07
-updated: 2026-08-11 16:16
+updated: 2026-08-12 16:18
 tags:
 - AERA
 links: {}
@@ -102,4 +102,19 @@ updates:
     \ some problems in the setup and run-scripts, the model appears to run smoothly,\
     \ with updated emission fields derived from the atmospheric carbon content and\
     \ the land/ocean sink."
+- id: 20260812161820-proof-of-concept
+  date: 2026-08-12 16:18
+  title: Proof of concept
+  text: "After the implementation, the first test run successfully and allowed us\
+    \ to discover different bugs in the original implementation., which have now been\
+    \ addressed.\r\n\r\nFurthermore, we found a strange pattern in the estimated emissions,\
+    \ that overshoot every second stocktake year, leading to a zig-zag pattern shown\
+    \ in the attached plot."
+  images:
+  - path: assets/uploads/atmospheric-co2-constraint-for-aera/updates/2026-08-12-1618-aera-atmc-test.png
+    caption: Emissions predicted by AERA during a test simulation starting on 2026.
+      The estimated emissions on the first stocktake look reasonable, but are followed
+      by a drastic decrease. Every second stocktake, the predicted emissions swing
+      either up or down drastically.
+    uploaded: 2026-08-12 16:18
 images: []

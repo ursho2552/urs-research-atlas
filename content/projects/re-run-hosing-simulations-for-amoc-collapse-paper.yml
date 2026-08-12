@@ -16,7 +16,7 @@ summary: "In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as 
 area: GFDL-ESM2M
 status: active
 created: 2026-07-28 16:21
-updated: 2026-08-11 12:34
+updated: 2026-08-12 16:12
 tags:
 - hosing simulations
 - GFDL-ESM2M
@@ -82,4 +82,10 @@ updates:
       is perturbed slightly to create novel and coherent storylines (black)
     uploaded: 2026-08-11 12:33
   updated: 2026-08-11 12:34
+- id: 20260812161238-ensemble-5-of-online-run-finished
+  date: 2026-08-12 16:12
+  title: Ensemble 5 of online run finished
+  text: "Using the new approach, ensemble 5 of the online version has now also finished\
+    \ until 2200.\r\n\r\nThe remaining simulations are:\r\n\r\n- Ensemble 1 and 3\
+    \ of the online version,\r\n- Ensemble 1, 2, and 4 of the offline version "
 images: []

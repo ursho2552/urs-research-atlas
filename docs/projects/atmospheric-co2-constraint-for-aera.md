@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate target modelling  
-**Updated:** 2026-08-11 16:16  
+**Updated:** 2026-08-12 16:18  
 **Tags:** `AERA`
 
 ## Summary
@@ -34,6 +34,21 @@ To account for this, we implemented a new constraint based on atmospheric carbon
 | ⬜ | Test new implementation | in_progress | medium | 2026-08-14 |
 
 ## Updates
+
+
+### Proof of concept
+
+**2026-08-12 16:18**
+
+After the implementation, the first test run successfully and allowed us to discover different bugs in the original implementation., which have now been addressed.
+
+Furthermore, we found a strange pattern in the estimated emissions, that overshoot every second stocktake year, leading to a zig-zag pattern shown in the attached plot.
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/atmospheric-co2-constraint-for-aera/updates/2026-08-12-1618-aera-atmc-test.png' alt='Emissions predicted by AERA during a test simulation starting on 2026. The estimated emissions on the first stocktake look reasonable, but are followed by a drastic decrease. Every second stocktake, the predicted emissions swing either up or down drastically.'><figcaption>Emissions predicted by AERA during a test simulation starting on 2026. The estimated emissions on the first stocktake look reasonable, but are followed by a drastic decrease. Every second stocktake, the predicted emissions swing either up or down drastically.</figcaption></figure>
+</div>
+
 
 
 ### Testing the new implementation

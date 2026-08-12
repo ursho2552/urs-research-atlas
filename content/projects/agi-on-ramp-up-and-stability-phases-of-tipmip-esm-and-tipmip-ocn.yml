@@ -28,7 +28,7 @@ summary: "This project aims at quantifying the effect of an AMOC collapse on mar
 area: Climate model diagnostics
 status: active
 created: 2026-07-29 12:11
-updated: 2026-08-11 16:14
+updated: 2026-08-12 18:25
 tags:
 - TIPMIP
 - AMOC
@@ -169,4 +169,10 @@ updates:
     \ These patterns stem from negative concentration in the original O$_2$ concentration\
     \ fields.\r\n\r\nTo correct this, we introduced a new filter to change negative\
     \ values to a *reasonable* low value."
+  updated: 2026-08-12 18:25
+  images:
+  - path: assets/uploads/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/updates/2026-08-12-1825-agi-negativeo2.png
+    caption: Depth mean of depth-resolved AGI before (left) and after (right) masking
+      negative O$_2$ concentrations.
+    uploaded: 2026-08-12 18:25
 images: []

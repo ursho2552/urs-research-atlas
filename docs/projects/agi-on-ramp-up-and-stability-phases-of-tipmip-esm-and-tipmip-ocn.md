@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-08-11 16:14  
+**Updated:** 2026-08-12 18:25  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -56,6 +56,10 @@ During the analysis we noticed strange patterns in the relative AGI fields. Thes
 
 To correct this, we introduced a new filter to change negative values to a *reasonable* low value.
 
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/updates/2026-08-12-1825-agi-negativeo2.png' alt='Depth mean of depth-resolved AGI before (left) and after (right) masking negative O$_2$ concentrations.'><figcaption>Depth mean of depth-resolved AGI before (left) and after (right) masking negative O$_2$ concentrations.</figcaption></figure>
+</div>
 
 
 

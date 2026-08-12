@@ -273,6 +273,18 @@ Bibliography:
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
+  <strong>Proof of concept</strong>
+  <span>Atmospheric CO2 constraint for AERA · 2026-08-12 16:18</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Ensemble 5 of online run finished</strong>
+  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-12 16:12</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Testing the new implementation</strong>
   <span>Atmospheric CO2 constraint for AERA · 2026-08-11 16:16</span>
 </div>
@@ -281,18 +293,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Silent bug in pipeline</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-11 16:14</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Changed perturbation for restarts</strong>
-  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-11 12:33</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Current status</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-08-11 10:21</span>
 </div>
 
     </div>
