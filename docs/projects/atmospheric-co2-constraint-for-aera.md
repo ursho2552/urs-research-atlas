@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Climate target modelling  
-**Updated:** 2026-08-12 16:18  
+**Updated:** 2026-08-15 12:06  
 **Tags:** `AERA`
 
 ## Summary
@@ -18,9 +18,9 @@ To account for this, we implemented a new constraint based on atmospheric carbon
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-5 / 6 tasks completed.
+6 / 6 tasks completed.
 
 ## Tasks
 
@@ -31,9 +31,24 @@ To account for this, we implemented a new constraint based on atmospheric carbon
 | ✅ | Change driver used to estimate future emissions | done | medium | — |
 | ✅ | Calculate atmospheric CO2 content from historical simulation | done | medium | 2026-08-07 |
 | ✅ | Implement new column in AERA for atmospheric CO2 content and feedback from model simulation | done | medium | 2026-08-07 |
-| ⬜ | Test new implementation | in_progress | medium | 2026-08-14 |
+| ✅ | Test new implementation | done | medium | 2026-08-14 |
 
 ## Updates
+
+
+### Implementation test
+
+**2026-08-15 12:06**
+
+We tested the new implementation with a single target for $\Omega$ = 2.75 for a simulation from 2026-2100 with a stocktake period of 5 years. 
+
+The test was successful in keeping $\Omega$ at the target once the target was reached.
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/atmospheric-co2-constraint-for-aera/updates/2026-08-15-1206-aera-aragonite-2100.png' alt='Simulated global surface $\Omega$ driven by changes in emissions in the period from 2026 to 2100 using GFDL-ESM2M'><figcaption>Simulated global surface $\Omega$ driven by changes in emissions in the period from 2026 to 2100 using GFDL-ESM2M</figcaption></figure>
+</div>
+
 
 
 ### Proof of concept

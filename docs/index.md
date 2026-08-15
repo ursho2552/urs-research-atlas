@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>0</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>13</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>22</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>1</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>12</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>23</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -69,15 +69,15 @@ Bibliography:
       <h3>Atmospheric CO2 constraint for AERA</h3>
       <p class="ra-muted">Climate target modelling</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>This project aims at extending AERA by introducing a second target based on the global surface ocean aragonite saturation state, in addition to the existing global mean surface temperature target.
 
 For this new target, we use atmospheric CO$_2$ content rather than cumulative emissions to determine allowable future emissions. This is necessary because, once the target is reached, the ocean and land continue to absorb atmospheric CO$_2$ . As atmospheric CO$_2$  declines, some additional emissions may therefore become compatible with maintaining the prescribed aragonite saturation state.
 
 To account for this, we implemented a new constraint based on atmospheric carbon content. The framework determines the atmospheric CO$_2$  level associated with the target aragonite saturation state and uses its subsequent evolution to derive allowable future emissions. This allows emissions to respond dynamically to continued land and ocean carbon uptake after the target has been reached.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
-  <p class="ra-muted">5 / 6 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">6 / 6 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">AERA</span></div>
   <a class="ra-button" href="projects/atmospheric-co2-constraint-for-aera/">View project</a>
 </div>
@@ -246,12 +246,6 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Test new implementation</strong>
-  <span>Atmospheric CO2 constraint for AERA · medium · due 2026-08-14</span>
-</div>
-
-
-<div class="ra-list-item">
   <strong>Run the AGI pipeline on CESM2 and IPSL simulations</strong>
   <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · medium · due 2026-08-13</span>
 </div>
@@ -268,10 +262,22 @@ Bibliography:
   <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
+
+<div class="ra-list-item">
+  <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+</div>
+
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Implementation test</strong>
+  <span>Atmospheric CO2 constraint for AERA · 2026-08-15 12:06</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Proof of concept</strong>
   <span>Atmospheric CO2 constraint for AERA · 2026-08-12 16:18</span>
@@ -287,12 +293,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Testing the new implementation</strong>
   <span>Atmospheric CO2 constraint for AERA · 2026-08-11 16:16</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Silent bug in pipeline</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-08-11 16:14</span>
 </div>
 
     </div>
