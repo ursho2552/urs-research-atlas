@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** GFDL-ESM2M  
-**Updated:** 2026-08-12 16:12  
+**Updated:** 2026-08-27 11:44  
 **Tags:** `hosing simulations` `GFDL-ESM2M` `CSCS`
 
 ## Summary
@@ -22,19 +22,28 @@ Bibliography
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-1 / 3 tasks completed.
+3 / 3 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
-| ⬜ | Run AERA-offline simulations | in_progress | medium | — |
-| ⬜ | Run AERA online simulations | in_progress | medium | — |
+| ✅ | Run AERA-offline simulations | done | medium | — |
+| ✅ | Run AERA online simulations | done | medium | — |
 | ✅ | Run recovery simulation after 100 years hosing | done | medium | — |
 
 ## Updates
+
+
+### All runs finished
+
+**2026-08-27 11:44**
+
+Using a new procedure that restarts immediately after a failed run, all hosing simulations finished until the year 2200.
+
+
 
 
 ### Ensemble 5 of online run finished

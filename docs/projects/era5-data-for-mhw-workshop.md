@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-08-10 16:13  
+**Updated:** 2026-08-27 11:43  
 **Tags:** `ERA5` `marine heatwaves` `climatology` `CDS API` `xarray` `NetCDF`
 
 ## Summary
@@ -30,16 +30,16 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-7 / 8 tasks completed.
+8 / 8 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
 | ✅ | Update ERA5 download tool | done | medium | 2026-08-13 |
-| ⬜ | Download specific humidity | in_progress | medium | 2026-08-07 |
+| ✅ | Download specific humidity | done | medium | 2026-08-07 |
 | ✅ | Download SST | done | medium | 2026-08-07 |
 | ✅ | Download 2m-temperature | done | medium | 2026-08-07 |
 | ✅ | Download 500 hPa geopotential | done | medium | 2026-08-07 |

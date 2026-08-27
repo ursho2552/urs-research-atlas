@@ -16,9 +16,9 @@ summary: "Catherine Gregory is organising a workshop on *Understanding the dynam
   \ such that the participants could focus on the hands-on tasks, rather than the\
   \ technical part of calculating climatologies.\r\n\r\n"
 area: Climate data processing
-status: active
+status: completed
 created: 2026-07-28 15:51
-updated: 2026-08-10 16:13
+updated: 2026-08-27 11:43
 tags:
 - ERA5
 - marine heatwaves
@@ -37,12 +37,12 @@ tasks:
   updated: 2026-07-28 15:51
 - id: era5-data-for-mhw-workshop-download-specific-humidity
   title: Download specific humidity
-  status: in_progress
+  status: done
   priority: medium
   due_date: '2026-08-07'
   created: 2026-07-28 15:52
-  updated: 2026-08-06 17:11
-  completed: 2026-07-28 20:23
+  updated: 2026-08-27 11:42
+  completed: 2026-08-27 11:42
 - id: era5-data-for-mhw-workshop-download-sst
   title: Download SST
   status: done

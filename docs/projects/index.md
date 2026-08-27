@@ -114,7 +114,7 @@ As the tool might be used in the future for other projects, it is important to w
       <h3>ERA5 data for MHW workshop</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>Catherine Gregory is organising a workshop on *Understanding the dynamics and feedback mechanisms of compound heatwaves between land and ocean&quot; (31. August to 3rd November 2026) at the University of Bern. To this end, we would like to provide some useful datasets for the participants for the hands-on parts of the workshop. 
 
@@ -133,8 +133,8 @@ In addition we also downloaded the UTCI, dew point, surface latent heat flux, su
 In addition, as the workshop focuses on heat waves, we would like to also provide climatologies (11-day mean for the period 1991-2000), such that the participants could focus on the hands-on tasks, rather than the technical part of calculating climatologies.
 
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
-  <p class="ra-muted">7 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">8 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">ERA5</span><span class="ra-tag">marine heatwaves</span><span class="ra-tag">climatology</span><span class="ra-tag">CDS API</span><span class="ra-tag">xarray</span><span class="ra-tag">NetCDF</span></div>
   <a class="ra-button" href="era5-data-for-mhw-workshop/">View project</a>
 </div>
@@ -162,7 +162,7 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
       <h3>Re-run hosing simulations for AMOC collapse paper</h3>
       <p class="ra-muted">GFDL-ESM2M</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as DIC and alkalinity together with the freshwater flux. While freshwater input in reality should have a certain amount of alkalinity and DIC, this may not be ideal for idealised hosing experiments, as the input of DIC and alkalinity may influence the global carbon cycle.
 
@@ -173,8 +173,8 @@ As such, we adapted the standard hosing routine in a separate branch (*vertical_
 Bibliography
 
 - Frölicher, T. L., Maier, P., Burger, F. A., Silvy, Y., Swingedouw, D., &amp; Elizondo, U. H. (2026). Climate and Carbon Cycle Responses to a 21st century AMOC collapse under a 2°C stabilization pathway. https://doi.org/10.5194/egusphere-egu26-22272</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
-  <p class="ra-muted">1 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">3 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">hosing simulations</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CSCS</span></div>
   <a class="ra-button" href="re-run-hosing-simulations-for-amoc-collapse-paper/">View project</a>
 </div>
