@@ -1,0 +1,19 @@
+id: mhw-thw-detection-algorithm
+title: MHW-THW detection algorithm
+summary: From the MHW-THW workshop, we decided to define compound extremes as those
+  that have atmospheric wet bulb extremes that extend over land and ocean, and that
+  overlap at least partially with marine heatwaves based on sea surface temperature.
+  To this end, we try to develop an algorithm to efficiently detect them and summarize
+  them.
+area: Climate data processing
+status: active
+created: 2026-08-31 17:29
+updated: 2026-08-31 17:29
+tags:
+- python
+- compound extremes
+- observations
+links: {}
+tasks: []
+updates: []
+images: []

@@ -14,9 +14,9 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>4</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>3</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>9</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>2</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>10</strong></div>
   <div class="ra-kpi-card"><span>Done tasks</span><strong>26</strong></div>
 </section>
 
@@ -187,10 +187,26 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>MHW-THW detection algorithm</h3>
+      <p class="ra-muted">Climate data processing</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>From the MHW-THW workshop, we decided to define compound extremes as those that have atmospheric wet bulb extremes that extend over land and ocean, and that overlap at least partially with marine heatwaves based on sea surface temperature. To this end, we try to develop an algorithm to efficiently detect them and summarize them.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+  <p class="ra-muted">0 / 0 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">python</span><span class="ra-tag">compound extremes</span><span class="ra-tag">observations</span></div>
+  <a class="ra-button" href="projects/mhw-thw-detection-algorithm/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>Re-run hosing simulations for AMOC collapse paper</h3>
       <p class="ra-muted">GFDL-ESM2M</p>
     </div>
-    <span class="ra-badge ra-badge-completed">completed</span>
+    <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as DIC and alkalinity together with the freshwater flux. While freshwater input in reality should have a certain amount of alkalinity and DIC, this may not be ideal for idealised hosing experiments, as the input of DIC and alkalinity may influence the global carbon cycle.
 
@@ -201,8 +217,8 @@ As such, we adapted the standard hosing routine in a separate branch (*vertical_
 Bibliography
 
 - Frölicher, T. L., Maier, P., Burger, F. A., Silvy, Y., Swingedouw, D., &amp; Elizondo, U. H. (2026). Climate and Carbon Cycle Responses to a 21st century AMOC collapse under a 2°C stabilization pathway. https://doi.org/10.5194/egusphere-egu26-22272</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
-  <p class="ra-muted">3 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+  <p class="ra-muted">3 / 4 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">hosing simulations</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CSCS</span></div>
   <a class="ra-button" href="projects/re-run-hosing-simulations-for-amoc-collapse-paper/">View project</a>
 </div>
@@ -246,6 +262,12 @@ Bibliography:
 
 
 <div class="ra-list-item">
+  <strong>Re-run recovery for offline version</strong>
+  <span>Re-run hosing simulations for AMOC collapse paper · high · due 2026-09-04</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Test new coupled model</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
 </div>
@@ -262,16 +284,16 @@ Bibliography:
   <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
-
-<div class="ra-list-item">
-  <strong>Write documentation on Pages for Bern3D&#x27;s sediment module</strong>
-  <span>Couple MEDUSA to Bern3D · low · due not set</span>
-</div>
-
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Changes in CSCS environment</strong>
+  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-31 17:25</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>All runs finished</strong>
   <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-27 11:44</span>
@@ -287,12 +309,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Proof of concept</strong>
   <span>Atmospheric CO2 constraint for AERA · 2026-08-12 16:18</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Ensemble 5 of online run finished</strong>
-  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-12 16:12</span>
 </div>
 
     </div>

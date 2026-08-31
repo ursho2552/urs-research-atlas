@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-completed">completed</span>
+<span class="ra-badge ra-badge-active">active</span>
 
 **Area:** GFDL-ESM2M  
-**Updated:** 2026-08-27 11:44  
+**Updated:** 2026-08-31 17:25  
 **Tags:** `hosing simulations` `GFDL-ESM2M` `CSCS`
 
 ## Summary
@@ -22,9 +22,9 @@ Bibliography
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
 
-3 / 3 tasks completed.
+3 / 4 tasks completed.
 
 ## Tasks
 
@@ -33,8 +33,22 @@ Bibliography
 | ✅ | Run AERA-offline simulations | done | medium | — |
 | ✅ | Run AERA online simulations | done | medium | — |
 | ✅ | Run recovery simulation after 100 years hosing | done | medium | — |
+| ⬜ | Re-run recovery for offline version | todo | high | 2026-09-04 |
 
 ## Updates
+
+
+### Changes in CSCS environment
+
+**2026-08-31 17:25**
+
+The modules on CSCS have now been replaced by uenvs. As such, our setup and runscripts no longer work. In addition, the python environment and compression scripts also do not work anymore.
+
+To this end, I have now added a new python virtual environment on top of the `netcdf-tools/2025:v2` uenv, and adapted the python wrapper around the compression script.
+
+
+
+
 
 
 ### All runs finished

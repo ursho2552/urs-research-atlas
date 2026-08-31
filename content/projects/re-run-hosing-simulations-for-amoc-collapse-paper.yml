@@ -14,9 +14,9 @@ summary: "In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as 
   \ Elizondo, U. H. (2026). Climate and Carbon Cycle Responses to a 21st century AMOC\
   \ collapse under a 2°C stabilization pathway. https://doi.org/10.5194/egusphere-egu26-22272"
 area: GFDL-ESM2M
-status: completed
+status: active
 created: 2026-07-28 16:21
-updated: 2026-08-27 11:44
+updated: 2026-08-31 17:25
 tags:
 - hosing simulations
 - GFDL-ESM2M
@@ -46,6 +46,13 @@ tasks:
   due_date: ''
   created: 2026-07-28 16:22
   updated: 2026-07-28 16:22
+- id: re-run-hosing-simulations-for-amoc-collapse-paper-re-run-recovery-for-offline-version
+  title: Re-run recovery for offline version
+  status: todo
+  priority: high
+  due_date: '2026-09-04'
+  created: 2026-08-31 17:21
+  updated: 2026-08-31 17:21
 updates:
 - id: 20260728162349-drt-safe-crash
   date: 2026-07-28 16:23
@@ -95,4 +102,12 @@ updates:
   title: All runs finished
   text: Using a new procedure that restarts immediately after a failed run, all hosing
     simulations finished until the year 2200.
+- id: 20260831172528-changes-in-cscs-environment
+  date: 2026-08-31 17:25
+  title: Changes in CSCS environment
+  text: "The modules on CSCS have now been replaced by uenvs. As such, our setup and\
+    \ runscripts no longer work. In addition, the python environment and compression\
+    \ scripts also do not work anymore.\r\n\r\nTo this end, I have now added a new\
+    \ python virtual environment on top of the `netcdf-tools/2025:v2` uenv, and adapted\
+    \ the python wrapper around the compression script.\r\n\r\n"
 images: []
