@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** GFDL-ESM2M  
-**Updated:** 2026-08-31 17:25  
+**Updated:** 2026-09-01 10:33  
 **Tags:** `hosing simulations` `GFDL-ESM2M` `CSCS`
 
 ## Summary
@@ -33,9 +33,18 @@ Bibliography
 | ✅ | Run AERA-offline simulations | done | medium | — |
 | ✅ | Run AERA online simulations | done | medium | — |
 | ✅ | Run recovery simulation after 100 years hosing | done | medium | — |
-| ⬜ | Re-run recovery for offline version | todo | high | 2026-09-04 |
+| ⬜ | Re-run recovery for offline version | in_progress | high | 2026-09-04 |
 
 ## Updates
+
+
+### Running new recovery simulation
+
+**2026-09-01 10:33**
+
+After successfully compiling the model version for vertical hosing using uenv and re-writting the runscript, the recovery simulation is now currently running on the low priority queue.
+
+
 
 
 ### Changes in CSCS environment

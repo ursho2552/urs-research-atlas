@@ -16,7 +16,7 @@ summary: "In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as 
 area: GFDL-ESM2M
 status: active
 created: 2026-07-28 16:21
-updated: 2026-08-31 17:25
+updated: 2026-09-01 10:33
 tags:
 - hosing simulations
 - GFDL-ESM2M
@@ -48,11 +48,11 @@ tasks:
   updated: 2026-07-28 16:22
 - id: re-run-hosing-simulations-for-amoc-collapse-paper-re-run-recovery-for-offline-version
   title: Re-run recovery for offline version
-  status: todo
+  status: in_progress
   priority: high
   due_date: '2026-09-04'
   created: 2026-08-31 17:21
-  updated: 2026-08-31 17:21
+  updated: 2026-09-01 10:32
 updates:
 - id: 20260728162349-drt-safe-crash
   date: 2026-07-28 16:23
@@ -110,4 +110,10 @@ updates:
     \ scripts also do not work anymore.\r\n\r\nTo this end, I have now added a new\
     \ python virtual environment on top of the `netcdf-tools/2025:v2` uenv, and adapted\
     \ the python wrapper around the compression script.\r\n\r\n"
+- id: 20260901103310-running-new-recovery-simulation
+  date: 2026-09-01 10:33
+  title: Running new recovery simulation
+  text: After successfully compiling the model version for vertical hosing using uenv
+    and re-writting the runscript, the recovery simulation is now currently running
+    on the low priority queue.
 images: []

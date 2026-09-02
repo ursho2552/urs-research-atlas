@@ -14,9 +14,9 @@ summary: "For the TipMIP-ESM project, we need to provide our simulation data in 
   \ the old pipeline to ensure consistency. Afterwards, new tests should be written\
   \ to allow easy and reproducible extensions of the pipeline in the future.\r\n"
 area: Climate data standardisation workflows
-status: paused
+status: active
 created: 2026-07-28 16:29
-updated: 2026-08-05 15:15
+updated: 2026-09-02 17:14
 tags:
 - GFDL-ESM2M
 - CMOR
@@ -26,11 +26,24 @@ tags:
 - metadata
 - Python
 links: {}
-tasks: []
+tasks:
+- id: document-new-gfdl-esm2m-cmor-pipeline-test-new-version
+  title: Test new version
+  status: in_progress
+  priority: medium
+  due_date: '2026-09-30'
+  created: 2026-09-02 17:13
+  updated: 2026-09-02 17:13
 updates:
 - id: 20260803102702-running-tipmip-ocn-test
   date: 2026-08-03 10:27
   title: Running TIPMIP-OCN test
   text: Rerunning the current pipeline on TIPMIP-OCN experiment A simulations to test
     the outcome and structure
+- id: 20260902171434-testing-new-version
+  date: 2026-09-02 17:14
+  title: Testing new version
+  text: "Changed how time is handled for very long simulations and adapted where the\
+    \ plevel transformation/interpolation is done with respect to the output directory.\r\
+    \n\r\nThe new pipeline is currently being tested for the TIPMIP-ESM simulations."
 images: []

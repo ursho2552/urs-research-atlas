@@ -93,7 +93,7 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>Document new GFDL-ESM2M CMOR pipeline</h3>
       <p class="ra-muted">Climate data standardisation workflows</p>
     </div>
-    <span class="ra-badge ra-badge-paused">paused</span>
+    <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>For the TipMIP-ESM project, we need to provide our simulation data in a CMIP standardised format. For the deliverables, the simulations should be in *CMIP6Plus* format. To this end, we developed a custom *Climate Model Output Rewriter&quot; (CMOR) pipeline for our model GFDL-ESM2M.
 
@@ -102,7 +102,7 @@ Previously, this tools was part of a larger ocean tools repository. However, the
 As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
 </p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 0 tasks completed</p>
+  <p class="ra-muted">0 / 1 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
   <a class="ra-button" href="document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>

@@ -14,9 +14,9 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>2</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>10</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>11</strong></div>
   <div class="ra-kpi-card"><span>Done tasks</span><strong>26</strong></div>
 </section>
 
@@ -121,7 +121,7 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>Document new GFDL-ESM2M CMOR pipeline</h3>
       <p class="ra-muted">Climate data standardisation workflows</p>
     </div>
-    <span class="ra-badge ra-badge-paused">paused</span>
+    <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>For the TipMIP-ESM project, we need to provide our simulation data in a CMIP standardised format. For the deliverables, the simulations should be in *CMIP6Plus* format. To this end, we developed a custom *Climate Model Output Rewriter&quot; (CMOR) pipeline for our model GFDL-ESM2M.
 
@@ -130,7 +130,7 @@ Previously, this tools was part of a larger ocean tools repository. However, the
 As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
 </p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 0 tasks completed</p>
+  <p class="ra-muted">0 / 1 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
   <a class="ra-button" href="projects/document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>
@@ -289,6 +289,18 @@ Bibliography:
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
+  <strong>Testing new version</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-02 17:14</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Running new recovery simulation</strong>
+  <span>Re-run hosing simulations for AMOC collapse paper · 2026-09-01 10:33</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Changes in CSCS environment</strong>
   <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-31 17:25</span>
 </div>
@@ -297,18 +309,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>All runs finished</strong>
   <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-27 11:44</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Implementation test</strong>
-  <span>Atmospheric CO2 constraint for AERA · 2026-08-15 12:06</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Proof of concept</strong>
-  <span>Atmospheric CO2 constraint for AERA · 2026-08-12 16:18</span>
 </div>
 
     </div>

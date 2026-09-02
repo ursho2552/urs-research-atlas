@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-paused">paused</span>
+<span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-08-05 15:15  
+**Updated:** 2026-09-02 17:14  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -21,15 +21,26 @@ As the tool might be used in the future for other projects, it is important to w
 
 <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
 
-0 / 0 tasks completed.
+0 / 1 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
-| — | No tasks yet | — | — | — |
+| ⬜ | Test new version | in_progress | medium | 2026-09-30 |
 
 ## Updates
+
+
+### Testing new version
+
+**2026-09-02 17:14**
+
+Changed how time is handled for very long simulations and adapted where the plevel transformation/interpolation is done with respect to the output directory.
+
+The new pipeline is currently being tested for the TIPMIP-ESM simulations.
+
+
 
 
 ### Running TIPMIP-OCN test
