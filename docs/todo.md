@@ -7,7 +7,6 @@ This page is generated automatically from all project tasks and sorted by urgenc
 | Project | Task | Status | Priority | Due date | Urgency |
 | --- | --- | --- | --- | --- | ---: |
 | AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN | Run the AGI pipeline on CESM2 and IPSL simulations | todo | medium | 2026-08-13 | 115 |
-| Re-run hosing simulations for AMOC collapse paper | Re-run recovery for offline version | in_progress | high | 2026-09-04 | 100 |
 | Update Speedy version in Julia Bern3D wrapper | Test new coupled model | in_progress | high | — | 40 |
 | Couple MEDUSA to Bern3D | Understand current structure of sediment module within Bern3D | in_progress | medium | — | 25 |
 | Couple MEDUSA to Bern3D | Read MEDUSA&#x27;s documentation on coupling | in_progress | medium | — | 25 |

@@ -178,7 +178,7 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
       <h3>Re-run hosing simulations for AMOC collapse paper</h3>
       <p class="ra-muted">GFDL-ESM2M</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as DIC and alkalinity together with the freshwater flux. While freshwater input in reality should have a certain amount of alkalinity and DIC, this may not be ideal for idealised hosing experiments, as the input of DIC and alkalinity may influence the global carbon cycle.
 
@@ -189,8 +189,8 @@ As such, we adapted the standard hosing routine in a separate branch (*vertical_
 Bibliography
 
 - Frölicher, T. L., Maier, P., Burger, F. A., Silvy, Y., Swingedouw, D., &amp; Elizondo, U. H. (2026). Climate and Carbon Cycle Responses to a 21st century AMOC collapse under a 2°C stabilization pathway. https://doi.org/10.5194/egusphere-egu26-22272</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
-  <p class="ra-muted">3 / 4 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">4 / 4 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">hosing simulations</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CSCS</span></div>
   <a class="ra-button" href="re-run-hosing-simulations-for-amoc-collapse-paper/">View project</a>
 </div>

@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** GFDL-ESM2M  
-**Updated:** 2026-09-01 10:33  
+**Updated:** 2026-09-04 18:35  
 **Tags:** `hosing simulations` `GFDL-ESM2M` `CSCS`
 
 ## Summary
@@ -22,9 +22,9 @@ Bibliography
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-3 / 4 tasks completed.
+4 / 4 tasks completed.
 
 ## Tasks
 
@@ -33,9 +33,18 @@ Bibliography
 | ✅ | Run AERA-offline simulations | done | medium | — |
 | ✅ | Run AERA online simulations | done | medium | — |
 | ✅ | Run recovery simulation after 100 years hosing | done | medium | — |
-| ⬜ | Re-run recovery for offline version | in_progress | high | 2026-09-04 |
+| ✅ | Re-run recovery for offline version | done | high | 2026-09-04 |
 
 ## Updates
+
+
+### Finished simulations
+
+**2026-09-04 18:35**
+
+The recovery simulation finished and was now transferred to the local cluster for analysis
+
+
 
 
 ### Running new recovery simulation

@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>2</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>11</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>26</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>3</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>10</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>27</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -206,7 +206,7 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
       <h3>Re-run hosing simulations for AMOC collapse paper</h3>
       <p class="ra-muted">GFDL-ESM2M</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as DIC and alkalinity together with the freshwater flux. While freshwater input in reality should have a certain amount of alkalinity and DIC, this may not be ideal for idealised hosing experiments, as the input of DIC and alkalinity may influence the global carbon cycle.
 
@@ -217,8 +217,8 @@ As such, we adapted the standard hosing routine in a separate branch (*vertical_
 Bibliography
 
 - Frölicher, T. L., Maier, P., Burger, F. A., Silvy, Y., Swingedouw, D., &amp; Elizondo, U. H. (2026). Climate and Carbon Cycle Responses to a 21st century AMOC collapse under a 2°C stabilization pathway. https://doi.org/10.5194/egusphere-egu26-22272</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
-  <p class="ra-muted">3 / 4 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">4 / 4 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">hosing simulations</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CSCS</span></div>
   <a class="ra-button" href="projects/re-run-hosing-simulations-for-amoc-collapse-paper/">View project</a>
 </div>
@@ -262,12 +262,6 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Re-run recovery for offline version</strong>
-  <span>Re-run hosing simulations for AMOC collapse paper · high · due 2026-09-04</span>
-</div>
-
-
-<div class="ra-list-item">
   <strong>Test new coupled model</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
 </div>
@@ -284,10 +278,22 @@ Bibliography:
   <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
+
+<div class="ra-list-item">
+  <strong>Test new version</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · medium · due 2026-09-30</span>
+</div>
+
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Finished simulations</strong>
+  <span>Re-run hosing simulations for AMOC collapse paper · 2026-09-04 18:35</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Testing new version</strong>
   <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-02 17:14</span>
@@ -303,12 +309,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Changes in CSCS environment</strong>
   <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-31 17:25</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>All runs finished</strong>
-  <span>Re-run hosing simulations for AMOC collapse paper · 2026-08-27 11:44</span>
 </div>
 
     </div>

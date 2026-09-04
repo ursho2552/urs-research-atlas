@@ -14,9 +14,9 @@ summary: "In GFDL-ESM2M, the standard ideal hosing routine adds tracers such as 
   \ Elizondo, U. H. (2026). Climate and Carbon Cycle Responses to a 21st century AMOC\
   \ collapse under a 2°C stabilization pathway. https://doi.org/10.5194/egusphere-egu26-22272"
 area: GFDL-ESM2M
-status: active
+status: completed
 created: 2026-07-28 16:21
-updated: 2026-09-01 10:33
+updated: 2026-09-04 18:35
 tags:
 - hosing simulations
 - GFDL-ESM2M
@@ -48,11 +48,12 @@ tasks:
   updated: 2026-07-28 16:22
 - id: re-run-hosing-simulations-for-amoc-collapse-paper-re-run-recovery-for-offline-version
   title: Re-run recovery for offline version
-  status: in_progress
+  status: done
   priority: high
   due_date: '2026-09-04'
   created: 2026-08-31 17:21
-  updated: 2026-09-01 10:32
+  updated: 2026-09-04 18:35
+  completed: 2026-09-04 18:35
 updates:
 - id: 20260728162349-drt-safe-crash
   date: 2026-07-28 16:23
@@ -116,4 +117,9 @@ updates:
   text: After successfully compiling the model version for vertical hosing using uenv
     and re-writting the runscript, the recovery simulation is now currently running
     on the low priority queue.
+- id: 20260904183546-finished-simulations
+  date: 2026-09-04 18:35
+  title: Finished simulations
+  text: The recovery simulation finished and was now transferred to the local cluster
+    for analysis
 images: []
