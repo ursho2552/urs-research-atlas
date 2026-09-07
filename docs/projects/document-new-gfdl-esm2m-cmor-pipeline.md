@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-09-02 17:14  
+**Updated:** 2026-09-07 16:52  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -19,17 +19,36 @@ As the tool might be used in the future for other projects, it is important to w
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-0 / 1 tasks completed.
+2 / 2 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
-| ⬜ | Test new version | in_progress | medium | 2026-09-30 |
+| ✅ | Test new version | done | medium | 2026-09-30 |
+| ✅ | Add CMIP6 Tables | done | medium | — |
 
 ## Updates
+
+
+### Tested new version
+
+**2026-09-07 16:52**
+
+New version finishes without problems for the TIPMIP-ESM simulations, and results in the finished file structure.
+
+
+
+
+### Added CMIP6 tables
+
+**2026-09-07 16:52**
+
+Added older CMIP6 tables to the repository, in case this format is used.
+
+
 
 
 ### Testing new version

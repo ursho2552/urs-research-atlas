@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-paused">paused</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-08-12 18:25  
+**Updated:** 2026-09-07 16:23  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -30,9 +30,9 @@ Bibliography:
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
 
-5 / 6 tasks completed.
+7 / 8 tasks completed.
 
 ## Tasks
 
@@ -43,9 +43,53 @@ Bibliography:
 | ✅ | Run pipeline for TIPMIP-ESM simulations | done | medium | 2026-09-30 |
 | ✅ | Run pipeline for TIPMIP-SOCN simulations | done | medium | 2027-02-28 |
 | ✅ | Run AGI pipeline on NASA-GISS output | done | medium | 2026-08-07 |
-| ⬜ | Run the AGI pipeline on CESM2 and IPSL simulations | todo | medium | 2026-08-13 |
+| ✅ | Run the AGI pipeline on CESM2 and IPSL simulations | done | medium | 2026-08-13 |
+| ⬜ | Run AGI pipeline on EC-EARTH and ACCESS-ESM simulations | blocked | medium | 2026-09-11 |
+| ✅ | Perform a quick comparison of AGI values over time and models | done | medium | 2026-09-11 |
 
 ## Updates
+
+
+### Comparison of multi-model simulations
+
+**2026-09-07 16:23**
+
+The AGI has now been calculated for all available models, except for ACESS-ESM as this data contains errors or missing information.
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/updates/2026-09-07-1623-agi-mma.png' alt='Comparison of relative aerobic growth index using outputs of CESM2, EC-Earth3-ESM-1, GFDL-ESM2M, IPSL-CM6-ESMCO2, and NASA-GISS for a ramp-up and stability simulation. The timeseries was calculated as a simple mean across all available lat/lon grid cell for the depth between 0 and 200 m (upper panel), and between 200 and 1000 m (lower panel)'><figcaption>Comparison of relative aerobic growth index using outputs of CESM2, EC-Earth3-ESM-1, GFDL-ESM2M, IPSL-CM6-ESMCO2, and NASA-GISS for a ramp-up and stability simulation. The timeseries was calculated as a simple mean across all available lat/lon grid cell for the depth between 0 and 200 m (upper panel), and between 200 and 1000 m (lower panel)</figcaption></figure>
+</div>
+
+
+
+### Finalised running EC-EARTH and ACCESS 
+
+**2026-09-07 15:35**
+
+With the available data, the AGI pipeline has now successfully finished for all available models and simulations.
+
+However, for the ACCESS-ESM1-5 in the tipmip-ocn-p1t1-Ab simulation, there are some missing years that do not allow the full pipeline to finish. As such, this task is currently blocked until the underlying data is replaced.
+
+
+
+
+### ACCESS-ESM format error
+
+**2026-09-07 14:34**
+
+The CMORized data for ACCESS-ESM does not appear to be correct. There are a few mistakes in the auxiliary coordinates for the tipmip-ocn-p1t1-Aa, and missing years in thetao in esm-up2p0-gwl2p0
+
+
+
+
+### CESM2 and IPSL simulations
+
+**2026-09-07 12:07**
+
+Finalised AGI runs on CESM and IPSL simulations.
+
+
 
 
 ### Silent bug in pipeline

@@ -26,9 +26,9 @@ summary: "This project aims at quantifying the effect of an AMOC collapse on mar
   \ species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023,\
   \ 2023.\r\n\r\n"
 area: Climate model diagnostics
-status: active
+status: paused
 created: 2026-07-29 12:11
-updated: 2026-08-12 18:25
+updated: 2026-09-07 16:23
 tags:
 - TIPMIP
 - AMOC
@@ -78,11 +78,27 @@ tasks:
   completed: 2026-08-04 10:08
 - id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-the-agi-pipeline-on-cesm2-and-ipsl-simulations
   title: Run the AGI pipeline on CESM2 and IPSL simulations
-  status: todo
+  status: done
   priority: medium
   due_date: '2026-08-13'
   created: 2026-08-10 16:07
-  updated: 2026-08-10 16:07
+  updated: 2026-09-07 12:06
+  completed: 2026-09-07 12:06
+- id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-agi-pipeline-on-ec-earth-and-access-esm-simulations
+  title: Run AGI pipeline on EC-EARTH and ACCESS-ESM simulations
+  status: blocked
+  priority: medium
+  due_date: '2026-09-11'
+  created: 2026-09-07 12:57
+  updated: 2026-09-07 15:33
+- id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-perform-a-quick-comparison-of-agi-values-over-time-and-models
+  title: Perform a quick comparison of AGI values over time and models
+  status: done
+  priority: medium
+  due_date: '2026-09-11'
+  created: 2026-09-07 12:58
+  updated: 2026-09-07 16:23
+  completed: 2026-09-07 16:23
 updates:
 - id: 20260729144355-partial-results-ready
   date: 2026-07-29 14:43
@@ -175,4 +191,35 @@ updates:
     caption: Depth mean of depth-resolved AGI before (left) and after (right) masking
       negative O$_2$ concentrations.
     uploaded: 2026-08-12 18:25
+- id: 20260907120738-cesm2-and-ipsl-simulations
+  date: 2026-09-07 12:07
+  title: CESM2 and IPSL simulations
+  text: Finalised AGI runs on CESM and IPSL simulations.
+- id: 20260907143423-access-esm-format-error
+  date: 2026-09-07 14:34
+  title: ACCESS-ESM format error
+  text: The CMORized data for ACCESS-ESM does not appear to be correct. There are
+    a few mistakes in the auxiliary coordinates for the tipmip-ocn-p1t1-Aa, and missing
+    years in thetao in esm-up2p0-gwl2p0
+- id: 20260907153549-finalised-running-ec-earth-and-access
+  date: 2026-09-07 15:35
+  title: 'Finalised running EC-EARTH and ACCESS '
+  text: "With the available data, the AGI pipeline has now successfully finished for\
+    \ all available models and simulations.\r\n\r\nHowever, for the ACCESS-ESM1-5\
+    \ in the tipmip-ocn-p1t1-Ab simulation, there are some missing years that do not\
+    \ allow the full pipeline to finish. As such, this task is currently blocked until\
+    \ the underlying data is replaced."
+- id: 20260907162317-comparison-of-multi-model-simulations
+  date: 2026-09-07 16:23
+  title: Comparison of multi-model simulations
+  text: The AGI has now been calculated for all available models, except for ACESS-ESM
+    as this data contains errors or missing information.
+  images:
+  - path: assets/uploads/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/updates/2026-09-07-1623-agi-mma.png
+    caption: Comparison of relative aerobic growth index using outputs of CESM2, EC-Earth3-ESM-1,
+      GFDL-ESM2M, IPSL-CM6-ESMCO2, and NASA-GISS for a ramp-up and stability simulation.
+      The timeseries was calculated as a simple mean across all available lat/lon
+      grid cell for the depth between 0 and 200 m (upper panel), and between 200 and
+      1000 m (lower panel)
+    uploaded: 2026-09-07 16:23
 images: []

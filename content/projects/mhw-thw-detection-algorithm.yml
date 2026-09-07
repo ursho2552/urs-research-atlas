@@ -6,9 +6,9 @@ summary: From the MHW-THW workshop, we decided to define compound extremes as th
   To this end, we try to develop an algorithm to efficiently detect them and summarize
   them.
 area: Climate data processing
-status: active
+status: paused
 created: 2026-08-31 17:29
-updated: 2026-08-31 17:29
+updated: 2026-09-07 16:53
 tags:
 - python
 - compound extremes
