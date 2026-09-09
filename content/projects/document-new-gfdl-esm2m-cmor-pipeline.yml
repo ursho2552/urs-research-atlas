@@ -16,7 +16,7 @@ summary: "For the TipMIP-ESM project, we need to provide our simulation data in 
 area: Climate data standardisation workflows
 status: active
 created: 2026-07-28 16:29
-updated: 2026-09-07 16:52
+updated: 2026-09-09 16:15
 tags:
 - GFDL-ESM2M
 - CMOR
@@ -42,6 +42,20 @@ tasks:
   due_date: ''
   created: 2026-09-07 16:52
   updated: 2026-09-07 16:52
+- id: document-new-gfdl-esm2m-cmor-pipeline-write-tests-for-functions
+  title: Write tests for functions
+  status: done
+  priority: medium
+  due_date: ''
+  created: 2026-09-09 16:13
+  updated: 2026-09-09 16:13
+- id: document-new-gfdl-esm2m-cmor-pipeline-test-corrected-pipeline-across-systems
+  title: Test corrected pipeline across systems
+  status: in_progress
+  priority: medium
+  due_date: ''
+  created: 2026-09-09 16:15
+  updated: 2026-09-09 16:15
 updates:
 - id: 20260803102702-running-tipmip-ocn-test
   date: 2026-08-03 10:27
@@ -63,4 +77,14 @@ updates:
   date: 2026-09-07 16:52
   title: Added CMIP6 tables
   text: Added older CMIP6 tables to the repository, in case this format is used.
+- id: 20260909130331-testing-with-tipmip-ocn
+  date: 2026-09-09 13:03
+  title: Testing with TIPMIP-OCN
+  text: To test portability across systems, the tool is currently being tested on
+    UBELIX for the TIPMIP-OCN simulations
+- id: 20260909161406-added-tests-to-cmor-pipeline
+  date: 2026-09-09 16:14
+  title: Added tests to CMOR pipeline
+  text: Added tests to functions used in the CMOR pipeline. In doing this, several
+    bugs were found and corrected.
 images: []

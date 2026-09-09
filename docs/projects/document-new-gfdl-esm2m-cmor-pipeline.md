@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-09-07 16:52  
+**Updated:** 2026-09-09 16:15  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -19,9 +19,9 @@ As the tool might be used in the future for other projects, it is important to w
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
 
-2 / 2 tasks completed.
+3 / 4 tasks completed.
 
 ## Tasks
 
@@ -29,8 +29,28 @@ As the tool might be used in the future for other projects, it is important to w
 | --- | --- | --- | --- | --- |
 | ✅ | Test new version | done | medium | 2026-09-30 |
 | ✅ | Add CMIP6 Tables | done | medium | — |
+| ✅ | Write tests for functions | done | medium | — |
+| ⬜ | Test corrected pipeline across systems | in_progress | medium | — |
 
 ## Updates
+
+
+### Added tests to CMOR pipeline
+
+**2026-09-09 16:14**
+
+Added tests to functions used in the CMOR pipeline. In doing this, several bugs were found and corrected.
+
+
+
+
+### Testing with TIPMIP-OCN
+
+**2026-09-09 13:03**
+
+To test portability across systems, the tool is currently being tested on UBELIX for the TIPMIP-OCN simulations
+
+
 
 
 ### Tested new version

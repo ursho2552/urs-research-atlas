@@ -16,8 +16,8 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>5</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>3</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>10</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>31</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>11</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>32</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -129,8 +129,8 @@ Previously, this tools was part of a larger ocean tools repository. However, the
 
 As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
-  <p class="ra-muted">2 / 2 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+  <p class="ra-muted">3 / 4 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
   <a class="ra-button" href="projects/document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>
@@ -304,14 +304,26 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Write documentation on Pages for Bern3D&#x27;s sediment module</strong>
-  <span>Couple MEDUSA to Bern3D · low · due not set</span>
+  <strong>Test corrected pipeline across systems</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · medium · due not set</span>
 </div>
 
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Added tests to CMOR pipeline</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-09 16:14</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Testing with TIPMIP-OCN</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-09 13:03</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>DRTsafe crash during high-latitude hosing experiments</strong>
   <span>DRTSafe crash during hosing experiments · 2026-09-08 17:37</span>
@@ -321,18 +333,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Tested new version</strong>
   <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-07 16:52</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Added CMIP6 tables</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-07 16:52</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Comparison of multi-model simulations</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-09-07 16:23</span>
 </div>
 
     </div>
