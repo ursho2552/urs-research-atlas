@@ -111,6 +111,30 @@ As the tool might be used in the future for other projects, it is important to w
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>DRTSafe crash during hosing experiments</h3>
+      <p class="ra-muted">GFDL-ESM2M</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>When using hosing experiment following the NaHOSMIP protocol, the simulations with GFDL-ESM2M crash. The crash occurs at the same position in the Arctic at (i,j) = (75, 198). 
+
+We noticed that there appear to be some instabilities in salinity and temperature at depth. From one depth level to the next, the temperature can oscillate between +10°C and -10°C. These oscillations usually start roughly two days before the crash.
+
+We traced the error to the piecewise parabolic method advection scheme (function advect_tracer_mdppm in the ocean_tracer_advect.F90 module). This function tries to keep the tendency in temperature and salinity within some boundaries. However, if these boundaries become very narrow, small overshoots may occur and accumulate over time, which ultimately leads to the large instabilities.
+
+To avoid this crash, the usual solution is to restart the failed simulation year with a small perturbation.
+
+The goal of this project is to inspect why this crash occurs, find possible solutions, implement them, and test them for future hosing simulations.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+  <p class="ra-muted">0 / 1 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">Fortran</span><span class="ra-tag">hosing experiments</span></div>
+  <a class="ra-button" href="drtsafe-crash-during-hosing-experiments/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>ERA5 data for MHW workshop</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
