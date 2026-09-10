@@ -16,7 +16,7 @@ summary: "For the TipMIP-ESM project, we need to provide our simulation data in 
 area: Climate data standardisation workflows
 status: active
 created: 2026-07-28 16:29
-updated: 2026-09-09 16:15
+updated: 2026-09-10 17:06
 tags:
 - GFDL-ESM2M
 - CMOR
@@ -51,11 +51,19 @@ tasks:
   updated: 2026-09-09 16:13
 - id: document-new-gfdl-esm2m-cmor-pipeline-test-corrected-pipeline-across-systems
   title: Test corrected pipeline across systems
-  status: in_progress
+  status: done
   priority: medium
   due_date: ''
   created: 2026-09-09 16:15
-  updated: 2026-09-09 16:15
+  updated: 2026-09-10 17:04
+  completed: 2026-09-10 17:04
+- id: document-new-gfdl-esm2m-cmor-pipeline-re-run-pipeline-with-updated-variable-tables
+  title: Re-run pipeline with updated variable tables
+  status: in_progress
+  priority: medium
+  due_date: ''
+  created: 2026-09-10 17:06
+  updated: 2026-09-10 17:06
 updates:
 - id: 20260803102702-running-tipmip-ocn-test
   date: 2026-08-03 10:27
@@ -87,4 +95,9 @@ updates:
   title: Added tests to CMOR pipeline
   text: Added tests to functions used in the CMOR pipeline. In doing this, several
     bugs were found and corrected.
+- id: 20260910170603-found-small-unit-errors-in-cmip-variable-definitions
+  date: 2026-09-10 17:06
+  title: Found small unit errors in CMIP variable definitions
+  text: Some units for the atmosphere, ocean, and land did not match the metadata.
+    For the sea ice, one variable had to be swapped, as it was not the correct one.
 images: []

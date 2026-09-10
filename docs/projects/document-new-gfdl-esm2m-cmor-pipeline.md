@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-09-09 16:15  
+**Updated:** 2026-09-10 17:06  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -19,9 +19,9 @@ As the tool might be used in the future for other projects, it is important to w
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 80%"></div></div>
 
-3 / 4 tasks completed.
+4 / 5 tasks completed.
 
 ## Tasks
 
@@ -30,9 +30,19 @@ As the tool might be used in the future for other projects, it is important to w
 | ✅ | Test new version | done | medium | 2026-09-30 |
 | ✅ | Add CMIP6 Tables | done | medium | — |
 | ✅ | Write tests for functions | done | medium | — |
-| ⬜ | Test corrected pipeline across systems | in_progress | medium | — |
+| ✅ | Test corrected pipeline across systems | done | medium | — |
+| ⬜ | Re-run pipeline with updated variable tables | in_progress | medium | — |
 
 ## Updates
+
+
+### Found small unit errors in CMIP variable definitions
+
+**2026-09-10 17:06**
+
+Some units for the atmosphere, ocean, and land did not match the metadata. For the sea ice, one variable had to be swapped, as it was not the correct one.
+
+
 
 
 ### Added tests to CMOR pipeline
