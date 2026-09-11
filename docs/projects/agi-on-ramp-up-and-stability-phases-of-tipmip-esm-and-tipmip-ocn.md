@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-paused">paused</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-09-07 16:23  
+**Updated:** 2026-09-11 15:33  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -30,9 +30,9 @@ Bibliography:
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-7 / 8 tasks completed.
+8 / 8 tasks completed.
 
 ## Tasks
 
@@ -44,10 +44,21 @@ Bibliography:
 | ✅ | Run pipeline for TIPMIP-SOCN simulations | done | medium | 2027-02-28 |
 | ✅ | Run AGI pipeline on NASA-GISS output | done | medium | 2026-08-07 |
 | ✅ | Run the AGI pipeline on CESM2 and IPSL simulations | done | medium | 2026-08-13 |
-| ⬜ | Run AGI pipeline on EC-EARTH and ACCESS-ESM simulations | blocked | medium | 2026-09-11 |
+| ✅ | Run AGI pipeline on EC-EARTH and ACCESS-ESM simulations | done | medium | 2026-09-11 |
 | ✅ | Perform a quick comparison of AGI values over time and models | done | medium | 2026-09-11 |
 
 ## Updates
+
+
+### Re-run AGI pipeline for EC-EARTH
+
+**2026-09-11 11:27**
+
+The simulations for EC-Earth were missing some years. As such, we now use another ensemble member for AGI. 
+
+The pipeline was successfully run and are ready for future analysis.
+
+
 
 
 ### Comparison of multi-model simulations

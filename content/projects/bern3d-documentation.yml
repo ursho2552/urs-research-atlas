@@ -4,15 +4,31 @@ summary: The wiki documentation of Bern3D was very poor. Now we use Gitlab Pages
   store the documentation directly on the repository. The content, however, needs
   to be updated and completed
 area: Scientific software documentation
-status: paused
+status: active
 created: 2026-07-28 16:32
-updated: 2026-07-28 16:32
+updated: 2026-09-11 15:14
 tags:
 - Bern3D
 - GitLab Pages
 - MkDocs
 - model documentation
 links: {}
-tasks: []
-updates: []
+tasks:
+- id: bern3d-documentation-extend-current-documentation
+  title: Extend current documentation
+  status: in_progress
+  priority: low
+  due_date: '2026-12-31'
+  created: 2026-09-11 11:32
+  updated: 2026-09-11 11:32
+updates:
+- id: 20260911113304-documentation-for-main-modules
+  date: 2026-09-11 11:33
+  title: Documentation for main modules
+  text: "The main modules of Bern3D:\r\n\r\n- Ocean physics\r\n- Atmosphere\r\n- Land\r\
+    \n- Sea ice\r\n\r\nnow have a dedicated documentation page on the gitlab pages"
+- id: 20260911151403-bgc-documentation
+  date: 2026-09-11 15:14
+  title: BGC documentation
+  text: Extended documentation for BGC tracers
 images: []

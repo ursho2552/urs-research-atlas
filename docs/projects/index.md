@@ -9,7 +9,7 @@
       <h3>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN</h3>
       <p class="ra-muted">Climate model diagnostics</p>
     </div>
-    <span class="ra-badge ra-badge-paused">paused</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>This project aims at quantifying the effect of an AMOC collapse on marine ecosystems. The impact of an AMOC collapse is calculated by comparing the changes in the Aerobic Growth Index (AGI; Morée et al., 2023) relative to pre-industrial simulations (piControl). To this end, we use a set of simulations that have both gradual warming, and gradual warming with gradual freshwater hosing from the TipMIP-ESM and TipMIP-OCN projects using the GFDL-ESM2M model.
 
@@ -28,8 +28,8 @@ Bibliography:
 - Morée, A. L., Clarke, T. M., Cheung, W. W. L., and Frölicher, T. L.: Impact of deoxygenation and warming on global marine species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023, 2023.
 
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
-  <p class="ra-muted">7 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">8 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
   <a class="ra-button" href="agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
 </div>
@@ -61,11 +61,11 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>Bern3D documentation</h3>
       <p class="ra-muted">Scientific software documentation</p>
     </div>
-    <span class="ra-badge ra-badge-paused">paused</span>
+    <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>The wiki documentation of Bern3D was very poor. Now we use Gitlab Pages and store the documentation directly on the repository. The content, however, needs to be updated and completed</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 0 tasks completed</p>
+  <p class="ra-muted">0 / 1 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Bern3D</span><span class="ra-tag">GitLab Pages</span><span class="ra-tag">MkDocs</span><span class="ra-tag">model documentation</span></div>
   <a class="ra-button" href="bern3d-documentation/">View project</a>
 </div>
@@ -77,11 +77,11 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>Couple MEDUSA to Bern3D</h3>
       <p class="ra-muted">Earth system model development</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-paused">paused</span>
   </div>
   <p>We got access to a new sediment model, which we would like to couple to Bern3D.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 4 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 50%"></div></div>
+  <p class="ra-muted">2 / 4 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">BERN3D</span><span class="ra-tag">MEDUSA</span><span class="ra-tag">sediment model</span><span class="ra-tag">model coupling</span><span class="ra-tag">Fortran</span><span class="ra-tag">Earth system modelling</span></div>
   <a class="ra-button" href="couple-medusa-to-bern3d/">View project</a>
 </div>
@@ -93,7 +93,7 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>Document new GFDL-ESM2M CMOR pipeline</h3>
       <p class="ra-muted">Climate data standardisation workflows</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>For the TipMIP-ESM project, we need to provide our simulation data in a CMIP standardised format. For the deliverables, the simulations should be in *CMIP6Plus* format. To this end, we developed a custom *Climate Model Output Rewriter&quot; (CMOR) pipeline for our model GFDL-ESM2M.
 
@@ -101,8 +101,8 @@ Previously, this tools was part of a larger ocean tools repository. However, the
 
 As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 80%"></div></div>
-  <p class="ra-muted">4 / 5 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">5 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
   <a class="ra-button" href="document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>

@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>5</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>3</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>11</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>33</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>4</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>5</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>8</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>37</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -37,7 +37,7 @@
       <h3>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN</h3>
       <p class="ra-muted">Climate model diagnostics</p>
     </div>
-    <span class="ra-badge ra-badge-paused">paused</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>This project aims at quantifying the effect of an AMOC collapse on marine ecosystems. The impact of an AMOC collapse is calculated by comparing the changes in the Aerobic Growth Index (AGI; Morée et al., 2023) relative to pre-industrial simulations (piControl). To this end, we use a set of simulations that have both gradual warming, and gradual warming with gradual freshwater hosing from the TipMIP-ESM and TipMIP-OCN projects using the GFDL-ESM2M model.
 
@@ -56,8 +56,8 @@ Bibliography:
 - Morée, A. L., Clarke, T. M., Cheung, W. W. L., and Frölicher, T. L.: Impact of deoxygenation and warming on global marine species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023, 2023.
 
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
-  <p class="ra-muted">7 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">8 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
   <a class="ra-button" href="projects/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
 </div>
@@ -89,11 +89,11 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>Bern3D documentation</h3>
       <p class="ra-muted">Scientific software documentation</p>
     </div>
-    <span class="ra-badge ra-badge-paused">paused</span>
+    <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>The wiki documentation of Bern3D was very poor. Now we use Gitlab Pages and store the documentation directly on the repository. The content, however, needs to be updated and completed</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 0 tasks completed</p>
+  <p class="ra-muted">0 / 1 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Bern3D</span><span class="ra-tag">GitLab Pages</span><span class="ra-tag">MkDocs</span><span class="ra-tag">model documentation</span></div>
   <a class="ra-button" href="projects/bern3d-documentation/">View project</a>
 </div>
@@ -105,11 +105,11 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>Couple MEDUSA to Bern3D</h3>
       <p class="ra-muted">Earth system model development</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-paused">paused</span>
   </div>
   <p>We got access to a new sediment model, which we would like to couple to Bern3D.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 4 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 50%"></div></div>
+  <p class="ra-muted">2 / 4 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">BERN3D</span><span class="ra-tag">MEDUSA</span><span class="ra-tag">sediment model</span><span class="ra-tag">model coupling</span><span class="ra-tag">Fortran</span><span class="ra-tag">Earth system modelling</span></div>
   <a class="ra-button" href="projects/couple-medusa-to-bern3d/">View project</a>
 </div>
@@ -121,7 +121,7 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>Document new GFDL-ESM2M CMOR pipeline</h3>
       <p class="ra-muted">Climate data standardisation workflows</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>For the TipMIP-ESM project, we need to provide our simulation data in a CMIP standardised format. For the deliverables, the simulations should be in *CMIP6Plus* format. To this end, we developed a custom *Climate Model Output Rewriter&quot; (CMOR) pipeline for our model GFDL-ESM2M.
 
@@ -129,8 +129,8 @@ Previously, this tools was part of a larger ocean tools repository. However, the
 
 As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 80%"></div></div>
-  <p class="ra-muted">4 / 5 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">5 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
   <a class="ra-button" href="projects/document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>
@@ -280,20 +280,8 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
-  <strong>Run AGI pipeline on EC-EARTH and ACCESS-ESM simulations</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · medium · due 2026-09-11</span>
-</div>
-
-
-<div class="ra-list-item">
   <strong>Test new coupled model</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Understand current structure of sediment module within Bern3D</strong>
-  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
 
@@ -304,8 +292,20 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Re-run pipeline with updated variable tables</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · medium · due not set</span>
+  <strong>Extend current documentation</strong>
+  <span>Bern3D documentation · low · due 2026-12-31</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Couple Bern3D and MEDUSA with an async time-step</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Diagnose why the crash occurs</strong>
+  <span>DRTSafe crash during hosing experiments · low · due not set</span>
 </div>
 
     </div>
@@ -313,26 +313,26 @@ Bibliography:
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
-  <strong>Found small unit errors in CMIP variable definitions</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-10 17:06</span>
+  <strong>BGC documentation</strong>
+  <span>Bern3D documentation · 2026-09-11 15:14</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Added tests to CMOR pipeline</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-09 16:14</span>
+  <strong>Documentation for main modules</strong>
+  <span>Bern3D documentation · 2026-09-11 11:33</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Testing with TIPMIP-OCN</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-09 13:03</span>
+  <strong>Wrote documentation page for sediment module</strong>
+  <span>Couple MEDUSA to Bern3D · 2026-09-11 11:31</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>DRTsafe crash during high-latitude hosing experiments</strong>
-  <span>DRTSafe crash during hosing experiments · 2026-09-08 17:37</span>
+  <strong>Run with updated variable tables</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-11 11:28</span>
 </div>
 
     </div>

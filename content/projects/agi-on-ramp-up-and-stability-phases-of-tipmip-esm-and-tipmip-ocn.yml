@@ -26,9 +26,9 @@ summary: "This project aims at quantifying the effect of an AMOC collapse on mar
   \ species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023,\
   \ 2023.\r\n\r\n"
 area: Climate model diagnostics
-status: paused
+status: completed
 created: 2026-07-29 12:11
-updated: 2026-09-07 16:23
+updated: 2026-09-11 15:33
 tags:
 - TIPMIP
 - AMOC
@@ -86,11 +86,12 @@ tasks:
   completed: 2026-09-07 12:06
 - id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-run-agi-pipeline-on-ec-earth-and-access-esm-simulations
   title: Run AGI pipeline on EC-EARTH and ACCESS-ESM simulations
-  status: blocked
+  status: done
   priority: medium
   due_date: '2026-09-11'
   created: 2026-09-07 12:57
-  updated: 2026-09-07 15:33
+  updated: 2026-09-11 15:33
+  completed: 2026-09-11 15:33
 - id: agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn-perform-a-quick-comparison-of-agi-values-over-time-and-models
   title: Perform a quick comparison of AGI values over time and models
   status: done
@@ -222,4 +223,10 @@ updates:
       grid cell for the depth between 0 and 200 m (upper panel), and between 200 and
       1000 m (lower panel)
     uploaded: 2026-09-07 16:23
+- id: 20260911112732-re-run-agi-pipeline-for-ec-earth
+  date: 2026-09-11 11:27
+  title: Re-run AGI pipeline for EC-EARTH
+  text: "The simulations for EC-Earth were missing some years. As such, we now use\
+    \ another ensemble member for AGI. \r\n\r\nThe pipeline was successfully run and\
+    \ are ready for future analysis."
 images: []

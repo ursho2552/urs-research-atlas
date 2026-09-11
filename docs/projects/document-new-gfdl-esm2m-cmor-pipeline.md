@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-09-10 17:06  
+**Updated:** 2026-09-11 11:29  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -19,9 +19,9 @@ As the tool might be used in the future for other projects, it is important to w
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 80%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-4 / 5 tasks completed.
+5 / 5 tasks completed.
 
 ## Tasks
 
@@ -31,9 +31,18 @@ As the tool might be used in the future for other projects, it is important to w
 | ✅ | Add CMIP6 Tables | done | medium | — |
 | ✅ | Write tests for functions | done | medium | — |
 | ✅ | Test corrected pipeline across systems | done | medium | — |
-| ⬜ | Re-run pipeline with updated variable tables | in_progress | medium | — |
+| ✅ | Re-run pipeline with updated variable tables | done | medium | — |
 
 ## Updates
+
+
+### Run with updated variable tables
+
+**2026-09-11 11:28**
+
+The cmor pipeline was now run across different systems for TIPMIP-ESM and TIPMIP-OCN simulations.
+
+
 
 
 ### Found small unit errors in CMIP variable definitions

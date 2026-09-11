@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-paused">paused</span>
 
 **Area:** Earth system model development  
-**Updated:** 2026-07-29 13:51  
+**Updated:** 2026-09-11 15:33  
 **Tags:** `BERN3D` `MEDUSA` `sediment model` `model coupling` `Fortran` `Earth system modelling`
 
 ## Summary
@@ -14,20 +14,29 @@ We got access to a new sediment model, which we would like to couple to Bern3D.
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 50%"></div></div>
 
-0 / 4 tasks completed.
+2 / 4 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
-| ⬜ | Understand current structure of sediment module within Bern3D | in_progress | medium | — |
+| ✅ | Understand current structure of sediment module within Bern3D | done | medium | — |
 | ⬜ | Read MEDUSA&#x27;s documentation on coupling | in_progress | medium | — |
-| ⬜ | Write documentation on Pages for Bern3D&#x27;s sediment module | in_progress | low | — |
+| ✅ | Write documentation on Pages for Bern3D&#x27;s sediment module | done | low | — |
 | ⬜ | Couple Bern3D and MEDUSA with an async time-step | todo | medium | — |
 
 ## Updates
+
+
+### Wrote documentation page for sediment module
+
+**2026-09-11 11:31**
+
+The Bern3D documentation now has a page dedicated to the sediment module
+
+
 
 
 ### Sediment module understanding and documentation
