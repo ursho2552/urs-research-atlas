@@ -16,7 +16,7 @@ summary: "For the TipMIP-ESM project, we need to provide our simulation data in 
 area: Climate data standardisation workflows
 status: completed
 created: 2026-07-28 16:29
-updated: 2026-09-11 11:29
+updated: 2026-09-14 16:09
 tags:
 - GFDL-ESM2M
 - CMOR
@@ -106,4 +106,11 @@ updates:
   title: Run with updated variable tables
   text: The cmor pipeline was now run across different systems for TIPMIP-ESM and
     TIPMIP-OCN simulations.
+- id: 20260914160959-added-exception-to-pipeline
+  date: 2026-09-14 16:09
+  title: Added exception to pipeline
+  text: "The pipeline would fail if only one of the several input files were missing.\
+    \ However, it should still run on the available files.\r\nAs such, it now throws\
+    \ a warning when a file is missing, and during processing checks if a specific\
+    \ file an year are present. If the files are missing, that file and year are skipped."
 images: []

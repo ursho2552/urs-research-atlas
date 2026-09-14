@@ -313,6 +313,12 @@ Bibliography:
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
+  <strong>Added exception to pipeline</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-14 16:09</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>BGC documentation</strong>
   <span>Bern3D documentation · 2026-09-11 15:14</span>
 </div>
@@ -327,12 +333,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Wrote documentation page for sediment module</strong>
   <span>Couple MEDUSA to Bern3D · 2026-09-11 11:31</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Run with updated variable tables</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-11 11:28</span>
 </div>
 
     </div>

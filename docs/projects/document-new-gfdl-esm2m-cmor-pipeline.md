@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-09-11 11:29  
+**Updated:** 2026-09-14 16:09  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -34,6 +34,16 @@ As the tool might be used in the future for other projects, it is important to w
 | ✅ | Re-run pipeline with updated variable tables | done | medium | — |
 
 ## Updates
+
+
+### Added exception to pipeline
+
+**2026-09-14 16:09**
+
+The pipeline would fail if only one of the several input files were missing. However, it should still run on the available files.
+As such, it now throws a warning when a file is missing, and during processing checks if a specific file an year are present. If the files are missing, that file and year are skipped.
+
+
 
 
 ### Run with updated variable tables
