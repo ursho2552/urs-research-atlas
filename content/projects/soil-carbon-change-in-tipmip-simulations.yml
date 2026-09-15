@@ -1,0 +1,56 @@
+id: soil-carbon-change-in-tipmip-simulations
+title: Soil carbon change in TIPMIP simulations
+summary: "A multi-model analysis showed that the soil carbon response in GFDL-ESM2M\
+  \ deviates a lot from all other models, with a very large carbon loss at higher\
+  \ latitudes. \r\n\r\nFor the comparison, the processes responsible for this large\
+  \ increase in soil carbon need to be understood."
+area: Earth System Modelling
+status: active
+created: 2026-09-15 14:30
+updated: 2026-09-15 14:44
+tags:
+- Fortran
+links: {}
+tasks:
+- id: soil-carbon-change-in-tipmip-simulations-understand-how-soil-carbon-works-in-gfdl-esm2m
+  title: Understand how soil carbon works in GFDL-ESM2M
+  status: in_progress
+  priority: medium
+  due_date: '2026-09-30'
+  created: 2026-09-15 14:31
+  updated: 2026-09-15 14:31
+- id: soil-carbon-change-in-tipmip-simulations-derive-drivers-of-the-change
+  title: Derive drivers of the change
+  status: todo
+  priority: medium
+  due_date: '2026-09-30'
+  created: 2026-09-15 14:31
+  updated: 2026-09-15 14:31
+- id: soil-carbon-change-in-tipmip-simulations-create-documentation-page-for-this-issue
+  title: Create documentation page for this issue
+  status: todo
+  priority: medium
+  due_date: '2026-09-30'
+  created: 2026-09-15 14:32
+  updated: 2026-09-15 14:32
+updates:
+- id: 20260915144035-understanding
+  date: 2026-09-15 14:40
+  title: Understanding
+  text: "In GFDL-ESM2M, the land model LM3 from Shevliakova et al. 2009 is used.\r\
+    \n\r\nIn this model, there are two carbon pools in the soil, a fast and slow carbon\
+    \ pool. Both of them have a flux to the atmosphere, that is dependent on the average\
+    \ soil temperature and the soil moisture.\r\n\r\n"
+  images:
+  - path: assets/uploads/soil-carbon-change-in-tipmip-simulations/updates/2026-09-15-1440-lm3-factors.png
+    caption: Soil carbon sink multiplier as a function of the soil temperature and
+      soil moisture
+    uploaded: 2026-09-15 14:40
+- id: 20260915144438-possible-explanation
+  date: 2026-09-15 14:44
+  title: Possible explanation
+  text: "Todd-Brown et al., 2014 performed a multi-model analysis of CMIP5 models,\
+    \ which included the GFDL-ESM2MG, finding a similarly high soil carbon loss at\
+    \ high latitudes. \r\n\r\nThis was attributed to the lack of permafrost dynamics\
+    \ in CMIP5 models."
+images: []

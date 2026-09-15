@@ -14,9 +14,9 @@ summary: "For the TipMIP-ESM project, we need to provide our simulation data in 
   \ the old pipeline to ensure consistency. Afterwards, new tests should be written\
   \ to allow easy and reproducible extensions of the pipeline in the future.\r\n"
 area: Climate data standardisation workflows
-status: completed
+status: active
 created: 2026-07-28 16:29
-updated: 2026-09-14 16:09
+updated: 2026-09-15 15:51
 tags:
 - GFDL-ESM2M
 - CMOR
@@ -65,6 +65,20 @@ tasks:
   created: 2026-09-10 17:06
   updated: 2026-09-11 11:27
   completed: 2026-09-11 11:27
+- id: document-new-gfdl-esm2m-cmor-pipeline-test-new-bug-fix-for-hfbasin
+  title: Test new bug fix for hfbasin
+  status: in_progress
+  priority: high
+  due_date: '2026-09-21'
+  created: 2026-09-15 15:50
+  updated: 2026-09-15 15:50
+- id: document-new-gfdl-esm2m-cmor-pipeline-transfer-corrected-data-to-spirit-and-dkrz
+  title: Transfer corrected data to SPIRIT and DKRZ
+  status: todo
+  priority: high
+  due_date: '2026-09-25'
+  created: 2026-09-15 15:51
+  updated: 2026-09-15 15:51
 updates:
 - id: 20260803102702-running-tipmip-ocn-test
   date: 2026-08-03 10:27

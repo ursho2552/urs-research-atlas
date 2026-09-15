@@ -14,9 +14,9 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>4</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>5</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>8</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>4</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>13</strong></div>
   <div class="ra-kpi-card"><span>Done tasks</span><strong>37</strong></div>
 </section>
 
@@ -24,7 +24,7 @@
   <aside class="ra-home-left">
     <div class="ra-panel">
       <h2>Research areas</h2>
-      <ul><li>Climate data processing</li><li>Climate data standardisation workflows</li><li>Climate model diagnostics</li><li>Climate target modelling</li><li>Earth system model development</li><li>GFDL-ESM2M</li><li>Research software engineering</li><li>Research software maintenance</li><li>Scientific software documentation</li></ul>
+      <ul><li>Climate data processing</li><li>Climate data standardisation workflows</li><li>Climate model diagnostics</li><li>Climate target modelling</li><li>Earth System Modelling</li><li>Earth system model development</li><li>GFDL-ESM2M</li><li>Research software engineering</li><li>Research software maintenance</li><li>Scientific software documentation</li></ul>
     </div>
   </aside>
 
@@ -121,7 +121,7 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>Document new GFDL-ESM2M CMOR pipeline</h3>
       <p class="ra-muted">Climate data standardisation workflows</p>
     </div>
-    <span class="ra-badge ra-badge-completed">completed</span>
+    <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>For the TipMIP-ESM project, we need to provide our simulation data in a CMIP standardised format. For the deliverables, the simulations should be in *CMIP6Plus* format. To this end, we developed a custom *Climate Model Output Rewriter&quot; (CMOR) pipeline for our model GFDL-ESM2M.
 
@@ -129,8 +129,8 @@ Previously, this tools was part of a larger ocean tools repository. However, the
 
 As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
-  <p class="ra-muted">5 / 5 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 71%"></div></div>
+  <p class="ra-muted">5 / 7 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
   <a class="ra-button" href="projects/document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>
@@ -251,6 +251,24 @@ Bibliography
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>Soil carbon change in TIPMIP simulations</h3>
+      <p class="ra-muted">Earth System Modelling</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>A multi-model analysis showed that the soil carbon response in GFDL-ESM2M deviates a lot from all other models, with a very large carbon loss at higher latitudes. 
+
+For the comparison, the processes responsible for this large increase in soil carbon need to be understood.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+  <p class="ra-muted">0 / 3 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">Fortran</span></div>
+  <a class="ra-button" href="projects/soil-carbon-change-in-tipmip-simulations/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>Update Speedy version in Julia Bern3D wrapper</h3>
       <p class="ra-muted">Research software maintenance</p>
     </div>
@@ -280,6 +298,18 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
+  <strong>Test new bug fix for hfbasin</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · high · due 2026-09-21</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Transfer corrected data to SPIRIT and DKRZ</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · high · due 2026-09-25</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Test new coupled model</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
 </div>
@@ -292,26 +322,26 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Extend current documentation</strong>
-  <span>Bern3D documentation · low · due 2026-12-31</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Couple Bern3D and MEDUSA with an async time-step</strong>
-  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Diagnose why the crash occurs</strong>
-  <span>DRTSafe crash during hosing experiments · low · due not set</span>
+  <strong>Understand how soil carbon works in GFDL-ESM2M</strong>
+  <span>Soil carbon change in TIPMIP simulations · medium · due 2026-09-30</span>
 </div>
 
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Possible explanation</strong>
+  <span>Soil carbon change in TIPMIP simulations · 2026-09-15 14:44</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Understanding</strong>
+  <span>Soil carbon change in TIPMIP simulations · 2026-09-15 14:40</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Added exception to pipeline</strong>
   <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-14 16:09</span>
@@ -321,18 +351,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>BGC documentation</strong>
   <span>Bern3D documentation · 2026-09-11 15:14</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Documentation for main modules</strong>
-  <span>Bern3D documentation · 2026-09-11 11:33</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Wrote documentation page for sediment module</strong>
-  <span>Couple MEDUSA to Bern3D · 2026-09-11 11:31</span>
 </div>
 
     </div>
