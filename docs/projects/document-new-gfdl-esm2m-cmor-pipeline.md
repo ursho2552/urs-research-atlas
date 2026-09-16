@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-09-15 15:51  
+**Updated:** 2026-09-16 14:55  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -19,9 +19,9 @@ As the tool might be used in the future for other projects, it is important to w
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 71%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
 
-5 / 7 tasks completed.
+6 / 8 tasks completed.
 
 ## Tasks
 
@@ -32,10 +32,22 @@ As the tool might be used in the future for other projects, it is important to w
 | ✅ | Write tests for functions | done | medium | — |
 | ✅ | Test corrected pipeline across systems | done | medium | — |
 | ✅ | Re-run pipeline with updated variable tables | done | medium | — |
-| ⬜ | Test new bug fix for hfbasin | in_progress | high | 2026-09-21 |
+| ✅ | Test new bug fix for hfbasin | done | high | 2026-09-21 |
 | ⬜ | Transfer corrected data to SPIRIT and DKRZ | todo | high | 2026-09-25 |
+| ⬜ | CMORize output with corrected pipeline | in_progress | high | 2026-09-25 |
 
 ## Updates
+
+
+### Corrected bugs and improved efficiency
+
+**2026-09-16 14:55**
+
+Several bugs were found during a code review.
+
+After the review the pipeline was very slow. As such, I changed the orchestrating script to reduce the runtime
+
+
 
 
 ### Added exception to pipeline

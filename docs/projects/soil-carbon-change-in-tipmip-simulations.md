@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Earth System Modelling  
-**Updated:** 2026-09-15 14:44  
+**Updated:** 2026-09-16 14:55  
 **Tags:** `Fortran`
 
 ## Summary
@@ -16,15 +16,15 @@ For the comparison, the processes responsible for this large increase in soil ca
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
 
-0 / 3 tasks completed.
+1 / 3 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
-| ⬜ | Understand how soil carbon works in GFDL-ESM2M | in_progress | medium | 2026-09-30 |
+| ✅ | Understand how soil carbon works in GFDL-ESM2M | done | medium | 2026-09-30 |
 | ⬜ | Derive drivers of the change | todo | medium | 2026-09-30 |
 | ⬜ | Create documentation page for this issue | todo | medium | 2026-09-30 |
 

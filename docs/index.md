@@ -16,8 +16,8 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>4</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>13</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>37</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>12</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>39</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -129,8 +129,8 @@ Previously, this tools was part of a larger ocean tools repository. However, the
 
 As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 71%"></div></div>
-  <p class="ra-muted">5 / 7 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+  <p class="ra-muted">6 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
   <a class="ra-button" href="projects/document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>
@@ -259,8 +259,8 @@ Bibliography
   <p>A multi-model analysis showed that the soil carbon response in GFDL-ESM2M deviates a lot from all other models, with a very large carbon loss at higher latitudes. 
 
 For the comparison, the processes responsible for this large increase in soil carbon need to be understood.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
+  <p class="ra-muted">1 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Fortran</span></div>
   <a class="ra-button" href="projects/soil-carbon-change-in-tipmip-simulations/">View project</a>
 </div>
@@ -298,8 +298,8 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
-  <strong>Test new bug fix for hfbasin</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · high · due 2026-09-21</span>
+  <strong>CMORize output with corrected pipeline</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · high · due 2026-09-25</span>
 </div>
 
 
@@ -316,13 +316,13 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
-  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+  <strong>Derive drivers of the change</strong>
+  <span>Soil carbon change in TIPMIP simulations · medium · due 2026-09-30</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Understand how soil carbon works in GFDL-ESM2M</strong>
+  <strong>Create documentation page for this issue</strong>
   <span>Soil carbon change in TIPMIP simulations · medium · due 2026-09-30</span>
 </div>
 
@@ -330,6 +330,12 @@ Bibliography:
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Corrected bugs and improved efficiency</strong>
+  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-16 14:55</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Possible explanation</strong>
   <span>Soil carbon change in TIPMIP simulations · 2026-09-15 14:44</span>
@@ -345,12 +351,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Added exception to pipeline</strong>
   <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-14 16:09</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>BGC documentation</strong>
-  <span>Bern3D documentation · 2026-09-11 15:14</span>
 </div>
 
     </div>
