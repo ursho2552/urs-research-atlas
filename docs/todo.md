@@ -6,8 +6,8 @@ This page is generated automatically from all project tasks and sorted by urgenc
 
 | Project | Task | Status | Priority | Due date | Urgency |
 | --- | --- | --- | --- | --- | ---: |
-| Document new GFDL-ESM2M CMOR pipeline | CMORize output with corrected pipeline | in_progress | high | 2026-09-25 | 60 |
-| Document new GFDL-ESM2M CMOR pipeline | Transfer corrected data to SPIRIT and DKRZ | todo | high | 2026-09-25 | 50 |
+| GFDL-ESM2M CMOR pipeline | Transfer corrected data to SPIRIT and DKRZ | in_progress | high | 2026-09-25 | 80 |
+| AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN | Run AGI on all model output but using piControl 20 year mean reference for in-situ temperature and oxygen | in_progress | medium | 2026-09-30 | 45 |
 | Update Speedy version in Julia Bern3D wrapper | Test new coupled model | in_progress | high | — | 40 |
 | Soil carbon change in TIPMIP simulations | Derive drivers of the change | todo | medium | 2026-09-30 | 35 |
 | Soil carbon change in TIPMIP simulations | Create documentation page for this issue | todo | medium | 2026-09-30 | 35 |

@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-08-11 10:21
+updated: 2026-09-21 16:12
 tags:
 - SpeedyWeather
 - Julia
@@ -130,4 +130,11 @@ updates:
     caption: 'Sea Surface Temperature (SST in °C) and Sea Surface Salinity (SSS in
       PSU) of the Bern3D-SpeedyWeather coupled model after 1190 simulation years. '
     uploaded: 2026-08-11 10:21
+- id: 20260921161243-changed-how-ice-is-formed
+  date: 2026-09-21 16:12
+  title: Changed how ice is formed
+  text: Due to instabilities, ice could be formed even if the SST was above the freezing
+    temperature. These kind of instabilities did not occur when using the EBM. As
+    such, we now implemented a gate that only allows ice formation below the freezing
+    point.
 images: []

@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-08-11 10:21  
+**Updated:** 2026-09-21 16:12  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -38,6 +38,15 @@ Bibliography:
 | ⬜ | Test new coupled model | in_progress | high | — |
 
 ## Updates
+
+
+### Changed how ice is formed
+
+**2026-09-21 16:12**
+
+Due to instabilities, ice could be formed even if the SST was above the freezing temperature. These kind of instabilities did not occur when using the EBM. As such, we now implemented a gate that only allows ice formation below the freezing point.
+
+
 
 
 ### Current status

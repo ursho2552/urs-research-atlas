@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-completed">completed</span>
+<span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-09-11 15:33  
+**Updated:** 2026-09-21 12:43  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -30,9 +30,9 @@ Bibliography:
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 89%"></div></div>
 
-8 / 8 tasks completed.
+8 / 9 tasks completed.
 
 ## Tasks
 
@@ -46,8 +46,24 @@ Bibliography:
 | ✅ | Run the AGI pipeline on CESM2 and IPSL simulations | done | medium | 2026-08-13 |
 | ✅ | Run AGI pipeline on EC-EARTH and ACCESS-ESM simulations | done | medium | 2026-09-11 |
 | ✅ | Perform a quick comparison of AGI values over time and models | done | medium | 2026-09-11 |
+| ⬜ | Run AGI on all model output but using piControl 20 year mean reference for in-situ temperature and oxygen | in_progress | medium | 2026-09-30 |
 
 ## Updates
+
+
+### Re-running agi with reference in-situ temperature and reference pO2
+
+**2026-09-21 12:42**
+
+We use the same function, but replace the values of the in-situ temperature or pO2 with the average of the piControl simulation over the first 20 years.
+
+In addition, we test, whether the resulting relative AGI is equal to the sum of the relative AGI calculated with the reference in-situ temperature and the relative AGI calculated with the reference pO2.
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/updates/2026-09-21-1242-agi-contributions.png' alt='Contributions to the relative AGI. The relative AGI (control; blue) can be reconstructed (red) from the sum of the relative AGI calculated using the scenario&#x27;s pO2 and the reference in-situ temperature (green) and the relative AGI calculated using the scenario&#x27;s in-situ temperature and the reference pO2 (orange).'><figcaption>Contributions to the relative AGI. The relative AGI (control; blue) can be reconstructed (red) from the sum of the relative AGI calculated using the scenario&#x27;s pO2 and the reference in-situ temperature (green) and the relative AGI calculated using the scenario&#x27;s in-situ temperature and the reference pO2 (orange).</figcaption></figure>
+</div>
+
 
 
 ### Re-run AGI pipeline for EC-EARTH

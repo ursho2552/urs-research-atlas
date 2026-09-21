@@ -1,5 +1,5 @@
 id: document-new-gfdl-esm2m-cmor-pipeline
-title: Document new GFDL-ESM2M CMOR pipeline
+title: GFDL-ESM2M CMOR pipeline
 summary: "For the TipMIP-ESM project, we need to provide our simulation data in a\
   \ CMIP standardised format. For the deliverables, the simulations should be in *CMIP6Plus*\
   \ format. To this end, we developed a custom *Climate Model Output Rewriter\" (CMOR)\
@@ -16,7 +16,7 @@ summary: "For the TipMIP-ESM project, we need to provide our simulation data in 
 area: Climate data standardisation workflows
 status: active
 created: 2026-07-28 16:29
-updated: 2026-09-16 14:55
+updated: 2026-09-21 07:46
 tags:
 - GFDL-ESM2M
 - CMOR
@@ -75,18 +75,19 @@ tasks:
   completed: 2026-09-16 14:53
 - id: document-new-gfdl-esm2m-cmor-pipeline-transfer-corrected-data-to-spirit-and-dkrz
   title: Transfer corrected data to SPIRIT and DKRZ
-  status: todo
-  priority: high
-  due_date: '2026-09-25'
-  created: 2026-09-15 15:51
-  updated: 2026-09-15 15:51
-- id: document-new-gfdl-esm2m-cmor-pipeline-cmorize-output-with-corrected-pipeline
-  title: CMORize output with corrected pipeline
   status: in_progress
   priority: high
   due_date: '2026-09-25'
+  created: 2026-09-15 15:51
+  updated: 2026-09-21 07:45
+- id: document-new-gfdl-esm2m-cmor-pipeline-cmorize-output-with-corrected-pipeline
+  title: CMORize output with corrected pipeline
+  status: done
+  priority: high
+  due_date: '2026-09-25'
   created: 2026-09-16 14:53
-  updated: 2026-09-16 14:53
+  updated: 2026-09-21 07:45
+  completed: 2026-09-21 07:45
 updates:
 - id: 20260803102702-running-tipmip-ocn-test
   date: 2026-08-03 10:27
@@ -141,4 +142,22 @@ updates:
   text: "Several bugs were found during a code review.\r\n\r\nAfter the review the\
     \ pipeline was very slow. As such, I changed the orchestrating script to reduce\
     \ the runtime"
+- id: 20260917115225-branches-re-done
+  date: 2026-09-17 11:52
+  title: Branches re-done
+  text: "The following branches have been run:\r\n\r\n**TIPMIP-SOCN**: \r\n\r\n- tipmip-ocn-p1t1-Aa\r\
+    \n- tipmip-ocn-p1t1-Ab\r\n- tipmip-ocn-p1t2-Aa\r\n- tipmip-ocn-p1t2-Ab\r\n\r\n\
+    **TIPMIP-OCN**: \r\n\r\n- tipmip-ocn-p1t1-Aa\r\n- tipmip-ocn-p1t1-Ab\r\n- tipmip-ocn-p1t1-Ac\r\
+    \n- tipmip-ocn-p1t1-Ad\r\n- tipmip-ocn-p1t2-Aa\r\n- tipmip-ocn-p1t2-Ab\r\n- tipmip-ocn-p1t2-Ac\r\
+    \n- tipmip-ocn-p1t2-Ad\r\n\r\n**TIPMIP**:\r\n\r\n- esm-piControl-spinup\r\n- esm-piControl\r\
+    \n- esm-up2p0\r\n- esm-up2p0-gwl2p0\r\n- esm-up2p0-gwl2p0-50y-dn2p0\r\n- esm-up2p0-gwl2p0-50y-dn2p0-gwl0p0\r\
+    \n- esm-up2p0-gwl4p0 \r\n- esm-up2p0-gwl4p0-50y-dn2p0\r\n- esm-up2p0-gwl4p0-50y-dn2p0-gwl0p0\r\
+    \n- esm-up2p0-gwl4p0-50y-dn2p0-gwl2p0\r\n"
+  updated: 2026-09-19 07:53
+  images: []
+- id: 20260921074642-data-transfer
+  date: 2026-09-21 07:46
+  title: Data transfer
+  text: The CMIP piControl-spinup, TIPMIP and TIPMIP-OCN simulations are now being
+    transferred to SPIRIT and DKRZ
 images: []

@@ -1,0 +1,19 @@
+id: nczip-tool
+title: NCZIP tool
+summary: "For the GFDL-ESM2M output, we need to compress our simulations either on\
+  \ CSCS or on our servers.\r\n\r\nTo this end, we use the nczip wrapper that was\
+  \ part of a larger ocean tools repository. However, the tool is now large enough\
+  \ and complex enough to be put into a separate repository. In this new repository,\
+  \ the tool should be ready to use with a clear definition for the python environment\
+  \ needed to increase re-usablity, and possible extension."
+area: Climate data processing
+status: active
+created: 2026-09-21 08:18
+updated: 2026-09-21 08:22
+tags:
+- Python
+- netCDF
+links: {}
+tasks: []
+updates: []
+images: []

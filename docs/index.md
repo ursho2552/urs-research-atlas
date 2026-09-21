@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>4</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>8</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>3</strong></div>
   <div class="ra-kpi-card"><span>Open tasks</span><strong>12</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>39</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>40</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -37,7 +37,7 @@
       <h3>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN</h3>
       <p class="ra-muted">Climate model diagnostics</p>
     </div>
-    <span class="ra-badge ra-badge-completed">completed</span>
+    <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>This project aims at quantifying the effect of an AMOC collapse on marine ecosystems. The impact of an AMOC collapse is calculated by comparing the changes in the Aerobic Growth Index (AGI; Morée et al., 2023) relative to pre-industrial simulations (piControl). To this end, we use a set of simulations that have both gradual warming, and gradual warming with gradual freshwater hosing from the TipMIP-ESM and TipMIP-OCN projects using the GFDL-ESM2M model.
 
@@ -56,8 +56,8 @@ Bibliography:
 - Morée, A. L., Clarke, T. M., Cheung, W. W. L., and Frölicher, T. L.: Impact of deoxygenation and warming on global marine species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023, 2023.
 
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
-  <p class="ra-muted">8 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 89%"></div></div>
+  <p class="ra-muted">8 / 9 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
   <a class="ra-button" href="projects/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
 </div>
@@ -112,27 +112,6 @@ To account for this, we implemented a new constraint based on atmospheric carbon
   <p class="ra-muted">2 / 4 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">BERN3D</span><span class="ra-tag">MEDUSA</span><span class="ra-tag">sediment model</span><span class="ra-tag">model coupling</span><span class="ra-tag">Fortran</span><span class="ra-tag">Earth system modelling</span></div>
   <a class="ra-button" href="projects/couple-medusa-to-bern3d/">View project</a>
-</div>
-
-
-<div class="ra-project-card">
-  <div class="ra-card-head">
-    <div>
-      <h3>Document new GFDL-ESM2M CMOR pipeline</h3>
-      <p class="ra-muted">Climate data standardisation workflows</p>
-    </div>
-    <span class="ra-badge ra-badge-active">active</span>
-  </div>
-  <p>For the TipMIP-ESM project, we need to provide our simulation data in a CMIP standardised format. For the deliverables, the simulations should be in *CMIP6Plus* format. To this end, we developed a custom *Climate Model Output Rewriter&quot; (CMOR) pipeline for our model GFDL-ESM2M.
-
-Previously, this tools was part of a larger ocean tools repository. However, the tool got very large and complex, which then resulted in the creation of a separate repository for the tool alone, and a refactoring. During the refactoring, the tool was made more general to allow for the use of different CMIP formats, but stayed specific to GFDL-ESM2M output.
-
-As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
-</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
-  <p class="ra-muted">6 / 8 tasks completed</p>
-  <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
-  <a class="ra-button" href="projects/document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>
 
 
@@ -195,6 +174,27 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>GFDL-ESM2M CMOR pipeline</h3>
+      <p class="ra-muted">Climate data standardisation workflows</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>For the TipMIP-ESM project, we need to provide our simulation data in a CMIP standardised format. For the deliverables, the simulations should be in *CMIP6Plus* format. To this end, we developed a custom *Climate Model Output Rewriter&quot; (CMOR) pipeline for our model GFDL-ESM2M.
+
+Previously, this tools was part of a larger ocean tools repository. However, the tool got very large and complex, which then resulted in the creation of a separate repository for the tool alone, and a refactoring. During the refactoring, the tool was made more general to allow for the use of different CMIP formats, but stayed specific to GFDL-ESM2M output.
+
+As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
+</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
+  <p class="ra-muted">7 / 8 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
+  <a class="ra-button" href="projects/document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>Maintain and refactor Bern3D Tools</h3>
       <p class="ra-muted">Research software engineering</p>
     </div>
@@ -221,6 +221,24 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
   <p class="ra-muted">0 / 0 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">python</span><span class="ra-tag">compound extremes</span><span class="ra-tag">observations</span></div>
   <a class="ra-button" href="projects/mhw-thw-detection-algorithm/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
+      <h3>NCZIP tool</h3>
+      <p class="ra-muted">Climate data processing</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>For the GFDL-ESM2M output, we need to compress our simulations either on CSCS or on our servers.
+
+To this end, we use the nczip wrapper that was part of a larger ocean tools repository. However, the tool is now large enough and complex enough to be put into a separate repository. In this new repository, the tool should be ready to use with a clear definition for the python environment needed to increase re-usablity, and possible extension.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+  <p class="ra-muted">0 / 0 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">netCDF</span></div>
+  <a class="ra-button" href="projects/nczip-tool/">View project</a>
 </div>
 
 
@@ -298,14 +316,14 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
-  <strong>CMORize output with corrected pipeline</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · high · due 2026-09-25</span>
+  <strong>Transfer corrected data to SPIRIT and DKRZ</strong>
+  <span>GFDL-ESM2M CMOR pipeline · high · due 2026-09-25</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Transfer corrected data to SPIRIT and DKRZ</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · high · due 2026-09-25</span>
+  <strong>Run AGI on all model output but using piControl 20 year mean reference for in-situ temperature and oxygen</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · medium · due 2026-09-30</span>
 </div>
 
 
@@ -331,26 +349,26 @@ Bibliography:
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
-  <strong>Corrected bugs and improved efficiency</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-16 14:55</span>
+  <strong>Changed how ice is formed</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-21 16:12</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Possible explanation</strong>
-  <span>Soil carbon change in TIPMIP simulations · 2026-09-15 14:44</span>
+  <strong>Re-running agi with reference in-situ temperature and reference pO2</strong>
+  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-09-21 12:42</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Understanding</strong>
-  <span>Soil carbon change in TIPMIP simulations · 2026-09-15 14:40</span>
+  <strong>Data transfer</strong>
+  <span>GFDL-ESM2M CMOR pipeline · 2026-09-21 07:46</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Added exception to pipeline</strong>
-  <span>Document new GFDL-ESM2M CMOR pipeline · 2026-09-14 16:09</span>
+  <strong>Branches re-done</strong>
+  <span>GFDL-ESM2M CMOR pipeline · 2026-09-17 11:52</span>
 </div>
 
     </div>

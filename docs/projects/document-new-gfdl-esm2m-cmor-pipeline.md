@@ -1,11 +1,11 @@
-# Document new GFDL-ESM2M CMOR pipeline
+# GFDL-ESM2M CMOR pipeline
 
 <div class="ra-page ra-simple-page" markdown="1">
 
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-09-16 14:55  
+**Updated:** 2026-09-21 07:46  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -19,9 +19,9 @@ As the tool might be used in the future for other projects, it is important to w
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
 
-6 / 8 tasks completed.
+7 / 8 tasks completed.
 
 ## Tasks
 
@@ -33,10 +33,60 @@ As the tool might be used in the future for other projects, it is important to w
 | ✅ | Test corrected pipeline across systems | done | medium | — |
 | ✅ | Re-run pipeline with updated variable tables | done | medium | — |
 | ✅ | Test new bug fix for hfbasin | done | high | 2026-09-21 |
-| ⬜ | Transfer corrected data to SPIRIT and DKRZ | todo | high | 2026-09-25 |
-| ⬜ | CMORize output with corrected pipeline | in_progress | high | 2026-09-25 |
+| ⬜ | Transfer corrected data to SPIRIT and DKRZ | in_progress | high | 2026-09-25 |
+| ✅ | CMORize output with corrected pipeline | done | high | 2026-09-25 |
 
 ## Updates
+
+
+### Data transfer
+
+**2026-09-21 07:46**
+
+The CMIP piControl-spinup, TIPMIP and TIPMIP-OCN simulations are now being transferred to SPIRIT and DKRZ
+
+
+
+
+### Branches re-done
+
+**2026-09-17 11:52**
+
+The following branches have been run:
+
+**TIPMIP-SOCN**: 
+
+- tipmip-ocn-p1t1-Aa
+- tipmip-ocn-p1t1-Ab
+- tipmip-ocn-p1t2-Aa
+- tipmip-ocn-p1t2-Ab
+
+**TIPMIP-OCN**: 
+
+- tipmip-ocn-p1t1-Aa
+- tipmip-ocn-p1t1-Ab
+- tipmip-ocn-p1t1-Ac
+- tipmip-ocn-p1t1-Ad
+- tipmip-ocn-p1t2-Aa
+- tipmip-ocn-p1t2-Ab
+- tipmip-ocn-p1t2-Ac
+- tipmip-ocn-p1t2-Ad
+
+**TIPMIP**:
+
+- esm-piControl-spinup
+- esm-piControl
+- esm-up2p0
+- esm-up2p0-gwl2p0
+- esm-up2p0-gwl2p0-50y-dn2p0
+- esm-up2p0-gwl2p0-50y-dn2p0-gwl0p0
+- esm-up2p0-gwl4p0 
+- esm-up2p0-gwl4p0-50y-dn2p0
+- esm-up2p0-gwl4p0-50y-dn2p0-gwl0p0
+- esm-up2p0-gwl4p0-50y-dn2p0-gwl2p0
+
+
+
 
 
 ### Corrected bugs and improved efficiency
