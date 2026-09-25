@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-09-21 16:12  
+**Updated:** 2026-09-25 16:12  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -24,9 +24,9 @@ Bibliography:
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 80%"></div></div>
 
-3 / 4 tasks completed.
+4 / 5 tasks completed.
 
 ## Tasks
 
@@ -35,9 +35,39 @@ Bibliography:
 | ✅ | Update SpeedyWeather to newest release | done | medium | — |
 | ✅ | Implement breaking changes into current coupling | done | medium | — |
 | ✅ | Implement land runoff into freshwater coupling | done | high | — |
-| ⬜ | Test new coupled model | in_progress | high | — |
+| ✅ | Test new coupled model | done | high | — |
+| ⬜ | Implement PR changes and fixes | in_progress | medium | — |
 
 ## Updates
+
+
+### Bug fixes
+
+**2026-09-25 16:12**
+
+In testing and tracking energy, and water budgets, several potential bugs were found on SpeedyWeather. These issues have now been posted on the github and awaiting response.
+
+I will now implement the available fixes and test it again on the coupled model
+
+
+
+
+### Checking precipitation patterns in Speedy as a function of grid size
+
+**2026-09-22 11:36**
+
+As the precipitation patterns using a T21 resolution look very flat, I am now testing the effect of grid resolution on the emergent precipitation patterns using standalone Speedy simulations.
+
+
+
+
+### Merged recent changes from main
+
+**2026-09-22 11:35**
+
+The main branch from which the julia branch was created, was recently updated. As such, I now merged the changes into the julia branch and successfully ran the coupled model.
+
+
 
 
 ### Changed how ice is formed

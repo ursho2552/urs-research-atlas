@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Earth System Modelling  
-**Updated:** 2026-09-16 14:55  
+**Updated:** 2026-09-23 15:46  
 **Tags:** `Fortran`
 
 ## Summary
@@ -16,19 +16,28 @@ For the comparison, the processes responsible for this large increase in soil ca
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
 
-1 / 3 tasks completed.
+2 / 3 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
 | ✅ | Understand how soil carbon works in GFDL-ESM2M | done | medium | 2026-09-30 |
-| ⬜ | Derive drivers of the change | todo | medium | 2026-09-30 |
-| ⬜ | Create documentation page for this issue | todo | medium | 2026-09-30 |
+| ✅ | Derive drivers of the change | done | medium | 2026-09-30 |
+| ⬜ | Create documentation page for this issue | in_progress | medium | 2026-09-30 |
 
 ## Updates
+
+
+### Increase in soil temperature as main driver
+
+**2026-09-22 07:47**
+
+The sustained high temperature of roughly +8°C above piControl during the 4°C stabilisation branch is the most likely driver for the increased soil carbon loss in the high latitudes
+
+
 
 
 ### Possible explanation

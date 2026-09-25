@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-09-21 16:12
+updated: 2026-09-25 16:12
 tags:
 - SpeedyWeather
 - Julia
@@ -53,11 +53,19 @@ tasks:
   completed: 2026-08-10 16:15
 - id: update-speedy-version-in-julia-bern3d-wrapper-test-new-coupled-model
   title: Test new coupled model
-  status: in_progress
+  status: done
   priority: high
   due_date: ''
   created: 2026-08-10 16:15
-  updated: 2026-08-10 16:15
+  updated: 2026-09-25 16:10
+  completed: 2026-09-25 16:10
+- id: update-speedy-version-in-julia-bern3d-wrapper-implement-pr-changes-and-fixes
+  title: Implement PR changes and fixes
+  status: in_progress
+  priority: medium
+  due_date: ''
+  created: 2026-09-25 16:10
+  updated: 2026-09-25 16:10
 updates:
 - id: 20260803112144-update-to-new-version
   date: 2026-08-03 11:21
@@ -137,4 +145,23 @@ updates:
     temperature. These kind of instabilities did not occur when using the EBM. As
     such, we now implemented a gate that only allows ice formation below the freezing
     point.
+- id: 20260922113513-merged-recent-changes-from-main
+  date: 2026-09-22 11:35
+  title: Merged recent changes from main
+  text: The main branch from which the julia branch was created, was recently updated.
+    As such, I now merged the changes into the julia branch and successfully ran the
+    coupled model.
+- id: 20260922113636-checking-precipitation-patterns-in-speedy-as-a-function-of-grid-size
+  date: 2026-09-22 11:36
+  title: Checking precipitation patterns in Speedy as a function of grid size
+  text: As the precipitation patterns using a T21 resolution look very flat, I am
+    now testing the effect of grid resolution on the emergent precipitation patterns
+    using standalone Speedy simulations.
+- id: 20260925161206-bug-fixes
+  date: 2026-09-25 16:12
+  title: Bug fixes
+  text: "In testing and tracking energy, and water budgets, several potential bugs\
+    \ were found on SpeedyWeather. These issues have now been posted on the github\
+    \ and awaiting response.\r\n\r\nI will now implement the available fixes and test\
+    \ it again on the coupled model"
 images: []

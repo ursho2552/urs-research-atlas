@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Climate model diagnostics  
-**Updated:** 2026-09-21 12:43  
+**Updated:** 2026-09-22 07:45  
 **Tags:** `TIPMIP` `AMOC` `AGI`
 
 ## Summary
@@ -30,9 +30,9 @@ Bibliography:
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 89%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-8 / 9 tasks completed.
+9 / 9 tasks completed.
 
 ## Tasks
 
@@ -46,7 +46,7 @@ Bibliography:
 | ✅ | Run the AGI pipeline on CESM2 and IPSL simulations | done | medium | 2026-08-13 |
 | ✅ | Run AGI pipeline on EC-EARTH and ACCESS-ESM simulations | done | medium | 2026-09-11 |
 | ✅ | Perform a quick comparison of AGI values over time and models | done | medium | 2026-09-11 |
-| ⬜ | Run AGI on all model output but using piControl 20 year mean reference for in-situ temperature and oxygen | in_progress | medium | 2026-09-30 |
+| ✅ | Run AGI on all model output but using piControl 20 year mean reference for in-situ temperature and oxygen | done | medium | 2026-09-30 |
 
 ## Updates
 

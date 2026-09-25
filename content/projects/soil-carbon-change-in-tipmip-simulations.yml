@@ -7,7 +7,7 @@ summary: "A multi-model analysis showed that the soil carbon response in GFDL-ES
 area: Earth System Modelling
 status: active
 created: 2026-09-15 14:30
-updated: 2026-09-16 14:55
+updated: 2026-09-23 15:46
 tags:
 - Fortran
 links: {}
@@ -22,18 +22,19 @@ tasks:
   completed: 2026-09-16 14:55
 - id: soil-carbon-change-in-tipmip-simulations-derive-drivers-of-the-change
   title: Derive drivers of the change
-  status: todo
+  status: done
   priority: medium
   due_date: '2026-09-30'
   created: 2026-09-15 14:31
-  updated: 2026-09-15 14:31
+  updated: 2026-09-22 07:46
+  completed: 2026-09-22 07:46
 - id: soil-carbon-change-in-tipmip-simulations-create-documentation-page-for-this-issue
   title: Create documentation page for this issue
-  status: todo
+  status: in_progress
   priority: medium
   due_date: '2026-09-30'
   created: 2026-09-15 14:32
-  updated: 2026-09-15 14:32
+  updated: 2026-09-23 15:46
 updates:
 - id: 20260915144035-understanding
   date: 2026-09-15 14:40
@@ -54,4 +55,10 @@ updates:
     \ which included the GFDL-ESM2MG, finding a similarly high soil carbon loss at\
     \ high latitudes. \r\n\r\nThis was attributed to the lack of permafrost dynamics\
     \ in CMIP5 models."
+- id: 20260922074751-increase-in-soil-temperature-as-main-driver
+  date: 2026-09-22 07:47
+  title: Increase in soil temperature as main driver
+  text: The sustained high temperature of roughly +8°C above piControl during the
+    4°C stabilisation branch is the most likely driver for the increased soil carbon
+    loss in the high latitudes
 images: []

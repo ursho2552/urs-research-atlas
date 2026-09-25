@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-09-21 07:46  
+**Updated:** 2026-09-25 08:09  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -37,6 +37,15 @@ As the tool might be used in the future for other projects, it is important to w
 | ✅ | CMORize output with corrected pipeline | done | high | 2026-09-25 |
 
 ## Updates
+
+
+### Transfer to DKRZ
+
+**2026-09-25 08:09**
+
+The transfer to DKRZ of TIPMIP, TIPMIP-OCN, and CMIP is done
+
+
 
 
 ### Data transfer

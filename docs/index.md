@@ -16,8 +16,8 @@
 <section class="ra-kpi-grid">
   <div class="ra-kpi-card"><span>Active projects</span><strong>8</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>3</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>12</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>40</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>10</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>44</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -37,7 +37,7 @@
       <h3>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN</h3>
       <p class="ra-muted">Climate model diagnostics</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>This project aims at quantifying the effect of an AMOC collapse on marine ecosystems. The impact of an AMOC collapse is calculated by comparing the changes in the Aerobic Growth Index (AGI; Morée et al., 2023) relative to pre-industrial simulations (piControl). To this end, we use a set of simulations that have both gradual warming, and gradual warming with gradual freshwater hosing from the TipMIP-ESM and TipMIP-OCN projects using the GFDL-ESM2M model.
 
@@ -56,8 +56,8 @@ Bibliography:
 - Morée, A. L., Clarke, T. M., Cheung, W. W. L., and Frölicher, T. L.: Impact of deoxygenation and warming on global marine species in the 21st century, Biogeosciences, 20, 2425–2454, https://doi.org/10.5194/bg-20-2425-2023, 2023.
 
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 89%"></div></div>
-  <p class="ra-muted">8 / 9 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">9 / 9 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">TIPMIP</span><span class="ra-tag">AMOC</span><span class="ra-tag">AGI</span></div>
   <a class="ra-button" href="projects/agi-on-ramp-up-and-stability-phases-of-tipmip-esm-and-tipmip-ocn/">View project</a>
 </div>
@@ -145,7 +145,7 @@ The goal of this project is to inspect why this crash occurs, find possible solu
       <h3>ERA5 data for MHW workshop</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
-    <span class="ra-badge ra-badge-completed">completed</span>
+    <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>Catherine Gregory is organising a workshop on *Understanding the dynamics and feedback mechanisms of compound heatwaves between land and ocean&quot; (31. August to 3rd November 2026) at the University of Bern. To this end, we would like to provide some useful datasets for the participants for the hands-on parts of the workshop. 
 
@@ -165,7 +165,7 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 
 </p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
-  <p class="ra-muted">8 / 8 tasks completed</p>
+  <p class="ra-muted">9 / 9 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">ERA5</span><span class="ra-tag">marine heatwaves</span><span class="ra-tag">climatology</span><span class="ra-tag">CDS API</span><span class="ra-tag">xarray</span><span class="ra-tag">NetCDF</span></div>
   <a class="ra-button" href="projects/era5-data-for-mhw-workshop/">View project</a>
 </div>
@@ -214,9 +214,11 @@ As the tool might be used in the future for other projects, it is important to w
       <h3>MHW-THW detection algorithm</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
-    <span class="ra-badge ra-badge-paused">paused</span>
+    <span class="ra-badge ra-badge-archived">archived</span>
   </div>
-  <p>From the MHW-THW workshop, we decided to define compound extremes as those that have atmospheric wet bulb extremes that extend over land and ocean, and that overlap at least partially with marine heatwaves based on sea surface temperature. To this end, we try to develop an algorithm to efficiently detect them and summarize them.</p>
+  <p>From the MHW-THW workshop, we decided to define compound extremes as those that have atmospheric wet bulb extremes that extend over land and ocean, and that overlap at least partially with marine heatwaves based on sea surface temperature. To this end, we try to develop an algorithm to efficiently detect them and summarize them.
+
+This part of the project will be done by Emma Ferri (ETH Zürich)</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
   <p class="ra-muted">0 / 0 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">python</span><span class="ra-tag">compound extremes</span><span class="ra-tag">observations</span></div>
@@ -277,8 +279,8 @@ Bibliography
   <p>A multi-model analysis showed that the soil carbon response in GFDL-ESM2M deviates a lot from all other models, with a very large carbon loss at higher latitudes. 
 
 For the comparison, the processes responsible for this large increase in soil carbon need to be understood.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
-  <p class="ra-muted">1 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
+  <p class="ra-muted">2 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Fortran</span></div>
   <a class="ra-button" href="projects/soil-carbon-change-in-tipmip-simulations/">View project</a>
 </div>
@@ -303,8 +305,8 @@ In addition, we noticed that our freshwater coupling has a missing component, th
 Bibliography:
 
 - Klöwer et al., (2024). SpeedyWeather.jl: Reinventing atmospheric general circulation models towards interactivity and extensibility. Journal of Open Source Software, 9(98), 6323, doi:10.21105/joss.06323.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 75%"></div></div>
-  <p class="ra-muted">3 / 4 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 80%"></div></div>
+  <p class="ra-muted">4 / 5 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">SpeedyWeather</span><span class="ra-tag">Julia</span><span class="ra-tag">model coupling</span><span class="ra-tag">Bern3D</span></div>
   <a class="ra-button" href="projects/update-speedy-version-in-julia-bern3d-wrapper/">View project</a>
 </div>
@@ -322,26 +324,26 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Run AGI on all model output but using piControl 20 year mean reference for in-situ temperature and oxygen</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · medium · due 2026-09-30</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Test new coupled model</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · high · due not set</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Derive drivers of the change</strong>
-  <span>Soil carbon change in TIPMIP simulations · medium · due 2026-09-30</span>
-</div>
-
-
-<div class="ra-list-item">
   <strong>Create documentation page for this issue</strong>
   <span>Soil carbon change in TIPMIP simulations · medium · due 2026-09-30</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Implement PR changes and fixes</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · medium · due not set</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Extend current documentation</strong>
+  <span>Bern3D documentation · low · due 2026-12-31</span>
 </div>
 
     </div>
@@ -349,26 +351,26 @@ Bibliography:
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
-  <strong>Changed how ice is formed</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-21 16:12</span>
+  <strong>Bug fixes</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-25 16:12</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Re-running agi with reference in-situ temperature and reference pO2</strong>
-  <span>AGI on ramp-up and stability phases of TIPMIP-ESM and TIPMIP-OCN · 2026-09-21 12:42</span>
+  <strong>Transfer to DKRZ</strong>
+  <span>GFDL-ESM2M CMOR pipeline · 2026-09-25 08:09</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Data transfer</strong>
-  <span>GFDL-ESM2M CMOR pipeline · 2026-09-21 07:46</span>
+  <strong>Initial identification of interesting regions</strong>
+  <span>ERA5 data for MHW workshop · 2026-09-23 08:15</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Branches re-done</strong>
-  <span>GFDL-ESM2M CMOR pipeline · 2026-09-17 11:52</span>
+  <strong>Checking precipitation patterns in Speedy as a function of grid size</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-22 11:36</span>
 </div>
 
     </div>

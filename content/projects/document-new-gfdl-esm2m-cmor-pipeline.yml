@@ -16,7 +16,7 @@ summary: "For the TipMIP-ESM project, we need to provide our simulation data in 
 area: Climate data standardisation workflows
 status: active
 created: 2026-07-28 16:29
-updated: 2026-09-21 07:46
+updated: 2026-09-25 08:09
 tags:
 - GFDL-ESM2M
 - CMOR
@@ -160,4 +160,8 @@ updates:
   title: Data transfer
   text: The CMIP piControl-spinup, TIPMIP and TIPMIP-OCN simulations are now being
     transferred to SPIRIT and DKRZ
+- id: 20260925080938-transfer-to-dkrz
+  date: 2026-09-25 08:09
+  title: Transfer to DKRZ
+  text: The transfer to DKRZ of TIPMIP, TIPMIP-OCN, and CMIP is done
 images: []

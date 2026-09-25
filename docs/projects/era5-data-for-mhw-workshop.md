@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-completed">completed</span>
+<span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-08-27 11:43  
+**Updated:** 2026-09-23 08:15  
 **Tags:** `ERA5` `marine heatwaves` `climatology` `CDS API` `xarray` `NetCDF`
 
 ## Summary
@@ -32,7 +32,7 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 
 <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-8 / 8 tasks completed.
+9 / 9 tasks completed.
 
 ## Tasks
 
@@ -46,8 +46,22 @@ In addition, as the workshop focuses on heat waves, we would like to also provid
 | ✅ | Download Wind data | done | medium | 2026-08-07 |
 | ✅ | Download surface pressure | done | medium | 2026-08-07 |
 | ✅ | Calculate climatologies | done | high | 2026-08-13 |
+| ✅ | Define regions of interest | done | high | 2026-09-23 |
 
 ## Updates
+
+
+### Initial identification of interesting regions
+
+**2026-09-23 08:15**
+
+Using the data provided by Emma Ferri (ETH Zürich), we identified regions with high occurrence frequency in compound extremes. To do this, we filtered the identified extremes where the terrestrial component was at least 23°C in the raw day may wet bulb temperature.
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/era5-data-for-mhw-workshop/updates/2026-09-23-0815-frequency-map-23deg.png' alt='Frequency of compound extreme events from 1990 to 2025.'><figcaption>Frequency of compound extreme events from 1990 to 2025.</figcaption></figure>
+</div>
+
 
 
 ### Added corrected check for existing files

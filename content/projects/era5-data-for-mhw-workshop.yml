@@ -16,9 +16,9 @@ summary: "Catherine Gregory is organising a workshop on *Understanding the dynam
   \ such that the participants could focus on the hands-on tasks, rather than the\
   \ technical part of calculating climatologies.\r\n\r\n"
 area: Climate data processing
-status: completed
+status: active
 created: 2026-07-28 15:51
-updated: 2026-08-27 11:43
+updated: 2026-09-23 08:15
 tags:
 - ERA5
 - marine heatwaves
@@ -91,6 +91,14 @@ tasks:
   created: 2026-07-28 15:54
   updated: 2026-08-05 11:56
   completed: 2026-08-05 11:56
+- id: era5-data-for-mhw-workshop-define-regions-of-interest
+  title: Define regions of interest
+  status: done
+  priority: high
+  due_date: '2026-09-23'
+  created: 2026-09-22 07:45
+  updated: 2026-09-23 08:11
+  completed: 2026-09-23 08:11
 updates:
 - id: 20260803103620-missing-wind-fields
   date: 2026-08-03 10:36
@@ -119,4 +127,15 @@ updates:
   title: Added corrected check for existing files
   text: The automatic file check before every download was not working properly. This
     has now been fixed.
+- id: 20260923081510-initial-identification-of-interesting-regions
+  date: 2026-09-23 08:15
+  title: Initial identification of interesting regions
+  text: Using the data provided by Emma Ferri (ETH Zürich), we identified regions
+    with high occurrence frequency in compound extremes. To do this, we filtered the
+    identified extremes where the terrestrial component was at least 23°C in the raw
+    day may wet bulb temperature.
+  images:
+  - path: assets/uploads/era5-data-for-mhw-workshop/updates/2026-09-23-0815-frequency-map-23deg.png
+    caption: Frequency of compound extreme events from 1990 to 2025.
+    uploaded: 2026-09-23 08:15
 images: []

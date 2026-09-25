@@ -2,15 +2,17 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-paused">paused</span>
+<span class="ra-badge ra-badge-archived">archived</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-09-07 16:53  
+**Updated:** 2026-09-23 08:16  
 **Tags:** `python` `compound extremes` `observations`
 
 ## Summary
 
 From the MHW-THW workshop, we decided to define compound extremes as those that have atmospheric wet bulb extremes that extend over land and ocean, and that overlap at least partially with marine heatwaves based on sea surface temperature. To this end, we try to develop an algorithm to efficiently detect them and summarize them.
+
+This part of the project will be done by Emma Ferri (ETH Zürich)
 
 ## Progress
 
