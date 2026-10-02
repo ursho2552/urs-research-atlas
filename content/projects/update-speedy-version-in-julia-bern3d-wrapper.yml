@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-09-25 16:12
+updated: 2026-09-30 16:30
 tags:
 - SpeedyWeather
 - Julia
@@ -61,11 +61,19 @@ tasks:
   completed: 2026-09-25 16:10
 - id: update-speedy-version-in-julia-bern3d-wrapper-implement-pr-changes-and-fixes
   title: Implement PR changes and fixes
-  status: in_progress
+  status: done
   priority: medium
   due_date: ''
   created: 2026-09-25 16:10
-  updated: 2026-09-25 16:10
+  updated: 2026-09-30 14:36
+  completed: 2026-09-30 14:36
+- id: update-speedy-version-in-julia-bern3d-wrapper-stand-alone-speedyweather
+  title: Stand-alone SpeedyWeather
+  status: in_progress
+  priority: medium
+  due_date: ''
+  created: 2026-09-30 14:38
+  updated: 2026-09-30 14:38
 updates:
 - id: 20260803112144-update-to-new-version
   date: 2026-08-03 11:21
@@ -164,4 +172,21 @@ updates:
     \ were found on SpeedyWeather. These issues have now been posted on the github\
     \ and awaiting response.\r\n\r\nI will now implement the available fixes and test\
     \ it again on the coupled model"
+- id: 20260930143809-stand-alone-speedyweather
+  date: 2026-09-30 14:38
+  title: Stand-alone SpeedyWeather
+  text: "Currently, SpeedyWeather does not produce conditions that are comparable\
+    \ with observations or climatological values/patterns. As such, I will now try\
+    \ to get a \"working\" setup of stand-alone SpeedyWeather to produce \"correct/expected\"\
+    \ patterns.\r\n\r\nAfter this is done, the coupling will try to reuse these settings."
+- id: 20260930163059-first-comparison
+  date: 2026-09-30 16:30
+  title: First comparison
+  text: Using a stand-alone SpeedyWeather setup in comparison to ERA5 observations
+    we can get the spatial patterns in precipitation, latent heat, net short wave,
+    outgoing long wave, and tau
+  images:
+  - path: assets/uploads/update-speedy-version-in-julia-bern3d-wrapper/updates/2026-09-30-1630-main-t21-obs-maps.png
+    caption: Comparison between SpeedyWeather T21 and ERA5 observations
+    uploaded: 2026-09-30 16:30
 images: []

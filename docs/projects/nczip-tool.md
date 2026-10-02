@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-09-21 08:22  
+**Updated:** 2026-09-30 14:40  
 **Tags:** `Python` `netCDF`
 
 ## Summary
@@ -18,16 +18,26 @@ To this end, we use the nczip wrapper that was part of a larger ocean tools repo
 
 <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
 
-0 / 0 tasks completed.
+0 / 1 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
-| — | No tasks yet | — | — | — |
+| ⬜ | Add a stand-alone repository for the NCZIP tool | todo | medium | — |
 
 ## Updates
 
-No updates yet.
+
+### Compression test
+
+**2026-09-30 14:40**
+
+For our servers, we have now used and tested the tool.
+
+The tool is now able to compress files and variables with/without time dimension.
+
+
+
 
 </div>

@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Climate data standardisation workflows  
-**Updated:** 2026-09-25 08:09  
+**Updated:** 2026-09-28 10:23  
 **Tags:** `GFDL-ESM2M` `CMOR` `CMIP` `climate data` `NetCDF` `metadata` `Python`
 
 ## Summary
@@ -19,9 +19,9 @@ As the tool might be used in the future for other projects, it is important to w
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-7 / 8 tasks completed.
+8 / 8 tasks completed.
 
 ## Tasks
 
@@ -33,7 +33,7 @@ As the tool might be used in the future for other projects, it is important to w
 | ✅ | Test corrected pipeline across systems | done | medium | — |
 | ✅ | Re-run pipeline with updated variable tables | done | medium | — |
 | ✅ | Test new bug fix for hfbasin | done | high | 2026-09-21 |
-| ⬜ | Transfer corrected data to SPIRIT and DKRZ | in_progress | high | 2026-09-25 |
+| ✅ | Transfer corrected data to SPIRIT and DKRZ | done | high | 2026-09-25 |
 | ✅ | CMORize output with corrected pipeline | done | high | 2026-09-25 |
 
 ## Updates

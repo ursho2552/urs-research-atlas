@@ -17,7 +17,7 @@
   <div class="ra-kpi-card"><span>Active projects</span><strong>8</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>3</strong></div>
   <div class="ra-kpi-card"><span>Open tasks</span><strong>10</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>44</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>46</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -185,8 +185,8 @@ Previously, this tools was part of a larger ocean tools repository. However, the
 
 As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
-  <p class="ra-muted">7 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">8 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
   <a class="ra-button" href="projects/document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>
@@ -238,7 +238,7 @@ This part of the project will be done by Emma Ferri (ETH Zürich)</p>
 
 To this end, we use the nczip wrapper that was part of a larger ocean tools repository. However, the tool is now large enough and complex enough to be put into a separate repository. In this new repository, the tool should be ready to use with a clear definition for the python environment needed to increase re-usablity, and possible extension.</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 0 tasks completed</p>
+  <p class="ra-muted">0 / 1 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">netCDF</span></div>
   <a class="ra-button" href="projects/nczip-tool/">View project</a>
 </div>
@@ -305,8 +305,8 @@ In addition, we noticed that our freshwater coupling has a missing component, th
 Bibliography:
 
 - Klöwer et al., (2024). SpeedyWeather.jl: Reinventing atmospheric general circulation models towards interactivity and extensibility. Journal of Open Source Software, 9(98), 6323, doi:10.21105/joss.06323.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 80%"></div></div>
-  <p class="ra-muted">4 / 5 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
+  <p class="ra-muted">5 / 6 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">SpeedyWeather</span><span class="ra-tag">Julia</span><span class="ra-tag">model coupling</span><span class="ra-tag">Bern3D</span></div>
   <a class="ra-button" href="projects/update-speedy-version-in-julia-bern3d-wrapper/">View project</a>
 </div>
@@ -317,12 +317,6 @@ Bibliography:
     <div class="ra-panel">
       <h2>Most urgent tasks</h2>
       
-<div class="ra-list-item">
-  <strong>Transfer corrected data to SPIRIT and DKRZ</strong>
-  <span>GFDL-ESM2M CMOR pipeline · high · due 2026-09-25</span>
-</div>
-
-
 <div class="ra-list-item">
   <strong>Create documentation page for this issue</strong>
   <span>Soil carbon change in TIPMIP simulations · medium · due 2026-09-30</span>
@@ -336,7 +330,7 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Implement PR changes and fixes</strong>
+  <strong>Stand-alone SpeedyWeather</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · medium · due not set</span>
 </div>
 
@@ -346,31 +340,37 @@ Bibliography:
   <span>Bern3D documentation · low · due 2026-12-31</span>
 </div>
 
+
+<div class="ra-list-item">
+  <strong>Couple Bern3D and MEDUSA with an async time-step</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+</div>
+
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
+  <strong>First comparison</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-30 16:30</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Compression test</strong>
+  <span>NCZIP tool · 2026-09-30 14:40</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Stand-alone SpeedyWeather</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-30 14:38</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Bug fixes</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-25 16:12</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Transfer to DKRZ</strong>
-  <span>GFDL-ESM2M CMOR pipeline · 2026-09-25 08:09</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Initial identification of interesting regions</strong>
-  <span>ERA5 data for MHW workshop · 2026-09-23 08:15</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Checking precipitation patterns in Speedy as a function of grid size</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-22 11:36</span>
 </div>
 
     </div>

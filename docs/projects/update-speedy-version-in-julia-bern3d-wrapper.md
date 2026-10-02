@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-09-25 16:12  
+**Updated:** 2026-09-30 16:30  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -24,9 +24,9 @@ Bibliography:
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 80%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
 
-4 / 5 tasks completed.
+5 / 6 tasks completed.
 
 ## Tasks
 
@@ -36,9 +36,34 @@ Bibliography:
 | ✅ | Implement breaking changes into current coupling | done | medium | — |
 | ✅ | Implement land runoff into freshwater coupling | done | high | — |
 | ✅ | Test new coupled model | done | high | — |
-| ⬜ | Implement PR changes and fixes | in_progress | medium | — |
+| ✅ | Implement PR changes and fixes | done | medium | — |
+| ⬜ | Stand-alone SpeedyWeather | in_progress | medium | — |
 
 ## Updates
+
+
+### First comparison
+
+**2026-09-30 16:30**
+
+Using a stand-alone SpeedyWeather setup in comparison to ERA5 observations we can get the spatial patterns in precipitation, latent heat, net short wave, outgoing long wave, and tau
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/update-speedy-version-in-julia-bern3d-wrapper/updates/2026-09-30-1630-main-t21-obs-maps.png' alt='Comparison between SpeedyWeather T21 and ERA5 observations'><figcaption>Comparison between SpeedyWeather T21 and ERA5 observations</figcaption></figure>
+</div>
+
+
+
+### Stand-alone SpeedyWeather
+
+**2026-09-30 14:38**
+
+Currently, SpeedyWeather does not produce conditions that are comparable with observations or climatological values/patterns. As such, I will now try to get a "working" setup of stand-alone SpeedyWeather to produce "correct/expected" patterns.
+
+After this is done, the coupling will try to reuse these settings.
+
+
 
 
 ### Bug fixes

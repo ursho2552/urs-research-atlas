@@ -157,8 +157,8 @@ Previously, this tools was part of a larger ocean tools repository. However, the
 
 As the tool might be used in the future for other projects, it is important to write a comprehensive and complete documentation of the tool with practical examples and detailed explanations. In addition, the tool should be tested against the old pipeline to ensure consistency. Afterwards, new tests should be written to allow easy and reproducible extensions of the pipeline in the future.
 </p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 88%"></div></div>
-  <p class="ra-muted">7 / 8 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">8 / 8 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">CMOR</span><span class="ra-tag">CMIP</span><span class="ra-tag">climate data</span><span class="ra-tag">NetCDF</span><span class="ra-tag">metadata</span><span class="ra-tag">Python</span></div>
   <a class="ra-button" href="document-new-gfdl-esm2m-cmor-pipeline/">View project</a>
 </div>
@@ -210,7 +210,7 @@ This part of the project will be done by Emma Ferri (ETH Zürich)</p>
 
 To this end, we use the nczip wrapper that was part of a larger ocean tools repository. However, the tool is now large enough and complex enough to be put into a separate repository. In this new repository, the tool should be ready to use with a clear definition for the python environment needed to increase re-usablity, and possible extension.</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 0 tasks completed</p>
+  <p class="ra-muted">0 / 1 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">netCDF</span></div>
   <a class="ra-button" href="nczip-tool/">View project</a>
 </div>
@@ -277,8 +277,8 @@ In addition, we noticed that our freshwater coupling has a missing component, th
 Bibliography:
 
 - Klöwer et al., (2024). SpeedyWeather.jl: Reinventing atmospheric general circulation models towards interactivity and extensibility. Journal of Open Source Software, 9(98), 6323, doi:10.21105/joss.06323.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 80%"></div></div>
-  <p class="ra-muted">4 / 5 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
+  <p class="ra-muted">5 / 6 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">SpeedyWeather</span><span class="ra-tag">Julia</span><span class="ra-tag">model coupling</span><span class="ra-tag">Bern3D</span></div>
   <a class="ra-button" href="update-speedy-version-in-julia-bern3d-wrapper/">View project</a>
 </div>

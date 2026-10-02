@@ -16,7 +16,7 @@ summary: "For the TipMIP-ESM project, we need to provide our simulation data in 
 area: Climate data standardisation workflows
 status: active
 created: 2026-07-28 16:29
-updated: 2026-09-25 08:09
+updated: 2026-09-28 10:23
 tags:
 - GFDL-ESM2M
 - CMOR
@@ -75,11 +75,12 @@ tasks:
   completed: 2026-09-16 14:53
 - id: document-new-gfdl-esm2m-cmor-pipeline-transfer-corrected-data-to-spirit-and-dkrz
   title: Transfer corrected data to SPIRIT and DKRZ
-  status: in_progress
+  status: done
   priority: high
   due_date: '2026-09-25'
   created: 2026-09-15 15:51
-  updated: 2026-09-21 07:45
+  updated: 2026-09-28 10:23
+  completed: 2026-09-28 10:23
 - id: document-new-gfdl-esm2m-cmor-pipeline-cmorize-output-with-corrected-pipeline
   title: CMORize output with corrected pipeline
   status: done
