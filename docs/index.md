@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>8</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>3</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>10</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>46</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>4</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>9</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>47</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -274,13 +274,13 @@ Bibliography
       <h3>Soil carbon change in TIPMIP simulations</h3>
       <p class="ra-muted">Earth System Modelling</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>A multi-model analysis showed that the soil carbon response in GFDL-ESM2M deviates a lot from all other models, with a very large carbon loss at higher latitudes. 
 
 For the comparison, the processes responsible for this large increase in soil carbon need to be understood.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
-  <p class="ra-muted">2 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">3 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Fortran</span></div>
   <a class="ra-button" href="projects/soil-carbon-change-in-tipmip-simulations/">View project</a>
 </div>
@@ -318,13 +318,13 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
-  <strong>Create documentation page for this issue</strong>
-  <span>Soil carbon change in TIPMIP simulations · medium · due 2026-09-30</span>
+  <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
+  <strong>Couple Bern3D and MEDUSA with an async time-step</strong>
   <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
@@ -342,14 +342,26 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Couple Bern3D and MEDUSA with an async time-step</strong>
-  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+  <strong>Diagnose why the crash occurs</strong>
+  <span>DRTSafe crash during hosing experiments · low · due not set</span>
 </div>
 
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Debugging SpeedyWeather</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-07 17:24</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Wrote soil carbon documentation</strong>
+  <span>Soil carbon change in TIPMIP simulations · 2026-10-05 07:56</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>First comparison</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-30 16:30</span>
@@ -359,18 +371,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Compression test</strong>
   <span>NCZIP tool · 2026-09-30 14:40</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Stand-alone SpeedyWeather</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-30 14:38</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Bug fixes</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-25 16:12</span>
 </div>
 
     </div>

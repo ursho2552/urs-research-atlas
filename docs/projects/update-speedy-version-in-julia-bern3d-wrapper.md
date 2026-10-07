@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-09-30 16:30  
+**Updated:** 2026-10-07 17:24  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -40,6 +40,19 @@ Bibliography:
 | ⬜ | Stand-alone SpeedyWeather | in_progress | medium | — |
 
 ## Updates
+
+
+### Debugging SpeedyWeather
+
+**2026-10-07 17:24**
+
+In testing different approaches, we have now found a potential setup that is able to reproduce observed patterns in precipitation, latent heat, short wave radiation, outgoing long wave radiation, and wind stress.
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/update-speedy-version-in-julia-bern3d-wrapper/updates/2026-10-07-1724-speedystandalone-setup.png' alt='Comparison of a new SpeedyWeather setup T21L8 and observed patterns (ERA5 climatology) for selected variables'><figcaption>Comparison of a new SpeedyWeather setup T21L8 and observed patterns (ERA5 climatology) for selected variables</figcaption></figure>
+</div>
+
 
 
 ### First comparison

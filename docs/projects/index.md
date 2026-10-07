@@ -246,13 +246,13 @@ Bibliography
       <h3>Soil carbon change in TIPMIP simulations</h3>
       <p class="ra-muted">Earth System Modelling</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>A multi-model analysis showed that the soil carbon response in GFDL-ESM2M deviates a lot from all other models, with a very large carbon loss at higher latitudes. 
 
 For the comparison, the processes responsible for this large increase in soil carbon need to be understood.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
-  <p class="ra-muted">2 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">3 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Fortran</span></div>
   <a class="ra-button" href="soil-carbon-change-in-tipmip-simulations/">View project</a>
 </div>

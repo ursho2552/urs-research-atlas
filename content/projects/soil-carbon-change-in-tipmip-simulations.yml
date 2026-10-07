@@ -5,9 +5,9 @@ summary: "A multi-model analysis showed that the soil carbon response in GFDL-ES
   \ latitudes. \r\n\r\nFor the comparison, the processes responsible for this large\
   \ increase in soil carbon need to be understood."
 area: Earth System Modelling
-status: active
+status: completed
 created: 2026-09-15 14:30
-updated: 2026-09-23 15:46
+updated: 2026-10-05 07:56
 tags:
 - Fortran
 links: {}
@@ -30,11 +30,12 @@ tasks:
   completed: 2026-09-22 07:46
 - id: soil-carbon-change-in-tipmip-simulations-create-documentation-page-for-this-issue
   title: Create documentation page for this issue
-  status: in_progress
+  status: done
   priority: medium
   due_date: '2026-09-30'
   created: 2026-09-15 14:32
-  updated: 2026-09-23 15:46
+  updated: 2026-10-05 07:56
+  completed: 2026-10-05 07:56
 updates:
 - id: 20260915144035-understanding
   date: 2026-09-15 14:40
@@ -61,4 +62,8 @@ updates:
   text: The sustained high temperature of roughly +8°C above piControl during the
     4°C stabilisation branch is the most likely driver for the increased soil carbon
     loss in the high latitudes
+- id: 20261005075642-wrote-soil-carbon-documentation
+  date: 2026-10-05 07:56
+  title: Wrote soil carbon documentation
+  text: Added a segment to the GFDL documentation on soil carbon under higher temperatures
 images: []

@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Earth System Modelling  
-**Updated:** 2026-09-23 15:46  
+**Updated:** 2026-10-05 07:56  
 **Tags:** `Fortran`
 
 ## Summary
@@ -16,9 +16,9 @@ For the comparison, the processes responsible for this large increase in soil ca
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 67%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
 
-2 / 3 tasks completed.
+3 / 3 tasks completed.
 
 ## Tasks
 
@@ -26,9 +26,18 @@ For the comparison, the processes responsible for this large increase in soil ca
 | --- | --- | --- | --- | --- |
 | ✅ | Understand how soil carbon works in GFDL-ESM2M | done | medium | 2026-09-30 |
 | ✅ | Derive drivers of the change | done | medium | 2026-09-30 |
-| ⬜ | Create documentation page for this issue | in_progress | medium | 2026-09-30 |
+| ✅ | Create documentation page for this issue | done | medium | 2026-09-30 |
 
 ## Updates
+
+
+### Wrote soil carbon documentation
+
+**2026-10-05 07:56**
+
+Added a segment to the GFDL documentation on soil carbon under higher temperatures
+
+
 
 
 ### Increase in soil temperature as main driver

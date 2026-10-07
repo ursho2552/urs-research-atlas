@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-09-30 16:30
+updated: 2026-10-07 17:24
 tags:
 - SpeedyWeather
 - Julia
@@ -189,4 +189,15 @@ updates:
   - path: assets/uploads/update-speedy-version-in-julia-bern3d-wrapper/updates/2026-09-30-1630-main-t21-obs-maps.png
     caption: Comparison between SpeedyWeather T21 and ERA5 observations
     uploaded: 2026-09-30 16:30
+- id: 20261007172447-debugging-speedyweather
+  date: 2026-10-07 17:24
+  title: Debugging SpeedyWeather
+  text: In testing different approaches, we have now found a potential setup that
+    is able to reproduce observed patterns in precipitation, latent heat, short wave
+    radiation, outgoing long wave radiation, and wind stress.
+  images:
+  - path: assets/uploads/update-speedy-version-in-julia-bern3d-wrapper/updates/2026-10-07-1724-speedystandalone-setup.png
+    caption: Comparison of a new SpeedyWeather setup T21L8 and observed patterns (ERA5
+      climatology) for selected variables
+    uploaded: 2026-10-07 17:24
 images: []

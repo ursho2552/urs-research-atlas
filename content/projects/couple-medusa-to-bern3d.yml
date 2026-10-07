@@ -4,7 +4,7 @@ summary: We got access to a new sediment model, which we would like to couple to
 area: Earth system model development
 status: paused
 created: 2026-07-28 15:57
-updated: 2026-09-11 15:33
+updated: 2026-10-05 07:57
 tags:
 - BERN3D
 - MEDUSA
@@ -24,11 +24,11 @@ tasks:
   completed: 2026-09-11 11:29
 - id: couple-medusa-to-bern3d-read-medusa-s-documentation-on-coupling
   title: Read MEDUSA's documentation on coupling
-  status: in_progress
+  status: blocked
   priority: medium
   due_date: ''
   created: 2026-07-28 15:59
-  updated: 2026-07-28 15:59
+  updated: 2026-10-05 07:57
 - id: couple-medusa-to-bern3d-write-documentation-on-pages-for-bern3d-s-sediment-module
   title: Write documentation on Pages for Bern3D's sediment module
   status: done
@@ -39,11 +39,11 @@ tasks:
   completed: 2026-09-11 11:29
 - id: couple-medusa-to-bern3d-couple-bern3d-and-medusa-with-an-async-time-step
   title: Couple Bern3D and MEDUSA with an async time-step
-  status: todo
+  status: blocked
   priority: medium
   due_date: ''
   created: 2026-07-28 16:01
-  updated: 2026-07-28 16:01
+  updated: 2026-10-05 07:57
 updates:
 - id: 20260728160432-sediment-module-understanding-and-documentation
   date: 2026-07-28 16:04

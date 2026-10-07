@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-paused">paused</span>
 
 **Area:** Earth system model development  
-**Updated:** 2026-09-11 15:33  
+**Updated:** 2026-10-05 07:57  
 **Tags:** `BERN3D` `MEDUSA` `sediment model` `model coupling` `Fortran` `Earth system modelling`
 
 ## Summary
@@ -23,9 +23,9 @@ We got access to a new sediment model, which we would like to couple to Bern3D.
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
 | ✅ | Understand current structure of sediment module within Bern3D | done | medium | — |
-| ⬜ | Read MEDUSA&#x27;s documentation on coupling | in_progress | medium | — |
+| ⬜ | Read MEDUSA&#x27;s documentation on coupling | blocked | medium | — |
 | ✅ | Write documentation on Pages for Bern3D&#x27;s sediment module | done | low | — |
-| ⬜ | Couple Bern3D and MEDUSA with an async time-step | todo | medium | — |
+| ⬜ | Couple Bern3D and MEDUSA with an async time-step | blocked | medium | — |
 
 ## Updates
 
