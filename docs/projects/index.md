@@ -74,6 +74,24 @@ To account for this, we implemented a new constraint based on atmospheric carbon
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>CMIP6 data</h3>
+      <p class="ra-muted">Climate data processing</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>For the analysis of marine heatwaves we would like to use CMIP6 model data for a multi-model comparison. To this end, we would like to download CMIP6 simulations across all models. Specifically, we need to download daily sea surface temperature, and monthly subsurface temperature across all models and scenarios.
+
+To this end, we develop a re-usable tool to automatically search and download variables from models, and scenarios specified by the user</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
+  <p class="ra-muted">1 / 3 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">netCDF</span></div>
+  <a class="ra-button" href="cmip6-data/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>Couple MEDUSA to Bern3D</h3>
       <p class="ra-muted">Earth system model development</p>
     </div>
@@ -183,6 +201,22 @@ As the tool might be used in the future for other projects, it is important to w
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>MHW under transient and stable conditions</h3>
+      <p class="ra-muted">Climate data processing</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>For a chapter on marine heatwaves, we will analyse how marine heatwave characteristics differ under transient temperature conditions compared to long term stable temperature conditions. To this end, we will use AERA simulations with different temperature targets.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+  <p class="ra-muted">0 / 3 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">netCDF</span></div>
+  <a class="ra-button" href="mhw-under-transient-and-stable-conditions/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>MHW-THW detection algorithm</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
@@ -192,7 +226,7 @@ As the tool might be used in the future for other projects, it is important to w
 
 This part of the project will be done by Emma Ferri (ETH Zürich)</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 0 tasks completed</p>
+  <p class="ra-muted">0 / 1 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">python</span><span class="ra-tag">compound extremes</span><span class="ra-tag">observations</span></div>
   <a class="ra-button" href="mhw-thw-detection-algorithm/">View project</a>
 </div>

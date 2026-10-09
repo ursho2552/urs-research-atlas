@@ -1,0 +1,41 @@
+id: cmip6-data
+title: CMIP6 data
+summary: "For the analysis of marine heatwaves we would like to use CMIP6 model data\
+  \ for a multi-model comparison. To this end, we would like to download CMIP6 simulations\
+  \ across all models. Specifically, we need to download daily sea surface temperature,\
+  \ and monthly subsurface temperature across all models and scenarios.\r\n\r\nTo\
+  \ this end, we develop a re-usable tool to automatically search and download variables\
+  \ from models, and scenarios specified by the user"
+area: Climate data processing
+status: active
+created: 2026-10-09 09:27
+updated: 2026-10-09 09:28
+tags:
+- Python
+- netCDF
+links: {}
+tasks:
+- id: cmip6-data-develop-tool-for-cmip6-data-download
+  title: Develop tool for CMIP6 data download
+  status: done
+  priority: medium
+  due_date: '2026-10-08'
+  created: 2026-10-09 09:27
+  updated: 2026-10-09 09:28
+  completed: 2026-10-09 09:28
+- id: cmip6-data-download-missing-data
+  title: Download missing data
+  status: in_progress
+  priority: medium
+  due_date: '2026-10-17'
+  created: 2026-10-09 09:28
+  updated: 2026-10-09 09:28
+- id: cmip6-data-document-tool-and-share-on-gitlab-github
+  title: Document tool and share on gitlab/github
+  status: todo
+  priority: low
+  due_date: '2026-10-17'
+  created: 2026-10-09 09:28
+  updated: 2026-10-09 09:28
+updates: []
+images: []

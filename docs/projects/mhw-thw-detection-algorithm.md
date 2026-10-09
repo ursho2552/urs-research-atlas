@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-archived">archived</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-09-23 08:16  
+**Updated:** 2026-10-09 09:36  
 **Tags:** `python` `compound extremes` `observations`
 
 ## Summary
@@ -18,16 +18,24 @@ This part of the project will be done by Emma Ferri (ETH Zürich)
 
 <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
 
-0 / 0 tasks completed.
+0 / 1 tasks completed.
 
 ## Tasks
 
 | Done | Task | Status | Priority | Due date |
 | --- | --- | --- | --- | --- |
-| — | No tasks yet | — | — | — |
+| ⬜ | Use marEx to identify compound marine heatwaves as specified by Emma Ferri | todo | low | 2026-10-24 |
 
 ## Updates
 
-No updates yet.
+
+### Use marEx for the analysis
+
+**2026-10-09 09:36**
+
+Based on the expertise of the group, it has been decided that we will use marEx to define the compound heatwaves. However, the exact settings (tool parameters) and region have not yet been specified.
+
+
+
 
 </div>

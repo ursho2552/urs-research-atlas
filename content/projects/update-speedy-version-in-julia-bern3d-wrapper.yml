@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-10-07 17:24
+updated: 2026-10-09 12:59
 tags:
 - SpeedyWeather
 - Julia
@@ -200,4 +200,10 @@ updates:
     caption: Comparison of a new SpeedyWeather setup T21L8 and observed patterns (ERA5
       climatology) for selected variables
     uploaded: 2026-10-07 17:24
+- id: 20261009125900-vertical-advection-acts-on-clipped-humidity
+  date: 2026-10-09 12:59
+  title: Vertical advection acts on clipped humidity
+  text: "The vertical advection used acts on clipped humidity, yet the clipped humidity\
+    \ is not written back to spectral space. The humidity deficit grows over time\
+    \ causing a large drying.\r\n\r\nUsing WENO solves this, but this requires re-tuning"
 images: []

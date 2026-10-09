@@ -8,12 +8,25 @@ summary: "From the MHW-THW workshop, we decided to define compound extremes as t
 area: Climate data processing
 status: archived
 created: 2026-08-31 17:29
-updated: 2026-09-23 08:16
+updated: 2026-10-09 09:36
 tags:
 - python
 - compound extremes
 - observations
 links: {}
-tasks: []
-updates: []
+tasks:
+- id: mhw-thw-detection-algorithm-use-marex-to-identify-compound-marine-heatwaves-as-specified-by-emma-ferri
+  title: Use marEx to identify compound marine heatwaves as specified by Emma Ferri
+  status: todo
+  priority: low
+  due_date: '2026-10-24'
+  created: 2026-10-09 09:34
+  updated: 2026-10-09 09:34
+updates:
+- id: 20261009093630-use-marex-for-the-analysis
+  date: 2026-10-09 09:36
+  title: Use marEx for the analysis
+  text: Based on the expertise of the group, it has been decided that we will use
+    marEx to define the compound heatwaves. However, the exact settings (tool parameters)
+    and region have not yet been specified.
 images: []

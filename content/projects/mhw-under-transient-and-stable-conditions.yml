@@ -1,0 +1,39 @@
+id: mhw-under-transient-and-stable-conditions
+title: MHW under transient and stable conditions
+summary: For a chapter on marine heatwaves, we will analyse how marine heatwave characteristics
+  differ under transient temperature conditions compared to long term stable temperature
+  conditions. To this end, we will use AERA simulations with different temperature
+  targets.
+area: Climate data processing
+status: active
+created: 2026-10-09 09:32
+updated: 2026-10-09 09:33
+tags:
+- Python
+- GFDL-ESM2M
+- netCDF
+links: {}
+tasks:
+- id: mhw-under-transient-and-stable-conditions-calculate-threshold-from-historical-ensemble-data
+  title: Calculate threshold from historical ensemble data
+  status: todo
+  priority: high
+  due_date: '2026-10-14'
+  created: 2026-10-09 09:32
+  updated: 2026-10-09 09:32
+- id: mhw-under-transient-and-stable-conditions-identify-mhw-for-each-temperature-target-during-the-transient-period
+  title: Identify MHW for each temperature target during the transient period
+  status: todo
+  priority: high
+  due_date: '2026-10-17'
+  created: 2026-10-09 09:33
+  updated: 2026-10-09 09:33
+- id: mhw-under-transient-and-stable-conditions-identify-mhw-for-each-temperature-target-during-end-of-stability-period
+  title: Identify MHW for each temperature target during end of stability period
+  status: todo
+  priority: high
+  due_date: '2026-10-17'
+  created: 2026-10-09 09:33
+  updated: 2026-10-09 09:33
+updates: []
+images: []

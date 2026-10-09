@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-10-07 17:24  
+**Updated:** 2026-10-09 12:59  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -40,6 +40,17 @@ Bibliography:
 | ⬜ | Stand-alone SpeedyWeather | in_progress | medium | — |
 
 ## Updates
+
+
+### Vertical advection acts on clipped humidity
+
+**2026-10-09 12:59**
+
+The vertical advection used acts on clipped humidity, yet the clipped humidity is not written back to spectral space. The humidity deficit grows over time causing a large drying.
+
+Using WENO solves this, but this requires re-tuning
+
+
 
 
 ### Debugging SpeedyWeather

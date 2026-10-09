@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>7</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>9</strong></div>
   <div class="ra-kpi-card"><span>Completed projects</span><strong>4</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>9</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>47</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>15</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>48</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -96,6 +96,24 @@ To account for this, we implemented a new constraint based on atmospheric carbon
   <p class="ra-muted">0 / 1 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Bern3D</span><span class="ra-tag">GitLab Pages</span><span class="ra-tag">MkDocs</span><span class="ra-tag">model documentation</span></div>
   <a class="ra-button" href="projects/bern3d-documentation/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
+      <h3>CMIP6 data</h3>
+      <p class="ra-muted">Climate data processing</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>For the analysis of marine heatwaves we would like to use CMIP6 model data for a multi-model comparison. To this end, we would like to download CMIP6 simulations across all models. Specifically, we need to download daily sea surface temperature, and monthly subsurface temperature across all models and scenarios.
+
+To this end, we develop a re-usable tool to automatically search and download variables from models, and scenarios specified by the user</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
+  <p class="ra-muted">1 / 3 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">netCDF</span></div>
+  <a class="ra-button" href="projects/cmip6-data/">View project</a>
 </div>
 
 
@@ -211,6 +229,22 @@ As the tool might be used in the future for other projects, it is important to w
 <div class="ra-project-card">
   <div class="ra-card-head">
     <div>
+      <h3>MHW under transient and stable conditions</h3>
+      <p class="ra-muted">Climate data processing</p>
+    </div>
+    <span class="ra-badge ra-badge-active">active</span>
+  </div>
+  <p>For a chapter on marine heatwaves, we will analyse how marine heatwave characteristics differ under transient temperature conditions compared to long term stable temperature conditions. To this end, we will use AERA simulations with different temperature targets.</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
+  <p class="ra-muted">0 / 3 tasks completed</p>
+  <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">netCDF</span></div>
+  <a class="ra-button" href="projects/mhw-under-transient-and-stable-conditions/">View project</a>
+</div>
+
+
+<div class="ra-project-card">
+  <div class="ra-card-head">
+    <div>
       <h3>MHW-THW detection algorithm</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
@@ -220,7 +254,7 @@ As the tool might be used in the future for other projects, it is important to w
 
 This part of the project will be done by Emma Ferri (ETH Zürich)</p>
   <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 0 tasks completed</p>
+  <p class="ra-muted">0 / 1 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">python</span><span class="ra-tag">compound extremes</span><span class="ra-tag">observations</span></div>
   <a class="ra-button" href="projects/mhw-thw-detection-algorithm/">View project</a>
 </div>
@@ -318,38 +352,50 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
+  <strong>Calculate threshold from historical ensemble data</strong>
+  <span>MHW under transient and stable conditions · high · due 2026-10-14</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Identify MHW for each temperature target during the transient period</strong>
+  <span>MHW under transient and stable conditions · high · due 2026-10-17</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Identify MHW for each temperature target during end of stability period</strong>
+  <span>MHW under transient and stable conditions · high · due 2026-10-17</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Download missing data</strong>
+  <span>CMIP6 data · medium · due 2026-10-17</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
   <span>Couple MEDUSA to Bern3D · medium · due not set</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Couple Bern3D and MEDUSA with an async time-step</strong>
-  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Stand-alone SpeedyWeather</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · medium · due not set</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Extend current documentation</strong>
-  <span>Bern3D documentation · low · due 2026-12-31</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Diagnose why the crash occurs</strong>
-  <span>DRTSafe crash during hosing experiments · low · due not set</span>
 </div>
 
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Vertical advection acts on clipped humidity</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-09 12:59</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Use marEx for the analysis</strong>
+  <span>MHW-THW detection algorithm · 2026-10-09 09:36</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Debugging SpeedyWeather</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-07 17:24</span>
@@ -359,18 +405,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Wrote soil carbon documentation</strong>
   <span>Soil carbon change in TIPMIP simulations · 2026-10-05 07:56</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>First comparison</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-09-30 16:30</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Compression test</strong>
-  <span>NCZIP tool · 2026-09-30 14:40</span>
 </div>
 
     </div>
