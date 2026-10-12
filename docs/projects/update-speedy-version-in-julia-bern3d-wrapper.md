@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-10-09 12:59  
+**Updated:** 2026-10-12 16:40  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -40,6 +40,15 @@ Bibliography:
 | ⬜ | Stand-alone SpeedyWeather | in_progress | medium | — |
 
 ## Updates
+
+
+### Implemented best stand-alone Speedy on coupler
+
+**2026-10-12 16:40**
+
+After tuning and finding a SpeedyWeather setup that is good enough, it was incorporated into the coupling with Bern3D. This new setup is currently running.
+
+
 
 
 ### Vertical advection acts on clipped humidity

@@ -376,14 +376,20 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
-  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+  <strong>Document tool and share on gitlab/github</strong>
+  <span>CMIP6 data · low · due 2026-10-17</span>
 </div>
 
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
+<div class="ra-list-item">
+  <strong>Implemented best stand-alone Speedy on coupler</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-12 16:40</span>
+</div>
+
+
 <div class="ra-list-item">
   <strong>Vertical advection acts on clipped humidity</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-09 12:59</span>
@@ -399,12 +405,6 @@ Bibliography:
 <div class="ra-list-item">
   <strong>Debugging SpeedyWeather</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-07 17:24</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Wrote soil carbon documentation</strong>
-  <span>Soil carbon change in TIPMIP simulations · 2026-10-05 07:56</span>
 </div>
 
     </div>

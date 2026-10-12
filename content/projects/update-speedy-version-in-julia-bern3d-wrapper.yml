@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-10-09 12:59
+updated: 2026-10-12 16:40
 tags:
 - SpeedyWeather
 - Julia
@@ -206,4 +206,9 @@ updates:
   text: "The vertical advection used acts on clipped humidity, yet the clipped humidity\
     \ is not written back to spectral space. The humidity deficit grows over time\
     \ causing a large drying.\r\n\r\nUsing WENO solves this, but this requires re-tuning"
+- id: 20261012164005-implemented-best-stand-alone-speedy-on-coupler
+  date: 2026-10-12 16:40
+  title: Implemented best stand-alone Speedy on coupler
+  text: After tuning and finding a SpeedyWeather setup that is good enough, it was
+    incorporated into the coupling with Bern3D. This new setup is currently running.
 images: []
