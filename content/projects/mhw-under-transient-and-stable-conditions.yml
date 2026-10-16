@@ -7,7 +7,7 @@ summary: For a chapter on marine heatwaves, we will analyse how marine heatwave 
 area: Climate data processing
 status: active
 created: 2026-10-09 09:32
-updated: 2026-10-09 09:33
+updated: 2026-10-16 13:55
 tags:
 - Python
 - GFDL-ESM2M
@@ -16,24 +16,33 @@ links: {}
 tasks:
 - id: mhw-under-transient-and-stable-conditions-calculate-threshold-from-historical-ensemble-data
   title: Calculate threshold from historical ensemble data
-  status: todo
+  status: done
   priority: high
   due_date: '2026-10-14'
   created: 2026-10-09 09:32
-  updated: 2026-10-09 09:32
+  updated: 2026-10-16 13:53
+  completed: 2026-10-16 13:53
 - id: mhw-under-transient-and-stable-conditions-identify-mhw-for-each-temperature-target-during-the-transient-period
   title: Identify MHW for each temperature target during the transient period
-  status: todo
+  status: in_progress
   priority: high
   due_date: '2026-10-17'
   created: 2026-10-09 09:33
-  updated: 2026-10-09 09:33
+  updated: 2026-10-16 13:55
 - id: mhw-under-transient-and-stable-conditions-identify-mhw-for-each-temperature-target-during-end-of-stability-period
   title: Identify MHW for each temperature target during end of stability period
-  status: todo
+  status: in_progress
   priority: high
   due_date: '2026-10-17'
   created: 2026-10-09 09:33
-  updated: 2026-10-09 09:33
-updates: []
+  updated: 2026-10-16 13:55
+updates:
+- id: 20261016135547-building-timeseries
+  date: 2026-10-16 13:55
+  title: Building timeseries
+  text: The global atmospheric time series and global ocean temperature are being
+    calculated. The temporal evolution of these will be used to determine the year
+    in which the warming level with respect to pre-industrial conditions is reached
+    for each ensemble member, and the year in which the temperature in the ocean reaches
+    equilibrium.
 images: []

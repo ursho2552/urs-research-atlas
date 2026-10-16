@@ -77,13 +77,13 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>CMIP6 data</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>For the analysis of marine heatwaves we would like to use CMIP6 model data for a multi-model comparison. To this end, we would like to download CMIP6 simulations across all models. Specifically, we need to download daily sea surface temperature, and monthly subsurface temperature across all models and scenarios.
 
 To this end, we develop a re-usable tool to automatically search and download variables from models, and scenarios specified by the user</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
-  <p class="ra-muted">1 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">3 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">netCDF</span></div>
   <a class="ra-button" href="cmip6-data/">View project</a>
 </div>
@@ -207,8 +207,8 @@ As the tool might be used in the future for other projects, it is important to w
     <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>For a chapter on marine heatwaves, we will analyse how marine heatwave characteristics differ under transient temperature conditions compared to long term stable temperature conditions. To this end, we will use AERA simulations with different temperature targets.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
+  <p class="ra-muted">1 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">netCDF</span></div>
   <a class="ra-button" href="mhw-under-transient-and-stable-conditions/">View project</a>
 </div>
@@ -311,8 +311,8 @@ In addition, we noticed that our freshwater coupling has a missing component, th
 Bibliography:
 
 - Klöwer et al., (2024). SpeedyWeather.jl: Reinventing atmospheric general circulation models towards interactivity and extensibility. Journal of Open Source Software, 9(98), 6323, doi:10.21105/joss.06323.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
-  <p class="ra-muted">5 / 6 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 86%"></div></div>
+  <p class="ra-muted">6 / 7 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">SpeedyWeather</span><span class="ra-tag">Julia</span><span class="ra-tag">model coupling</span><span class="ra-tag">Bern3D</span></div>
   <a class="ra-button" href="update-speedy-version-in-julia-bern3d-wrapper/">View project</a>
 </div>

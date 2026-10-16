@@ -5,7 +5,7 @@
 <span class="ra-badge ra-badge-active">active</span>
 
 **Area:** Research software maintenance  
-**Updated:** 2026-10-12 16:40  
+**Updated:** 2026-10-16 14:02  
 **Tags:** `SpeedyWeather` `Julia` `model coupling` `Bern3D`
 
 ## Summary
@@ -24,9 +24,9 @@ Bibliography:
 
 ## Progress
 
-<div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
+<div class="ra-progress"><div class="ra-progress-bar" style="width: 86%"></div></div>
 
-5 / 6 tasks completed.
+6 / 7 tasks completed.
 
 ## Tasks
 
@@ -37,9 +37,23 @@ Bibliography:
 | ✅ | Implement land runoff into freshwater coupling | done | high | — |
 | ✅ | Test new coupled model | done | high | — |
 | ✅ | Implement PR changes and fixes | done | medium | — |
-| ⬜ | Stand-alone SpeedyWeather | in_progress | medium | — |
+| ✅ | Stand-alone SpeedyWeather | done | medium | — |
+| ⬜ | Tune stand-alone Speedy version in the Bern3D-Speedy coupled model  | in_progress | medium | 2026-10-30 |
 
 ## Updates
+
+
+### First successful coupling
+
+**2026-10-16 14:00**
+
+The newest stand-alone SpeedyWeather version has been coupled to Bern3D, resulting in an overall improvement of precipitation patterns, SST and SSS stability over time, and a non-collapsed AMOC.
+
+
+<div class="ra-gallery-grid">
+<figure class='ra-figure'><img class='ra-lightbox-image' src='../../assets/uploads/update-speedy-version-in-julia-bern3d-wrapper/updates/2026-10-16-1400-bern3d-speedy.png' alt='Comparison of the precipitation patterns in the Bern3D-Speedy coupled model using a T21 resolution, and the prescribed precipitation patterns of Bern3D&#x27;s EBM.'><figcaption>Comparison of the precipitation patterns in the Bern3D-Speedy coupled model using a T21 resolution, and the prescribed precipitation patterns of Bern3D&#x27;s EBM.</figcaption></figure>
+</div>
+
 
 
 ### Implemented best stand-alone Speedy on coupler

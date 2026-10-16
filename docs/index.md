@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>9</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>4</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>15</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>48</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>8</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>5</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>12</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>52</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -105,13 +105,13 @@ To account for this, we implemented a new constraint based on atmospheric carbon
       <h3>CMIP6 data</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>For the analysis of marine heatwaves we would like to use CMIP6 model data for a multi-model comparison. To this end, we would like to download CMIP6 simulations across all models. Specifically, we need to download daily sea surface temperature, and monthly subsurface temperature across all models and scenarios.
 
 To this end, we develop a re-usable tool to automatically search and download variables from models, and scenarios specified by the user</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
-  <p class="ra-muted">1 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">3 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">netCDF</span></div>
   <a class="ra-button" href="projects/cmip6-data/">View project</a>
 </div>
@@ -235,8 +235,8 @@ As the tool might be used in the future for other projects, it is important to w
     <span class="ra-badge ra-badge-active">active</span>
   </div>
   <p>For a chapter on marine heatwaves, we will analyse how marine heatwave characteristics differ under transient temperature conditions compared to long term stable temperature conditions. To this end, we will use AERA simulations with different temperature targets.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 0%"></div></div>
-  <p class="ra-muted">0 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
+  <p class="ra-muted">1 / 3 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">netCDF</span></div>
   <a class="ra-button" href="projects/mhw-under-transient-and-stable-conditions/">View project</a>
 </div>
@@ -339,8 +339,8 @@ In addition, we noticed that our freshwater coupling has a missing component, th
 Bibliography:
 
 - Klöwer et al., (2024). SpeedyWeather.jl: Reinventing atmospheric general circulation models towards interactivity and extensibility. Journal of Open Source Software, 9(98), 6323, doi:10.21105/joss.06323.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 83%"></div></div>
-  <p class="ra-muted">5 / 6 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 86%"></div></div>
+  <p class="ra-muted">6 / 7 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">SpeedyWeather</span><span class="ra-tag">Julia</span><span class="ra-tag">model coupling</span><span class="ra-tag">Bern3D</span></div>
   <a class="ra-button" href="projects/update-speedy-version-in-julia-bern3d-wrapper/">View project</a>
 </div>
@@ -351,12 +351,6 @@ Bibliography:
     <div class="ra-panel">
       <h2>Most urgent tasks</h2>
       
-<div class="ra-list-item">
-  <strong>Calculate threshold from historical ensemble data</strong>
-  <span>MHW under transient and stable conditions · high · due 2026-10-14</span>
-</div>
-
-
 <div class="ra-list-item">
   <strong>Identify MHW for each temperature target during the transient period</strong>
   <span>MHW under transient and stable conditions · high · due 2026-10-17</span>
@@ -370,14 +364,20 @@ Bibliography:
 
 
 <div class="ra-list-item">
-  <strong>Download missing data</strong>
-  <span>CMIP6 data · medium · due 2026-10-17</span>
+  <strong>Tune stand-alone Speedy version in the Bern3D-Speedy coupled model </strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · medium · due 2026-10-30</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Document tool and share on gitlab/github</strong>
-  <span>CMIP6 data · low · due 2026-10-17</span>
+  <strong>Read MEDUSA&#x27;s documentation on coupling</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Couple Bern3D and MEDUSA with an async time-step</strong>
+  <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
     </div>
@@ -385,26 +385,26 @@ Bibliography:
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
-  <strong>Implemented best stand-alone Speedy on coupler</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-12 16:40</span>
+  <strong>First successful coupling</strong>
+  <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-16 14:00</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Vertical advection acts on clipped humidity</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-09 12:59</span>
+  <strong>Building timeseries</strong>
+  <span>MHW under transient and stable conditions · 2026-10-16 13:55</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Use marEx for the analysis</strong>
-  <span>MHW-THW detection algorithm · 2026-10-09 09:36</span>
+  <strong>The tools has now been published to gitlab/github</strong>
+  <span>CMIP6 data · 2026-10-16 13:53</span>
 </div>
 
 
 <div class="ra-list-item">
-  <strong>Debugging SpeedyWeather</strong>
-  <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-07 17:24</span>
+  <strong>Finished downloading missing data</strong>
+  <span>CMIP6 data · 2026-10-14 15:39</span>
 </div>
 
     </div>

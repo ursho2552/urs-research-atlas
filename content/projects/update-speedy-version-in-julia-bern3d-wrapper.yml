@@ -19,7 +19,7 @@ summary: "The Bern3D model has a relatively simple atmosphere module. To improve
 area: Research software maintenance
 status: active
 created: 2026-07-28 16:25
-updated: 2026-10-12 16:40
+updated: 2026-10-16 14:02
 tags:
 - SpeedyWeather
 - Julia
@@ -69,11 +69,19 @@ tasks:
   completed: 2026-09-30 14:36
 - id: update-speedy-version-in-julia-bern3d-wrapper-stand-alone-speedyweather
   title: Stand-alone SpeedyWeather
-  status: in_progress
+  status: done
   priority: medium
   due_date: ''
   created: 2026-09-30 14:38
-  updated: 2026-09-30 14:38
+  updated: 2026-10-16 14:02
+  completed: 2026-10-16 14:02
+- id: update-speedy-version-in-julia-bern3d-wrapper-tune-stand-alone-speedy-version-in-the-bern3d-speedy-coupled-model
+  title: 'Tune stand-alone Speedy version in the Bern3D-Speedy coupled model '
+  status: in_progress
+  priority: medium
+  due_date: '2026-10-30'
+  created: 2026-10-16 14:02
+  updated: 2026-10-16 14:02
 updates:
 - id: 20260803112144-update-to-new-version
   date: 2026-08-03 11:21
@@ -211,4 +219,16 @@ updates:
   title: Implemented best stand-alone Speedy on coupler
   text: After tuning and finding a SpeedyWeather setup that is good enough, it was
     incorporated into the coupling with Bern3D. This new setup is currently running.
+- id: 20261016140014-first-successful-coupling
+  date: 2026-10-16 14:00
+  title: First successful coupling
+  text: The newest stand-alone SpeedyWeather version has been coupled to Bern3D, resulting
+    in an overall improvement of precipitation patterns, SST and SSS stability over
+    time, and a non-collapsed AMOC.
+  images:
+  - path: assets/uploads/update-speedy-version-in-julia-bern3d-wrapper/updates/2026-10-16-1400-bern3d-speedy.png
+    caption: Comparison of the precipitation patterns in the Bern3D-Speedy coupled
+      model using a T21 resolution, and the prescribed precipitation patterns of Bern3D's
+      EBM.
+    uploaded: 2026-10-16 14:00
 images: []
