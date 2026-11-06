@@ -14,10 +14,10 @@
 </section>
 
 <section class="ra-kpi-grid">
-  <div class="ra-kpi-card"><span>Active projects</span><strong>8</strong></div>
-  <div class="ra-kpi-card"><span>Completed projects</span><strong>5</strong></div>
-  <div class="ra-kpi-card"><span>Open tasks</span><strong>12</strong></div>
-  <div class="ra-kpi-card"><span>Done tasks</span><strong>52</strong></div>
+  <div class="ra-kpi-card"><span>Active projects</span><strong>6</strong></div>
+  <div class="ra-kpi-card"><span>Completed projects</span><strong>7</strong></div>
+  <div class="ra-kpi-card"><span>Open tasks</span><strong>10</strong></div>
+  <div class="ra-kpi-card"><span>Done tasks</span><strong>55</strong></div>
 </section>
 
 <section class="ra-home-layout">
@@ -232,11 +232,11 @@ As the tool might be used in the future for other projects, it is important to w
       <h3>MHW under transient and stable conditions</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>For a chapter on marine heatwaves, we will analyse how marine heatwave characteristics differ under transient temperature conditions compared to long term stable temperature conditions. To this end, we will use AERA simulations with different temperature targets.</p>
-  <div class="ra-progress"><div class="ra-progress-bar" style="width: 33%"></div></div>
-  <p class="ra-muted">1 / 3 tasks completed</p>
+  <div class="ra-progress"><div class="ra-progress-bar" style="width: 100%"></div></div>
+  <p class="ra-muted">4 / 4 tasks completed</p>
   <div class="ra-tags"><span class="ra-tag">Python</span><span class="ra-tag">GFDL-ESM2M</span><span class="ra-tag">netCDF</span></div>
   <a class="ra-button" href="projects/mhw-under-transient-and-stable-conditions/">View project</a>
 </div>
@@ -266,7 +266,7 @@ This part of the project will be done by Emma Ferri (ETH Zürich)</p>
       <h3>NCZIP tool</h3>
       <p class="ra-muted">Climate data processing</p>
     </div>
-    <span class="ra-badge ra-badge-active">active</span>
+    <span class="ra-badge ra-badge-completed">completed</span>
   </div>
   <p>For the GFDL-ESM2M output, we need to compress our simulations either on CSCS or on our servers.
 
@@ -352,20 +352,14 @@ Bibliography:
       <h2>Most urgent tasks</h2>
       
 <div class="ra-list-item">
-  <strong>Identify MHW for each temperature target during the transient period</strong>
-  <span>MHW under transient and stable conditions · high · due 2026-10-17</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Identify MHW for each temperature target during end of stability period</strong>
-  <span>MHW under transient and stable conditions · high · due 2026-10-17</span>
-</div>
-
-
-<div class="ra-list-item">
   <strong>Tune stand-alone Speedy version in the Bern3D-Speedy coupled model </strong>
   <span>Update Speedy version in Julia Bern3D wrapper · medium · due 2026-10-30</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Use marEx to identify compound marine heatwaves as specified by Emma Ferri</strong>
+  <span>MHW-THW detection algorithm · low · due 2026-10-24</span>
 </div>
 
 
@@ -380,31 +374,37 @@ Bibliography:
   <span>Couple MEDUSA to Bern3D · medium · due not set</span>
 </div>
 
+
+<div class="ra-list-item">
+  <strong>Extend current documentation</strong>
+  <span>Bern3D documentation · low · due 2026-12-31</span>
+</div>
+
     </div>
     <div class="ra-panel">
       <h2>Recent updates</h2>
       
 <div class="ra-list-item">
+  <strong>Separated into stand-alone repo</strong>
+  <span>NCZIP tool · 2026-11-06 10:09</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Established when simulations reach ocean temperature stability</strong>
+  <span>MHW under transient and stable conditions · 2026-10-19 12:08</span>
+</div>
+
+
+<div class="ra-list-item">
+  <strong>Established when simulations reach global warming level</strong>
+  <span>MHW under transient and stable conditions · 2026-10-19 12:04</span>
+</div>
+
+
+<div class="ra-list-item">
   <strong>First successful coupling</strong>
   <span>Update Speedy version in Julia Bern3D wrapper · 2026-10-16 14:00</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Building timeseries</strong>
-  <span>MHW under transient and stable conditions · 2026-10-16 13:55</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>The tools has now been published to gitlab/github</strong>
-  <span>CMIP6 data · 2026-10-16 13:53</span>
-</div>
-
-
-<div class="ra-list-item">
-  <strong>Finished downloading missing data</strong>
-  <span>CMIP6 data · 2026-10-14 15:39</span>
 </div>
 
     </div>

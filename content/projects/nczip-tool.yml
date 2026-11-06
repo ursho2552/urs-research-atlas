@@ -7,9 +7,9 @@ summary: "For the GFDL-ESM2M output, we need to compress our simulations either 
   \ the tool should be ready to use with a clear definition for the python environment\
   \ needed to increase re-usablity, and possible extension."
 area: Climate data processing
-status: active
+status: completed
 created: 2026-09-21 08:18
-updated: 2026-09-30 14:40
+updated: 2026-11-06 10:09
 tags:
 - Python
 - netCDF
@@ -28,4 +28,8 @@ updates:
   title: Compression test
   text: "For our servers, we have now used and tested the tool.\r\n\r\nThe tool is\
     \ now able to compress files and variables with/without time dimension."
+- id: 20261106100936-separated-into-stand-alone-repo
+  date: 2026-11-06 10:09
+  title: Separated into stand-alone repo
+  text: The module is now in a stand-alone repository available for the team
 images: []

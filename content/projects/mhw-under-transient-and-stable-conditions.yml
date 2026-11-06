@@ -5,9 +5,9 @@ summary: For a chapter on marine heatwaves, we will analyse how marine heatwave 
   conditions. To this end, we will use AERA simulations with different temperature
   targets.
 area: Climate data processing
-status: active
+status: completed
 created: 2026-10-09 09:32
-updated: 2026-10-16 13:55
+updated: 2026-10-21 12:09
 tags:
 - Python
 - GFDL-ESM2M
@@ -24,18 +24,28 @@ tasks:
   completed: 2026-10-16 13:53
 - id: mhw-under-transient-and-stable-conditions-identify-mhw-for-each-temperature-target-during-the-transient-period
   title: Identify MHW for each temperature target during the transient period
-  status: in_progress
+  status: done
   priority: high
   due_date: '2026-10-17'
   created: 2026-10-09 09:33
-  updated: 2026-10-16 13:55
+  updated: 2026-10-19 12:04
+  completed: 2026-10-19 12:04
 - id: mhw-under-transient-and-stable-conditions-identify-mhw-for-each-temperature-target-during-end-of-stability-period
   title: Identify MHW for each temperature target during end of stability period
-  status: in_progress
+  status: done
   priority: high
   due_date: '2026-10-17'
   created: 2026-10-09 09:33
-  updated: 2026-10-16 13:55
+  updated: 2026-10-19 12:08
+  completed: 2026-10-19 12:08
+- id: mhw-under-transient-and-stable-conditions-calculate-mhw-masks-for-all-years
+  title: Calculate MHW masks for all years
+  status: done
+  priority: high
+  due_date: '2026-10-23'
+  created: 2026-10-19 12:08
+  updated: 2026-10-20 11:18
+  completed: 2026-10-20 11:18
 updates:
 - id: 20261016135547-building-timeseries
   date: 2026-10-16 13:55
@@ -45,4 +55,28 @@ updates:
     in which the warming level with respect to pre-industrial conditions is reached
     for each ensemble member, and the year in which the temperature in the ocean reaches
     equilibrium.
+- id: 20261019120450-established-when-simulations-reach-global-warming-level
+  date: 2026-10-19 12:04
+  title: Established when simulations reach global warming level
+  text: Determined the first year when a 31-year running mean of the 2 m air temperature
+    reaches the global warming level of 1.5, 2.0, and 3.0°C
+  images:
+  - path: assets/uploads/mhw-under-transient-and-stable-conditions/updates/2026-10-19-1204-gwl-stability.png
+    caption: Global 2 m air temperature for five ensemble members across three global
+      warming levels (black). the vertical dashed lines show the average year in which
+      the ensemble members reach the global warming level on a 31-year running mean
+      (colored lines).
+    uploaded: 2026-10-19 12:04
+- id: 20261019120805-established-when-simulations-reach-ocean-temperature-stability
+  date: 2026-10-19 12:08
+  title: Established when simulations reach ocean temperature stability
+  text: Determined the first year when the 31-year running mean of the derivative
+    of the global ocean temperature time series reaches stability (<0.0001 K/a).
+  images:
+  - path: assets/uploads/mhw-under-transient-and-stable-conditions/updates/2026-10-19-1208-ocean-temp-stability.png
+    caption: Derivative of the global volume-weighted ocean temperature for five ensemble
+      members across three global warming levels (black). the vertical dashed lines
+      show the average year in which the ensemble members reach stability on a 31-year
+      running mean (colored lines).
+    uploaded: 2026-10-19 12:08
 images: []

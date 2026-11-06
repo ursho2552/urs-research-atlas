@@ -2,10 +2,10 @@
 
 <div class="ra-page ra-simple-page" markdown="1">
 
-<span class="ra-badge ra-badge-active">active</span>
+<span class="ra-badge ra-badge-completed">completed</span>
 
 **Area:** Climate data processing  
-**Updated:** 2026-09-30 14:40  
+**Updated:** 2026-11-06 10:09  
 **Tags:** `Python` `netCDF`
 
 ## Summary
@@ -27,6 +27,15 @@ To this end, we use the nczip wrapper that was part of a larger ocean tools repo
 | ⬜ | Add a stand-alone repository for the NCZIP tool | todo | medium | — |
 
 ## Updates
+
+
+### Separated into stand-alone repo
+
+**2026-11-06 10:09**
+
+The module is now in a stand-alone repository available for the team
+
+
 
 
 ### Compression test
